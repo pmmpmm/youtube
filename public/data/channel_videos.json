@@ -1,0 +1,1161 @@
+{
+  "kind": "youtube#playlistListResponse",
+  "etag": "VaUZEzNEzMSrRced6qOz3BTcicE",
+  "nextPageToken": "CBkQAA",
+  "pageInfo": {
+    "totalResults": 68,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "GXhn604EMj0ELrWvfGMThPWXtM0",
+      "id": "PL5hrGMysD_GuRyAIqdGF8JEnuCwehSq6I",
+      "snippet": {
+        "publishedAt": "2023-12-22T15:58:51Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'Closer Than This'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'Closer Than This'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 2
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "JwR-PkCZCkNfhYJLXCr5ggx8DlI",
+      "id": "PL5hrGMysD_Gu7MLEqPk22sIKsQZHIe-xj",
+      "snippet": {
+        "publishedAt": "2023-12-20T11:01:38Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "#ThisIsJimin",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "#ThisIsJimin",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 5
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "4e1LHiC684hkq0_l4Nosh2xDdyk",
+      "id": "PL5hrGMysD_GsfDu16drFALLb2KIB4OWqH",
+      "snippet": {
+        "publishedAt": "2023-11-21T00:04:13Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "BTS Monuments: Beyond The Star",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "BTS Monuments: Beyond The Star",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 14
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "vJ1gy5gdtKtzFWDWX50U_0Z24mc",
+      "id": "PL5hrGMysD_GuqSBxBtwuXRmyuvzeQyDs6",
+      "snippet": {
+        "publishedAt": "2023-10-30T09:32:57Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'GOLDEN'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'GOLDEN'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 34
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "MitGhjXcDKcYO2NhAlbwIg5coHw",
+      "id": "PL5hrGMysD_GunQaKswfYyJOUXRQ0omhJq",
+      "snippet": {
+        "publishedAt": "2023-10-10T15:02:20Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "Jimin's Production Diary",
+        "description": "아티스트로서 새로운 출발선에 선 지민의 첫 공식 솔로 앨범 'FACE' 작업기를 담아낸 다큐멘터리",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "Jimin's Production Diary",
+          "description": "아티스트로서 새로운 출발선에 선 지민의 첫 공식 솔로 앨범 'FACE' 작업기를 담아낸 다큐멘터리"
+        }
+      },
+      "contentDetails": {
+        "itemCount": 8
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "HRbobNQUxKb8_fFPgvQHjfNWsRs",
+      "id": "PL5hrGMysD_GsReohQFLeXrKWI_SMTib3N",
+      "snippet": {
+        "publishedAt": "2023-09-27T04:03:34Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 '3D'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 '3D'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 20
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "dpsz7Q9EaQwt0bEy1P-KgLaFrGE",
+      "id": "PL5hrGMysD_GvC9VL7eeXG4j0apdqvh4lA",
+      "snippet": {
+        "publishedAt": "2023-08-09T15:03:16Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'Layover'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YI82T_HBdAw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YI82T_HBdAw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YI82T_HBdAw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YI82T_HBdAw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YI82T_HBdAw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'Layover'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 27
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "8aArd0RgpAVZ1ARwTkv0djzLdmk",
+      "id": "PL5hrGMysD_Gu7GSlCsT6unQqdcHL8rJ6S",
+      "snippet": {
+        "publishedAt": "2023-07-06T15:08:41Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'Seven'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6gefJSC0-p0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6gefJSC0-p0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6gefJSC0-p0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6gefJSC0-p0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6gefJSC0-p0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'Seven'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 47
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "tD8OOXTzcyhS3fhZogd4rmdGG6k",
+      "id": "PL5hrGMysD_GuhcQJ2qaMDi__3MlZSsddA",
+      "snippet": {
+        "publishedAt": "2023-06-14T15:04:24Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'Take Two'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'Take Two'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 16
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "JD1b2VPKjjqGDVqe430YHnC3hJ0",
+      "id": "PL5hrGMysD_Gsg012NkeTt4MpId1a4w6pu",
+      "snippet": {
+        "publishedAt": "2023-04-07T00:29:57Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'D-DAY'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IX1dkYoLHVs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IX1dkYoLHVs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IX1dkYoLHVs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/IX1dkYoLHVs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/IX1dkYoLHVs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'D-DAY'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 19
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "Le5xloxOtXjPRabxuF1RDCI8OW8",
+      "id": "PL5hrGMysD_GtM-2pYLjJOD5rkEYkVEmbb",
+      "snippet": {
+        "publishedAt": "2023-03-30T14:24:42Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "SUGA: Road to D-DAY",
+        "description": "BTS's SUGA interacts with global artists and finds his voice through his new album.\n방탄소년단의 SUGA가 글로벌 아티스트들과 교류하면서 새 앨범을 통해 하고픈 이야기를  찾아가는 로드무비.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PLSQhFxBsas/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PLSQhFxBsas/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PLSQhFxBsas/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PLSQhFxBsas/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PLSQhFxBsas/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "SUGA: Road to D-DAY",
+          "description": "BTS's SUGA interacts with global artists and finds his voice through his new album.\n방탄소년단의 SUGA가 글로벌 아티스트들과 교류하면서 새 앨범을 통해 하고픈 이야기를  찾아가는 로드무비."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 19
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "BOxNSeU31s-3hWFYjqRo10tSJIk",
+      "id": "PL5hrGMysD_GuIiBWoCljMq-3FmXJ46act",
+      "snippet": {
+        "publishedAt": "2023-03-28T07:38:57Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "j-hope IN THE BOX",
+        "description": "\"j-hope IN THE BOX\"는 작년 7월 발매된 제이홉의 첫 번째 공식 솔로 앨범 ‘Jack In The Box’의 앨범 제작과정 등 솔로 아티스트 제이홉의 200여 일간의 발자취를 담은 하이브 오리지널 다큐멘터리다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c9BZrrJjV6Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c9BZrrJjV6Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c9BZrrJjV6Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/c9BZrrJjV6Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/c9BZrrJjV6Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "j-hope IN THE BOX",
+          "description": "\"j-hope IN THE BOX\"는 작년 7월 발매된 제이홉의 첫 번째 공식 솔로 앨범 ‘Jack In The Box’의 앨범 제작과정 등 솔로 아티스트 제이홉의 200여 일간의 발자취를 담은 하이브 오리지널 다큐멘터리다."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 5
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "O1Ew97ciK5Qp7Q-3AI3FfBuXJtE",
+      "id": "PL5hrGMysD_Gu9BftW1CG-uZE4UMIN0xCs",
+      "snippet": {
+        "publishedAt": "2023-03-02T05:03:44Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'on the street'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Iq5nF_C8yPo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Iq5nF_C8yPo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Iq5nF_C8yPo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Iq5nF_C8yPo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Iq5nF_C8yPo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'on the street'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 4
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "Ad77ItH5LaAD-cfgLN9lS4WMZJs",
+      "id": "PL5hrGMysD_GtDmRaJLfmnhscOLFvyR5ay",
+      "snippet": {
+        "publishedAt": "2023-02-23T15:23:07Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'FACE'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6dQ3B1pJlW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6dQ3B1pJlW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6dQ3B1pJlW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6dQ3B1pJlW0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6dQ3B1pJlW0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'FACE'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 28
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "bFPMG8ef6353OtERRve25C3hZUs",
+      "id": "PL5hrGMysD_GuHjef9oGQpdRjo1vvx7IiB",
+      "snippet": {
+        "publishedAt": "2023-01-06T01:31:57Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "n월의 석진 | Message from Jin 💌",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qEKQpCiuw6o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qEKQpCiuw6o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qEKQpCiuw6o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qEKQpCiuw6o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qEKQpCiuw6o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "n월의 석진 | Message from Jin 💌",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 11
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "29IlL0YDZXTEm8LzuiQSAIGp4EM",
+      "id": "PL5hrGMysD_GvNtMrS4IQe8rtErFL853jU",
+      "snippet": {
+        "publishedAt": "2022-12-18T02:29:02Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "🏃\u200d♂️Run BTS! Episode 121~157",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qhh5gVSeo_U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qhh5gVSeo_U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qhh5gVSeo_U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qhh5gVSeo_U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qhh5gVSeo_U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "🏃\u200d♂️Run BTS! Episode 121~157",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 45
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "tVa8h3HECSmpLi6LUdvz5r834iw",
+      "id": "PL5hrGMysD_Gt3VhsXru5tU7Le4_aJIqqn",
+      "snippet": {
+        "publishedAt": "2022-12-18T02:27:41Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "🏃\u200d♂️Run BTS! Episode 81~120",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0NMAGQMBWV8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0NMAGQMBWV8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0NMAGQMBWV8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0NMAGQMBWV8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0NMAGQMBWV8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "🏃\u200d♂️Run BTS! Episode 81~120",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 45
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "49JptrvCL_IcBAaN8EeXOQytHlc",
+      "id": "PL5hrGMysD_GtowNO5JMIdDYG-DBXwfJQ3",
+      "snippet": {
+        "publishedAt": "2022-12-18T02:27:17Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "🏃\u200d♂️Run BTS! Episode 41~80",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RIBC0PX0bg4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RIBC0PX0bg4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RIBC0PX0bg4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RIBC0PX0bg4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RIBC0PX0bg4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "🏃\u200d♂️Run BTS! Episode 41~80",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 45
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "TYisWSXlm36gPzsqBXrgXhOW4K4",
+      "id": "PL5hrGMysD_Gut5B6Mms1bpkv44LoOwEHz",
+      "snippet": {
+        "publishedAt": "2022-12-18T02:26:23Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "🏃\u200d♂️Run BTS! Episode 1~40",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5XisXVcbZEw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5XisXVcbZEw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5XisXVcbZEw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5XisXVcbZEw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5XisXVcbZEw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "🏃\u200d♂️Run BTS! Episode 1~40",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 47
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "WeJoKh_J-68YZMc5ajhKMaaVWyw",
+      "id": "PL5hrGMysD_GvCSLe6W4YdXmp1dTcW1qJ9",
+      "snippet": {
+        "publishedAt": "2022-12-05T11:52:22Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "🍸슈취타 | 슈가와 취하는 타임",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-YLAcTVcq7U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-YLAcTVcq7U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-YLAcTVcq7U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-YLAcTVcq7U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-YLAcTVcq7U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "🍸슈취타 | 슈가와 취하는 타임",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 98
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "sh15As5UUAZDh3W-QLhVJBroNvE",
+      "id": "PL5hrGMysD_GvBku4B2N5SQRoPazQ6hADc",
+      "snippet": {
+        "publishedAt": "2022-11-22T15:04:09Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'Indigo'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I9e2s24HqPg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I9e2s24HqPg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I9e2s24HqPg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/I9e2s24HqPg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/I9e2s24HqPg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'Indigo'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 24
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "z0CUHjodEyOo1u6tCtIUKUOluX8",
+      "id": "PL5hrGMysD_GvsLuHP559C6DPH47YNcJna",
+      "snippet": {
+        "publishedAt": "2022-11-12T11:14:57Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "취중JIN담 | 진 with 백종원",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zVKX6VRMzxs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zVKX6VRMzxs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zVKX6VRMzxs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zVKX6VRMzxs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zVKX6VRMzxs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "취중JIN담 | 진 with 백종원",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 5
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "HX0Nx90qVDyxL_M5ggQV8AR0ZFY",
+      "id": "PL5hrGMysD_GtKAwophXPs-dbQfnQIlxtK",
+      "snippet": {
+        "publishedAt": "2022-10-18T09:41:38Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "💽 'The Astronaut'",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HOLAaK3u_jw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HOLAaK3u_jw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HOLAaK3u_jw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HOLAaK3u_jw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HOLAaK3u_jw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "💽 'The Astronaut'",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 13
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "iNqozgK6KmOPMxDFsOed3GcRoIM",
+      "id": "PL5hrGMysD_GsFYwSFDWDyUApfpHEwTDhE",
+      "snippet": {
+        "publishedAt": "2022-08-01T07:48:23Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "🏃\u200d♂️Run BTS!",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hR0_nWQSFN4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hR0_nWQSFN4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hR0_nWQSFN4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hR0_nWQSFN4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hR0_nWQSFN4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "🏃\u200d♂️Run BTS!",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 172
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "CdzwFBAsYhmoHy2nnYtCAHbn1q0",
+      "id": "PL5hrGMysD_GteOi3IYVbUHi1NV-aNSNWs",
+      "snippet": {
+        "publishedAt": "2022-07-09T06:38:40Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "BTS VLOG",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0TARS2nsu-w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0TARS2nsu-w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0TARS2nsu-w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0TARS2nsu-w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0TARS2nsu-w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "localized": {
+          "title": "BTS VLOG",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 25
+      }
+    }
+  ]
+}

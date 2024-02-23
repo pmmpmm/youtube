@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@tailwind base;
+/* @tailwind components; */
+@tailwind utilities;
+
+:root {
+  --left-side: 58px;
+
+  --pd-basic: 1rem;
+  --pd-basic-x: 1rem;
+  --pd-basic-y: 1rem;
+
+  --nav-w-lg: 15rem;
+  --nav-w-sm: 3.5rem;
+  /*  */
+
+  --height-h: 4.625rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type='text'] {
+  @apply px-4;
+  @apply border border-solid border-neutral-200 rounded-full;
+}
+input[type='text']:focus {
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  @apply min-w-80;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* layout */
+.header {
+  @apply relative top-0 left-0 z-50;
+  height: var(--height-h);
+}
+.container {
+  @apply flex;
+  @apply relative;
 }
 
-.App-link {
-  color: #61dafb;
+.container .nav {
+  @apply flex flex-none flex-col;
+  @apply w-60 h-full;
+  @apply sm:w-20 xl:w-60;
+
+  @apply fixed top-0 -left-60;
+  @apply sm:left-0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container .content {
+  @apply flex-initial;
+  @apply pl-0;
+  @apply sm:pl-20 xl:pl-60;
+}
+
+.videos {
+  @apply grid grid-cols-1;
+  @apply sm:grid-cols-2 gap-2;
+  @apply lg:grid-cols-3 gap-3;
+  @apply 2xl:grid-cols-4 gap-4;
+  @apply p-4;
 }

@@ -1,0 +1,48 @@
+.header {
+  @apply flex flex-row items-center justify-between;
+  @apply p-2 sm:p-4;
+  @apply bg-white;
+}
+.logoBox {
+  @apply inline-flex flex-none items-center;
+}
+.logo {
+  font-size: 0;
+}
+.logo svg {
+  width: 7.5rem;
+}
+.navBtn {
+  @apply block w-10 h-10;
+  @apply sm:hidden;
+}
+
+.form {
+  @apply flex flex-initial basis-6/12;
+  @apply border border-solid border-neutral-200 rounded-full;
+}
+.form.focus {
+  @apply border-transparent;
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+}
+.form input {
+  @apply flex-initial;
+  @apply w-full h-10;
+  @apply px-6;
+  @apply bg-transparent;
+  @apply border-transparent;
+}
+.searchBtn {
+  @apply flex-none;
+  @apply w-16;
+}
+.searchBtn svg {
+  @apply inline-block;
+  @apply fill-neutral-800;
+  width: 28px;
+  height: 28px;
+}
+.colorTheme {
+  @apply flex-none;
+  @apply w-10 h-10;
+}

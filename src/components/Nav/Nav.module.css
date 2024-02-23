@@ -1,0 +1,23 @@
+.nav {
+  @apply flex flex-none flex-col;
+  /* @apply relative; */
+  /* @apply sm:; */
+}
+.nav-header {
+  height: var(--height-h);
+  @apply visible sm:invisible;
+}
+.nav .btn {
+  @apply w-full;
+  @apply px-4 py-2;
+  @apply text-left;
+}
+.nav .btn svg {
+  @apply inline-block;
+}
+.tx {
+  @apply block sm:hidden xl:inline-block;
+}
+.break-lap {
+  @apply hidden sm:inline-block xl:hidden;
+}
