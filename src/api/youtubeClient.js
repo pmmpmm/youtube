@@ -19,5 +19,8 @@ const youtubeApi = {
   videos: async function (params) {
     return await httpClient.get('videos', params);
   },
+  channel: async function (params) {
+    return await httpClient.get('channels', params);
+  },
 };
 export const youtubeClient = new Youtube(youtubeApi);
