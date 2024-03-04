@@ -15,10 +15,10 @@ export default function Videos() {
 
   return (
     <>
-      {(navMenu === navs[0].name || keyword) && <Search keyword={keyword} />}
-      {navMenu !== navs[0].name && <Etc keyword={keyword} navMenu={navMenu} />}
+      {(navMenu === navs[0].name || keyword) && <Search />}
+      {navMenu !== navs[0].name && <Etc />}
     </>
-  )
+  );
   // const { keyword } = useParams();
   // const { youtube } = useYoutubeApi();
   // const { navs, navMenu } = useNavContext();
