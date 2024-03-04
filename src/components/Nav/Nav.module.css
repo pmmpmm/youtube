@@ -1,23 +1,57 @@
 .nav {
-  @apply flex flex-none flex-col;
-  /* @apply relative; */
-  /* @apply sm:; */
+  @apply flex flex-none flex-col h-full px-4
+  sm:px-2;
 }
-.nav-header {
-  height: var(--height-h);
-  @apply visible sm:invisible;
+
+.logoBox {
+  @apply visible flex items-center h-header-height
+  sm:invisible sm:h-header-height-sm;
 }
-.nav .btn {
-  @apply w-full;
-  @apply px-4 py-2;
-  @apply text-left;
+.navList li {
+  @apply py-1;
 }
-.nav .btn svg {
-  @apply inline-block;
+.navList button {
+  @apply flex flex-row items-center w-full px-3 py-[0.625rem] rounded-lg
+  sm:flex-col
+  xl:flex-row;
+}
+.navList button.active {
+  @apply bg-neutral-100
+  sm:bg-white
+  xl:bg-neutral-100;
+}
+.navList button .icon {
+  @apply flex justify-center items-center w-[1.625rem] h-[1.625rem] mr-3 
+  sm:mr-0
+  xl:mr-3;
+}
+.navList button svg {
+  @apply flex-none;
+}
+.navList button.home svg {
+  @apply w-[1.375rem] h-[1.375rem];
+}
+.navList button.active.home svg {
+  @apply w-[1.5rem] h-[1.5rem];
+}
+.navList button.enter svg {
+  @apply w-[1.25rem] h-[1.25rem];
+}
+.navList button.music svg {
+  @apply w-[1.3rem] h-[1.3rem];
+}
+.navList button.news svg {
+  @apply w-[1.25rem] h-[1.25rem];
+}
+
+.nav button .tx {
+  @apply text-sm pt-0 font-medium
+  sm:text-xs sm:pt-1
+  xl:text-sm xl:pt-0 xl:font-medium;
+}
+.nav button.active .tx {
+  @apply font-semibold;
 }
 .tx {
-  @apply block sm:hidden xl:inline-block;
-}
-.break-lap {
-  @apply hidden sm:inline-block xl:hidden;
+  @apply block;
 }

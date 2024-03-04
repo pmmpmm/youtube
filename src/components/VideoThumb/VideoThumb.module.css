@@ -1,0 +1,28 @@
+.video {
+  @apply w-full;
+}
+.video a {
+  @apply flex gap-x-2 w-full;
+}
+.thumbnail {
+  @apply flex-none min-w-[10.5rem];
+}
+.thumbnailBox {
+  @apply w-full rounded-lg overflow-hidden aspect-video;
+}
+.thumbnail img {
+  @apply w-full h-full object-cover;
+}
+.info {
+  @apply flex-initial;
+}
+.title {
+  @apply text-sm font-semibold leading-5 line-clamp-2;
+}
+.channelTitle {
+  @apply pt-2;
+}
+.channelTitle,
+.publishedAt {
+  @apply text-xs font-normal text-neutral-500;
+}

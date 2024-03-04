@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+import { useDarkModeContext } from '../../context/DarkModeContext';
+import { useNavContext } from '../../context/NavContext';
 import styles from './Header.module.css';
 import classNames from 'classnames/bind';
-import Logo from '../../svg/Logo';
-import { IoIosSearch } from 'react-icons/io';
+import LogoBox from '../LogoBox/LogoBox';
+import { IoIosSearch, IoIosSunny, IoIosMoon } from 'react-icons/io';
 
 const cx = classNames.bind(styles);
 
@@ -14,6 +16,8 @@ export default function Header() {
   const [focus, setFocus] = useState();
   const [text, setText] = useState('');
   const searchWord = text.trim();
+  const { dark, modeToggle } = useDarkModeContext();
+  const { setIsNavOpen } = useNavContext();
 
   useEffect(() => {
     if (!keyword) {
@@ -30,29 +34,30 @@ export default function Header() {
       navigate(`/videos/${searchWord}`);
     }
   };
-
+  const handleLogoBtn = () => {
+    setIsNavOpen(true);
+  };
   return (
     <header className={styles.header}>
-      <div className={styles.logoBox}>
-        <div className={styles.navBtn}>
-          <button className={styles.btn}>메뉴 버튼</button>
-        </div>
-        <h1 className={styles.logo}>
-          <Link to='/'>
-            <Logo />
-            로고
-          </Link>
-        </h1>
-      </div>
+      <LogoBox parent='header' onClick={handleLogoBtn} />
       <form onSubmit={handleSubmit} onFocus={() => setFocus(true)} onBlur={() => setFocus(false)} className={cx('form', `${focus ? 'focus' : ''}`)}>
         <input type='text' placeholder='검색' ref={searchInp} value={text} onChange={(e) => setText(e.target.value)} />
-        <button className={styles.searchBtn}>
+        <button className={styles.searchBtn} aria-label='검색 버튼'>
           <IoIosSearch />
         </button>
       </form>
-      <button className={styles.colorTheme}>
-        <span>다크모드</span>
-        <span>라이트모드</span>
+      <button className={styles.colorTheme} onClick={modeToggle}>
+        {dark ? (
+          <span className={styles.sun}>
+            라이트모드
+            <IoIosSunny />
+          </span>
+        ) : (
+          <span className={styles.moon}>
+            다크모드
+            <IoIosMoon />
+          </span>
+        )}
       </button>
     </header>
   );

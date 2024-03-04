@@ -2616,6 +2616,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/aspect-ratio@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@tailwindcss/aspect-ratio@npm:0.4.2"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  checksum: c821a8061f80200b20db26f9cf2a711ffb17814adf847a72d4d4632804d1cabf6671df8e99e06cedfb2ba97b968d7843cd435d1201519c86acdde702efca418b
+  languageName: node
+  linkType: hard
+
 "@tanstack/query-core@npm:5.20.5":
   version: 5.20.5
   resolution: "@tanstack/query-core@npm:5.20.5"
@@ -12620,6 +12629,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"timeago.js@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "timeago.js@npm:4.0.2"
+  checksum: e4cf66df2dfa2bc17db6e7a7c591d1e877e09e91e118784347a0b2390c38d7d292d2742e29edde9cdf4eaec61e8c4ef9b9f9c8b539f03d2613403dd7ccfc6cc8
+  languageName: node
+  linkType: hard
+
 "tmpl@npm:1.0.5":
   version: 1.0.5
   resolution: "tmpl@npm:1.0.5"
@@ -13786,6 +13802,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "youtube@workspace:."
   dependencies:
+    "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@tanstack/react-query": "npm:^5.20.5"
     "@testing-library/jest-dom": "npm:^5.14.1"
     "@testing-library/react": "npm:^13.0.0"
@@ -13799,6 +13816,7 @@ __metadata:
     react-router-dom: "npm:^6.22.0"
     react-scripts: "npm:5.0.1"
     tailwindcss: "npm:^3.4.1"
+    timeago.js: "npm:^4.0.2"
     web-vitals: "npm:^2.1.0"
   languageName: unknown
   linkType: soft

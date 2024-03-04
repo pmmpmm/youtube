@@ -1,48 +1,39 @@
 .header {
-  @apply flex flex-row items-center justify-between;
-  @apply p-2 sm:p-4;
-  @apply bg-white;
+  @apply flex flex-row items-center justify-between px-2 
+  h-header-height
+  sm:h-header-height-sm
+  sm:px-4;
+  background-color: var(--bg-color);
 }
-.logoBox {
-  @apply inline-flex flex-none items-center;
-}
-.logo {
-  font-size: 0;
-}
-.logo svg {
-  width: 7.5rem;
-}
-.navBtn {
-  @apply block w-10 h-10;
-  @apply sm:hidden;
-}
-
 .form {
-  @apply flex flex-initial basis-6/12;
-  @apply border border-solid border-neutral-200 rounded-full;
+  @apply flex flex-initial basis-6/12
+  border border-solid border-neutral-200 rounded-full;
 }
 .form.focus {
   @apply border-transparent;
   box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
 }
 .form input {
-  @apply flex-initial;
-  @apply w-full h-10;
-  @apply px-6;
-  @apply bg-transparent;
-  @apply border-transparent;
+  @apply flex-initial
+  w-full h-10
+  px-6
+  bg-transparent
+  border-transparent;
 }
 .searchBtn {
-  @apply flex-none;
-  @apply w-16;
+  @apply flex-none w-16;
 }
 .searchBtn svg {
-  @apply inline-block;
-  @apply fill-neutral-800;
+  @apply inline-block fill-neutral-700;
   width: 28px;
   height: 28px;
 }
 .colorTheme {
-  @apply flex-none;
-  @apply w-10 h-10;
+  @apply flex-none w-10 h-10 text-[0];
+}
+.colorTheme span {
+  @apply block text-center;
+}
+.colorTheme svg {
+  @apply inline-block -ml-1 fill-neutral-700 w-3/5 h-3/5;
 }

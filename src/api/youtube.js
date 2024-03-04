@@ -19,4 +19,21 @@ export default class Youtube {
       .then((res) => res.data.items);
     return items;
   }
+  async channelInfo(id) {
+    return this.apiClient
+      .channelInfo({ params: { id } }) //
+      .then((res) => res.data.items[0].snippet);
+  }
+  async channelVideos(id) {
+    return this.apiClient
+      .channelVideos({ params: { maxResults: '6', channelId: id } }) //
+      .then((res) => res.data.items);
+  }
+  async etc(navMenu) {
+    const items = this.apiClient
+      .etc(navMenu) //
+      .then((res) => res.data.items)
+      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId || item.id.channelId || item.id.playlistId })));
+    return items;
+  }
 }
