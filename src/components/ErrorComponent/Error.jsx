@@ -1,9 +1,6 @@
 import React from 'react';
+import Message from '../Message/Message';
 
 export default function Error() {
-  return (
-    <div>
-      <p>Error</p>
-    </div>
-  );
+  return <Message type={'error'} />;
 }

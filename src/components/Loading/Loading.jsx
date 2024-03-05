@@ -1,9 +1,6 @@
 import React from 'react';
+import Message from '../Message/Message';
 
 export default function Loading() {
-  return (
-    <div>
-      <p>Loading</p>
-    </div>
-  );
+  return <Message type={'loading'} />;
 }
