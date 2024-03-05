@@ -28,7 +28,8 @@
 .channelTitle,
 .publishedAt,
 .description {
-  @apply text-sm font-medium text-neutral-500 leading-5;
+  @apply text-sm font-medium leading-5;
+  color: var(--tx-color-500);
 }
 .description {
   @apply hidden;

@@ -35,33 +35,22 @@ export default function Header() {
       navigate(`/videos/${searchWord}`);
     }
   };
-  const handleLogoBtn = () => {
-    setIsNavOpen(true);
-  };
-
-  const [formOpen, setFormOpen] = useState(false);
   const handleFormOpen = () => {
-    if (formOpen) {
-      setFormOpen(false);
+    if (focus) {
+      setFocus(false);
       searchInp.current.blur();
     } else {
-      setFormOpen(true);
+      setFocus(true);
       searchInp.current.focus();
     }
   };
-  document.body.addEventListener('click', (e) => {
-    const isSearchInpExist = e.composedPath().includes(searchInp.current.parentNode);
-    const isBtnExist = e.composedPath().includes(formWrap.current.lastChild);
-    if (!isSearchInpExist && !isBtnExist && formOpen) {
-      handleFormOpen();
-    }
-  });
+
   return (
     <header className={styles.header}>
-      <LogoBox parent='header' onClick={handleLogoBtn} />
+      <LogoBox parent='header' onClick={() => setIsNavOpen(true)} />
       <div className={styles.formWrap} ref={formWrap}>
-        <div className={cx('formBox', `${formOpen ? 'open' : ''}`)}>
-          <button onClick={handleFormOpen} className={`${styles.btn} ${styles.close}`}>
+        <div className={cx('formBox', `${focus ? 'open' : ''}`)}>
+          <button onClick={handleFormOpen} className={`${styles.btn} ${styles.close}`} oaria-label='검색 폼 비노출 버튼'>
             <IoIosArrowRoundBack />
           </button>
           <form onSubmit={handleSubmit} onFocus={() => setFocus(true)} onBlur={() => setFocus(false)} className={cx('form', `${focus ? 'focus' : ''}`)}>

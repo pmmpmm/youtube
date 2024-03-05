@@ -5,7 +5,8 @@
   @apply block w-10 h-10 mr-2;
 }
 .navBtn svg {
-  @apply w-8 h-8 m-auto fill-neutral-700;
+  @apply w-8 h-8 m-auto;
+  fill: var(--bg-color-700);
 }
 .header .navBtn {
   @apply block

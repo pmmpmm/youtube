@@ -16,9 +16,9 @@
   xl:flex-row;
 }
 .navList button.active {
-  @apply bg-neutral-100
-  sm:bg-white
-  xl:bg-neutral-100;
+  @apply bg-[var(--bg-color-100)]
+  sm:bg-[var(--bg-color-50)]
+  xl:bg-[var(--bg-color-100)];
 }
 .navList button .icon {
   @apply flex justify-center items-center w-[1.625rem] h-[1.625rem] mr-3 
