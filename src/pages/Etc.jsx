@@ -1,5 +1,4 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
 import { useNavContext } from '../context/NavContext';
@@ -9,11 +8,11 @@ import VideoCard from '../components/VideoCard/VideoCard';
 
 export default function Etc() {
   const { youtube } = useYoutubeApi();
-  const { navs, navMenu } = useNavContext();
+  const { navMenu } = useNavContext();
 
   const getEtc = ({ queryKey }) => {
-    return youtube.etc(queryKey[1])
-  }
+    return youtube.etc(queryKey[1]);
+  };
 
   // Q1 : nav의 '음악' 혹은 '예능' 클릭 시 컨텐츠 전환
   const {
@@ -33,7 +32,7 @@ export default function Etc() {
       {videos && (
         <ul className={`videos`}>
           {videos.map((video) => {
-            return <VideoCard key={video.id} video={video} style={''} />;
+            return <VideoCard key={video.id} video={video} />;
           })}
         </ul>
       )}

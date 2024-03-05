@@ -1,13 +1,25 @@
 .header {
-  @apply flex flex-row items-center justify-between px-2 
+  @apply flex flex-row items-center justify-between px-2 relative 
   h-header-height
   sm:h-header-height-sm
   sm:px-4;
   background-color: var(--bg-color);
 }
+.formWrap {
+  @apply flex flex-initial basis-[62%] justify-end
+  sm:justify-center
+  md:basis-6/12;
+}
+.formBox {
+  @apply flex items-center w-full h-full px-4 absolute top-0 left-0 -z-10
+  sm:flex sm:p-0 sm:relative sm:z-10;
+  background-color: var(--bg-color);
+}
+.formBox.open {
+  @apply z-10;
+}
 .form {
-  @apply flex flex-initial basis-6/12
-  border border-solid border-neutral-200 rounded-full;
+  @apply flex w-full h-10 border border-solid border-neutral-200 rounded-full;
 }
 .form.focus {
   @apply border-transparent;
@@ -20,13 +32,19 @@
   bg-transparent
   border-transparent;
 }
-.searchBtn {
+
+.btn {
   @apply flex-none w-16;
 }
-.searchBtn svg {
+.btn svg {
   @apply inline-block fill-neutral-700;
   width: 28px;
   height: 28px;
+}
+.close,
+.moShowFormBtn {
+  @apply block w-10 h-10
+  sm:hidden;
 }
 .colorTheme {
   @apply flex-none w-10 h-10 text-[0];

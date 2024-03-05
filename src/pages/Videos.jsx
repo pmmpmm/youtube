@@ -1,11 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { useQuery } from '@tanstack/react-query';
-import { useYoutubeApi } from '../context/YoutubeApiContext';
 import { useNavContext } from '../context/NavContext';
-import Loading from '../components/Loading/Loading';
-import Error from '../components/ErrorComponent/Error';
-import VideoCard from '../components/VideoCard/VideoCard';
 import Search from './Search';
 import Etc from './Etc';
 
@@ -16,7 +11,7 @@ export default function Videos() {
   return (
     <>
       {(navMenu === navs[0].name || keyword) && <Search />}
-      {navMenu !== navs[0].name && <Etc />}
+      {navMenu !== navs[0].name && !keyword && <Etc />}
     </>
   );
   // const { keyword } = useParams();
