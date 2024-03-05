@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
-import { useNavContext } from '../context/NavContext';
+// import { useNavContext } from '../context/NavContext';
 import Loading from '../components/Loading/Loading';
 import Error from '../components/ErrorComponent/Error';
 import VideoCard from '../components/VideoCard/VideoCard';
@@ -12,10 +12,9 @@ export default function Search() {
   const { youtube } = useYoutubeApi();
 
   const getSearch = ({ queryKey }) => {
-    return youtube.search(queryKey[1])
-  }
+    return youtube.search(queryKey[1]);
+  };
 
-  // Q1 : nav의 '음악' 혹은 '예능' 클릭 시 컨텐츠 전환
   const {
     data: videos,
     error,
