@@ -59,6 +59,7 @@
   @apply block text-center;
 }
 .colorTheme svg {
-  @apply inline-block -ml-1 w-[68%] h-[68%];
+  @apply inline-block -ml-1 w-[66%] h-[66%]
+  sm:w-[64%] sm:h-[64%];
   fill: var(--bg-color-700);
 }

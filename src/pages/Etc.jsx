@@ -2,8 +2,8 @@ import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
 import { useNavContext } from '../context/NavContext';
-import Loading from '../components/Loading/Loading';
-import Error from '../components/ErrorComponent/Error';
+import Loading from '../components/Loading';
+import Error from '../components/Error';
 import VideoCard from '../components/VideoCard/VideoCard';
 
 export default function Etc() {

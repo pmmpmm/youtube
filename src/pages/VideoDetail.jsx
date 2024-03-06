@@ -1,8 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import Loading from '../components/Loading/Loading';
-import Error from '../components/ErrorComponent/Error';
 import VideoThumb from '../components/VideoThumb/VideoThumb';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
 

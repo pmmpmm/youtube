@@ -6,6 +6,7 @@ import styles from './Header.module.css';
 import classNames from 'classnames/bind';
 import LogoBox from '../LogoBox/LogoBox';
 import { IoIosSearch, IoIosSunny, IoIosMoon, IoIosArrowRoundBack } from 'react-icons/io';
+import InitScrollTop from '../InitScrollTop';
 
 const cx = classNames.bind(styles);
 
@@ -77,6 +78,7 @@ export default function Header() {
           </span>
         )}
       </button>
+      <InitScrollTop />
     </header>
   );
 }
