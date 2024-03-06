@@ -54,6 +54,8 @@ export const NavContextProvider = ({ children }) => {
 
     // Q3 : 상세페이지 진입 시 메뉴 active 해제(작업 위치를 어느곳에 해야 하는지?)
     if (paths.some((path) => path === 'watch') || !!keyword) setNavMenu('');
+
+    //
   }, [isNavOpen, paths, keyword, screenX]);
 
   return <NavContext.Provider value={{ navs, navRef, isNavOpen, setIsNavOpen, navMenu, setNavMenu }}>{children}</NavContext.Provider>;
