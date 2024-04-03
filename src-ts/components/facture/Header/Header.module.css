@@ -1,3 +1,6 @@
+.header-wrap {
+  @apply w-full fixed top-0 left-0 z-50;
+}
 .header {
   @apply flex flex-row items-center justify-between px-2 relative 
   h-header-height
