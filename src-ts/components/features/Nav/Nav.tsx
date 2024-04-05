@@ -73,8 +73,6 @@ const Nav = (t: Props) => {
         const isNavExist = e.composedPath().includes(navRef.current!);
         const target = e.target as HTMLElement;
 
-        console.log('open', target.parentElement);
-
         if (
           (!isNavExist && navParent.classList.contains(styles.open)) ||
           target.closest('h1.logo') ||

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Enter = () => {
-  return <div>Enter RY-29</div>;
+  return <div>Enter</div>;
 };
 
 export default Enter;

@@ -109,7 +109,7 @@ body {
   @apply before:content-[''] before:block before:w-full before:h-full before:bg-black/[.30] before:backdrop-blur-[2px] before:fixed before:top-0 before:left-0 before:z-0;
 } */
 
-.videos {
+/* .videos {
   @apply grid grid-cols-1;
   @apply sm:grid-cols-2 sm:gap-x-4 sm:gap-y-10
     lg:grid-cols-3
@@ -122,7 +122,7 @@ body {
   @apply sm:grid grid-cols-1
     lg:grid grid-cols-1
     2xl:grid grid-cols-1;
-}
+} */
 .video-detail {
   @apply flex flex-col
     lg:flex-row lg:gap-x-6;
