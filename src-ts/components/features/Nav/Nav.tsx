@@ -46,7 +46,7 @@ const Nav = (t: Props) => {
   const navigate = useNavigate();
   const handleNavMenu = (name: string) => {
     setNavMenu(name);
-    navigate(name === 'home' ? '/' : `/${name}`);
+    navigate(name === 'home' ? '/' : `/page/${name}`);
   };
 
   const { pathname } = useLocation() as RouteState;

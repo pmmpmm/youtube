@@ -3,9 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Videos from '@/pages/Videos';
 import VideoDetail from '@/pages/VideoDetail';
 import NotFound from '@/pages/NotFound';
-import Music from '@/pages/navPages/Music';
-import News from '@/pages/navPages/News';
-import Enter from '@/pages/navPages/Enter';
+import NavVideos from '@/pages/NavVideos';
 import styles from './Container.module.css';
 import { YoutubeApiProvider } from '@/context/YoutubeApiContext';
 
@@ -21,9 +19,7 @@ const Container = () => {
               <Route path='videos' element={<Videos />} />
               <Route path='videos/:keyword' element={<Videos />} />
               <Route path='videos/watch/:id' element={<VideoDetail />} />
-              <Route path='music' element={<Music />} />
-              <Route path='enter' element={<Enter />} />
-              <Route path='news' element={<News />} />
+              <Route path='page/:navName' element={<NavVideos />} />
             </Routes>
           </YoutubeApiProvider>
         </div>

@@ -1,5 +1,8 @@
 import React from 'react';
+import Message from '@/components/ui/Message/Message';
 
-export default function NotFound() {
-  return <>Not Found</>;
-}
+const NotFound = () => {
+  return <Message type={'notFound'} />;
+};
+
+export default NotFound;
