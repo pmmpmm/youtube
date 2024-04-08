@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { publishedDate } from '@/utils/publishedData';
+
 import styles from './VideoCard.module.css';
 import classNames from 'classnames/bind';
+
 const cx = classNames.bind(styles);
 
 interface videoProps {
@@ -16,16 +19,20 @@ interface videoProps {
     };
   };
 }
+
 const VideoCard = ({ video, style }: { video: videoProps; style: string }) => {
-  const { channelTitle, publishedAt, title, description, thumbnails } =
-    video.snippet;
-  const color = `rgb(${Math.floor(Math.random() * 128 + 100)},${Math.floor(
+  const { id } = video;
+  const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
+
+  const channerColor = `rgb(${Math.floor(
     Math.random() * 128 + 100
-  )},${Math.floor(Math.random() * 128 + 100)})`;
+  )},${Math.floor(Math.random() * 128 + 100)},${Math.floor(
+    Math.random() * 128 + 100
+  )})`;
 
   return (
     <li className={cx('video', style)}>
-      <Link to={`/`} state={{ video }}>
+      <Link to={`videos/watch/${id}`} state={{ video }}>
         <div className={styles.thumbnail}>
           <div className={styles.thumbnailBox}>
             <img src={`${thumbnails.medium.url}`} alt='섬네일 이미지' />
@@ -34,7 +41,7 @@ const VideoCard = ({ video, style }: { video: videoProps; style: string }) => {
         <div className={styles.info}>
           <div
             className={`${styles.channelImg}`}
-            style={{ backgroundColor: `${color}` }}
+            style={{ backgroundColor: `${channerColor}` }}
           >
             {channelTitle.charAt(0).toUpperCase()}
           </div>
@@ -45,14 +52,13 @@ const VideoCard = ({ video, style }: { video: videoProps; style: string }) => {
             <div className={styles.channelInfo}>
               <div
                 className={`${styles.channelImg}`}
-                style={{ backgroundColor: `${color}` }}
+                style={{ backgroundColor: `${channerColor}` }}
               >
                 {channelTitle.charAt(0).toUpperCase()}
               </div>
               <p className={styles.channelTitle}>{channelTitle}</p>
             </div>
-            <p className={styles.publishedAt}>{publishedAt}</p>
-            <p className={styles.description}>{description}</p>
+            <p className={styles.publishedAt}>{publishedDate(publishedAt)}</p>
           </div>
         </div>
       </Link>
