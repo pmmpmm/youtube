@@ -5,9 +5,9 @@ import queryClient from '@/service/QueryClient';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { BrowserRouter } from 'react-router-dom';
 import { screens } from 'tailwindcss/defaultTheme';
-import Header from './components/facture/Header/Header';
-import Nav from './components/facture/Nav/Nav';
-import Container from './components/facture/Container/Container';
+import Header from './components/features/Header/Header';
+import Nav from './components/features/Nav/Nav';
+import Container from './components/features/Container/Container';
 
 const App = () => {
   const screenX = window.matchMedia(`(min-width: ${screens.sm})`);
