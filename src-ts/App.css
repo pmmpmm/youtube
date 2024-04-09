@@ -23,8 +23,8 @@
   --form-fous-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
 }
 html.dark {
-  --bg-color-50: #0a0a0a;
-  --bg-color-100: #1b1b1b;
+  --bg-color-50: #171717;
+  --bg-color-100: #282828;
   --bg-color-200: #494949;
   --bg-color-700: #ececec;
 
@@ -48,7 +48,8 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--bg-reverse-color-700);
 }
 body::-webkit-scrollbar-track {
-  background-color: var(--bg-color-50);
+  background-color: var(--bg-color-100);
+  border-left: 1px solid var(--bg-color-200);
 }
 
 input[type='text'] {

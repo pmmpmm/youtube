@@ -47,6 +47,9 @@
   height: 28px;
   fill: var(--bg-color-700);
 }
+.btn.del {
+  @apply w-[26px] opacity-50;
+}
 .close,
 .moShowFormBtn {
   @apply block w-10 h-10
@@ -54,6 +57,9 @@
 }
 .moShowFormBtn {
   @apply mx-1;
+
+  position: relative;
+  z-index: 1;
 }
 .colorTheme {
   @apply flex-none w-10 h-10 text-[0];
