@@ -10,9 +10,7 @@ const NavVideos = () => {
   const { navName } = useParams();
   const { youtube } = useYoutubeApi();
 
-  const getVideos = ({
-    queryKey,
-  }: QueryFunctionContext<[string, string | undefined]>) => {
+  const getVideos = ({ queryKey }: QueryFunctionContext<[string, string | undefined]>) => {
     return youtube.navVideos(queryKey[1]);
   };
   const {
@@ -33,10 +31,7 @@ const NavVideos = () => {
           'grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-4 sm:gap-y-10 lg:grid-cols-3 2xl:grid-cols-4'
         }
       >
-        {videos &&
-          videos.map((item: any) => (
-            <VideoCard key={item.id} video={item} style={``} />
-          ))}
+        {videos && videos.map((item: any) => <VideoCard key={item.id} video={item} style={``} />)}
       </ul>
     </>
   );

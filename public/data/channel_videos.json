@@ -1,286 +1,215 @@
 {
-  "kind": "youtube#playlistListResponse",
-  "etag": "VaUZEzNEzMSrRced6qOz3BTcicE",
-  "nextPageToken": "CBkQAA",
+  "kind": "youtube#searchListResponse",
+  "etag": "PdGXLwvLq_0XdQPQ6Ue1ydb2968",
+  "nextPageToken": "CAYQAA",
+  "regionCode": "KR",
   "pageInfo": {
-    "totalResults": 68,
-    "resultsPerPage": 25
+    "totalResults": 514565,
+    "resultsPerPage": 6
   },
   "items": [
     {
-      "kind": "youtube#playlist",
-      "etag": "GXhn604EMj0ELrWvfGMThPWXtM0",
-      "id": "PL5hrGMysD_GuRyAIqdGF8JEnuCwehSq6I",
+      "kind": "youtube#searchResult",
+      "etag": "jK4NlvrS6qmlIVLH7n6deli7TkM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vanOneiQXhI"
+      },
       "snippet": {
-        "publishedAt": "2023-12-22T15:58:51Z",
+        "publishedAt": "2021-07-25T13:00:02Z",
         "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "💽 'Closer Than This'",
-        "description": "",
+        "title": "Keep dancing! 🕺💃 #PermissiontoDance Challenge only on YouTube #Shorts",
+        "description": "Create a 15-second YouTube Shorts using our moves with hashtag #PermissiontoDance & #Shorts in the title. Let's spread ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/default.jpg",
+            "url": "https://i.ytimg.com/vi/vanOneiQXhI/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/vanOneiQXhI/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/vanOneiQXhI/hqdefault.jpg",
             "width": 480,
             "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/zzKV_T9ybe8/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "BANGTANTV",
-        "localized": {
-          "title": "💽 'Closer Than This'",
-          "description": ""
-        }
-      },
-      "contentDetails": {
-        "itemCount": 2
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-25T13:00:02Z"
       }
     },
     {
-      "kind": "youtube#playlist",
-      "etag": "JwR-PkCZCkNfhYJLXCr5ggx8DlI",
-      "id": "PL5hrGMysD_Gu7MLEqPk22sIKsQZHIe-xj",
+      "kind": "youtube#searchResult",
+      "etag": "Hpz2ra_F1CLFxzAyTJWYiCpA-Bw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5KmfwvR1Xsc"
+      },
       "snippet": {
-        "publishedAt": "2023-12-20T11:01:38Z",
+        "publishedAt": "2021-09-02T15:00:07Z",
         "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "#ThisIsJimin",
+        "title": "➡ Side step right left to my 💓",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/default.jpg",
+            "url": "https://i.ytimg.com/vi/5KmfwvR1Xsc/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/5KmfwvR1Xsc/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/5KmfwvR1Xsc/hqdefault.jpg",
             "width": 480,
             "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/wgKH82cGKA4/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "BANGTANTV",
-        "localized": {
-          "title": "#ThisIsJimin",
-          "description": ""
-        }
-      },
-      "contentDetails": {
-        "itemCount": 5
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-02T15:00:07Z"
       }
     },
     {
-      "kind": "youtube#playlist",
-      "etag": "4e1LHiC684hkq0_l4Nosh2xDdyk",
-      "id": "PL5hrGMysD_GsfDu16drFALLb2KIB4OWqH",
+      "kind": "youtube#searchResult",
+      "etag": "aLSxQf818U5qF18NjyMpTDDboFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NYUs94d1FVs"
+      },
       "snippet": {
-        "publishedAt": "2023-11-21T00:04:13Z",
+        "publishedAt": "2022-10-29T09:00:01Z",
         "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS Monuments: Beyond The Star",
-        "description": "",
+        "title": "진 (Jin) &#39;The Astronaut&#39; Short Clip #진 #Jin #TheAstronaut",
+        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/default.jpg",
+            "url": "https://i.ytimg.com/vi/NYUs94d1FVs/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/NYUs94d1FVs/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/NYUs94d1FVs/hqdefault.jpg",
             "width": 480,
             "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/Tq7ZhDcAmjw/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "BANGTANTV",
-        "localized": {
-          "title": "BTS Monuments: Beyond The Star",
-          "description": ""
-        }
-      },
-      "contentDetails": {
-        "itemCount": 14
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-29T09:00:01Z"
       }
     },
     {
-      "kind": "youtube#playlist",
-      "etag": "vJ1gy5gdtKtzFWDWX50U_0Z24mc",
-      "id": "PL5hrGMysD_GuqSBxBtwuXRmyuvzeQyDs6",
+      "kind": "youtube#searchResult",
+      "etag": "c8BQIGyYWByXOoNz7Ymyza_nOHM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cQA7VKSvXFM"
+      },
       "snippet": {
-        "publishedAt": "2023-10-30T09:32:57Z",
+        "publishedAt": "2021-12-04T12:00:01Z",
         "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "💽 'GOLDEN'",
-        "description": "",
+        "title": "[CHOREOGRAPHY] Jin of BTS ‘슈퍼 참치’ Special Performance Video",
+        "description": "Jin #진 #슈퍼참치 #SUPERTUNA Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/default.jpg",
+            "url": "https://i.ytimg.com/vi/cQA7VKSvXFM/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/cQA7VKSvXFM/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/cQA7VKSvXFM/hqdefault.jpg",
             "width": 480,
             "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/tAcKfnf0zv4/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "BANGTANTV",
-        "localized": {
-          "title": "💽 'GOLDEN'",
-          "description": ""
-        }
-      },
-      "contentDetails": {
-        "itemCount": 34
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-04T12:00:01Z"
       }
     },
     {
-      "kind": "youtube#playlist",
-      "etag": "MitGhjXcDKcYO2NhAlbwIg5coHw",
-      "id": "PL5hrGMysD_GunQaKswfYyJOUXRQ0omhJq",
+      "kind": "youtube#searchResult",
+      "etag": "1EevbSqxLaO6ZRAZ9CozolB44PU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TJgxhfQvtRw"
+      },
       "snippet": {
-        "publishedAt": "2023-10-10T15:02:20Z",
+        "publishedAt": "2024-03-28T09:00:05Z",
         "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "Jimin's Production Diary",
-        "description": "아티스트로서 새로운 출발선에 선 지민의 첫 공식 솔로 앨범 'FACE' 작업기를 담아낸 다큐멘터리",
+        "title": "&#39;on the street (solo ver.)&#39; Dance Video🕺#HOPE_ON_THE_STREET #Docuseries #EP1_Highlight #jhope #제이홉",
+        "description": "j-hope NEW DOCU SERIES 'HOPE ON THE STREET' March 28, 0AM (KST) Premiere globally | 전세계 동시 공개 Global: ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/default.jpg",
+            "url": "https://i.ytimg.com/vi/TJgxhfQvtRw/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/TJgxhfQvtRw/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/TJgxhfQvtRw/hqdefault.jpg",
             "width": 480,
             "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/0H40NNtSbPM/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "BANGTANTV",
-        "localized": {
-          "title": "Jimin's Production Diary",
-          "description": "아티스트로서 새로운 출발선에 선 지민의 첫 공식 솔로 앨범 'FACE' 작업기를 담아낸 다큐멘터리"
-        }
-      },
-      "contentDetails": {
-        "itemCount": 8
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-03-28T09:00:05Z"
       }
     },
     {
-      "kind": "youtube#playlist",
-      "etag": "HRbobNQUxKb8_fFPgvQHjfNWsRs",
-      "id": "PL5hrGMysD_GsReohQFLeXrKWI_SMTib3N",
+      "kind": "youtube#searchResult",
+      "etag": "ptV0dlSti3iFoiicGcdB2xs6g64",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V0G3-adUFA0"
+      },
       "snippet": {
-        "publishedAt": "2023-09-27T04:03:34Z",
+        "publishedAt": "2024-03-19T08:00:02Z",
         "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "💽 '3D'",
-        "description": "",
+        "title": "V ‘FRI(END)S’ MV Making Short Film #V #뷔 #V_FRIENDS #FRI_END_S",
+        "description": "Listen 'FRI(END)S' now: https://ingrv.es/friends Watch 'FRI(END)S' MV now: https://youtu.be/62peQdQv4uo.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/default.jpg",
+            "url": "https://i.ytimg.com/vi/V0G3-adUFA0/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/V0G3-adUFA0/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/V0G3-adUFA0/hqdefault.jpg",
             "width": 480,
             "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/wEc8lmprRQs/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "BANGTANTV",
-        "localized": {
-          "title": "💽 '3D'",
-          "description": ""
-        }
-      },
-      "contentDetails": {
-        "itemCount": 20
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-03-19T08:00:02Z"
       }
     }
   ]

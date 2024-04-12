@@ -13,9 +13,7 @@ export default function VideoDetail() {
   const { youtube } = useYoutubeApi();
 
   // 채널 섬네일
-  const getChannelDetail = ({
-    queryKey,
-  }: QueryFunctionContext<[string, string]>) => {
+  const getChannelDetail = ({ queryKey }: QueryFunctionContext<[string, string]>) => {
     return youtube.channelDetail(queryKey[1]);
   };
   const { data: channelDetail } = useQuery({
@@ -24,9 +22,7 @@ export default function VideoDetail() {
   });
 
   // 채널 관련 동영상
-  const getChannelVideos = ({
-    queryKey,
-  }: QueryFunctionContext<[string, string]>) => {
+  const getChannelVideos = ({ queryKey }: QueryFunctionContext<[string, string]>) => {
     return youtube.channelVideos(queryKey[1]);
   };
   const { data: channelVideos } = useQuery({
@@ -64,9 +60,7 @@ export default function VideoDetail() {
         </div>
         <ul className='flex flex-col gap-y-3 w-full mt-8 pt-8 border-t border-[var(--bg-color-200)] lg:w-1/3 lg:mt-0 lg:pt-0 lg:border-t-0'>
           {channelVideos &&
-            channelVideos.map((item: any) => (
-              <VideoThumbList key={item.id} video={item} />
-            ))}
+            channelVideos.map((item: any) => <VideoThumbList key={item.id} video={item} />)}
         </ul>
       </div>
     </>

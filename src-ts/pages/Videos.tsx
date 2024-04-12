@@ -8,9 +8,7 @@ const Videos = () => {
   const { keyword } = useParams();
   const { youtube } = useYoutubeApi();
 
-  const getVideos = ({
-    queryKey,
-  }: QueryFunctionContext<[string, string | undefined]>) => {
+  const getVideos = ({ queryKey }: QueryFunctionContext<[string, string | undefined]>) => {
     return youtube.videos(queryKey[1]);
   };
   const {
@@ -37,11 +35,7 @@ const Videos = () => {
       >
         {videos &&
           videos.map((item: any) => (
-            <VideoCard
-              key={item.id}
-              video={item}
-              style={`${keyword ? 'list' : ''}`}
-            />
+            <VideoCard key={item.id} video={item} style={`${keyword ? 'list' : ''}`} />
           ))}
       </ul>
     </>

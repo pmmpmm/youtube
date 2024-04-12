@@ -6,6 +6,7 @@ const httpClient = axios.create({
   params: {
     part: 'snippet',
     key: YOUTUBE_KEY,
+    type: 'video',
   },
 });
 
@@ -52,7 +53,7 @@ const youtubeApi = {
   // 비디오 상세페이지: 채널 관련 동영상 리스트
   channelVideos: async function <T extends params>(params: T) {
     // 실제 api ↓
-    // return await httpClient.get('playlists', params);
+    // return await httpClient.get('search', params);
     return await axios.get('/data/channel_videos.json');
   },
 };
@@ -64,8 +65,15 @@ class YoutubeImpl<T extends YoutubeApi> {
   }
   async channelVideos(channelId: string) {
     return await this.apiClient
-      .channelVideos({ params: { maxResults: 1, channelId } })
-      .then((res) => res.data.items);
+      .channelVideos({ params: { maxResults: 6, channelId: channelId } })
+      .then((res) => res.data.items)
+      .then((items) => {
+        const item = items.map((item: any) => ({
+          ...item,
+          id: item.id.videoId ? item.id.videoId : item.id.playlistId,
+        }));
+        return item;
+      });
   }
   async channelDetail(channelId: string) {
     return await this.apiClient

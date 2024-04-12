@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useParams, useLocation } from 'react-router-dom';
-
 import { GoHome, GoSmiley } from 'react-icons/go';
 import { MdHomeFilled } from 'react-icons/md';
 import { FaSmile } from 'react-icons/fa';
@@ -44,24 +43,31 @@ const Nav = (t: Props) => {
   const navRef = useRef<HTMLElement>(null);
   const [navMenu, setNavMenu] = useState(navs[0].name);
   const navigate = useNavigate();
-  const handleNavMenu = (name: string) => {
-    setNavMenu(name);
-    navigate(name === 'home' ? '/' : `/page/${name}`);
-  };
-
   const { pathname } = useLocation() as RouteState;
-  const paths = pathname.split('/');
   const { keyword } = useParams();
 
-  useEffect(() => {
-    const navParent = navRef.current?.parentElement;
-    if (navParent) {
-      // mobile nav open & close
-      t.isNavOpen
-        ? navParent.classList.add(styles.open)
-        : navParent.classList.remove(styles.open);
+  const handleNavBtn = (name: string) => {
+    navigate(name === 'home' ? '/' : `/page/${name}`);
+    setNavMenu(name);
+  };
+  const navActiveHandle = (pathname: string, keyword?: string) => {
+    //화면의 경로에 따른 nav menu active ON
+    navs.map((nav) =>
+      pathname === `/page/${nav.name}`
+        ? setNavMenu(nav.name)
+        : pathname === '/' && setNavMenu('home')
+    );
+    // 상세페이지,검색 결과 페이지 진입 → nav 메뉴 active OFF
+    if (pathname.includes('watch') || keyword) setNavMenu('');
+  };
 
-      //모바일 화면 nav가 open 일 때 화면 가로사이즈가 모바일을 초과하였을 경우 nav hide
+  useEffect(() => {
+    const navParent = navRef.current && navRef.current.parentElement;
+    if (navParent) {
+      // 모바일 nav의 오픈 여부에 따른 class 설정
+      t.isNavOpen ? navParent.classList.add(styles.open) : navParent.classList.remove(styles.open);
+
+      //모바일 nav open 일 때: 화면 가로사이즈 모바일을 초과하였을 경우 nav HIDE
       if (navParent.classList.contains(styles.open)) {
         t.screenX.addEventListener('change', function () {
           if (t.screenX.matches) t.setIsNavOpen(false);
@@ -72,7 +78,6 @@ const Nav = (t: Props) => {
       navParent.addEventListener('click', (e: Event) => {
         const isNavExist = e.composedPath().includes(navRef.current!);
         const target = e.target as HTMLElement;
-
         if (
           (!isNavExist && navParent.classList.contains(styles.open)) ||
           target.closest('h1.logo') ||
@@ -82,12 +87,8 @@ const Nav = (t: Props) => {
         }
       });
     }
-    // 상세페이지 진입 → nav 메뉴 active 해제
-    if (paths.some((path) => path === 'watch') || !!keyword) setNavMenu('');
-
-    //logo 버튼 클릭 → nav home active
-    if (pathname === '/') setNavMenu('home');
-  }, [t, t.isNavOpen, paths, keyword, pathname, t.screenX]);
+    navActiveHandle(pathname, keyword);
+  }, [t, t.isNavOpen, keyword, pathname, t.screenX]);
 
   return (
     <div className={styles['nav-wrap']}>
@@ -104,7 +105,7 @@ const Nav = (t: Props) => {
                     `${nav.name}`,
                     `${navMenu === nav.name ? 'active' : ''}`,
                   ])}`}
-                  onClick={() => handleNavMenu(nav.name)}
+                  onClick={() => handleNavBtn(nav.name)}
                 >
                   <span className={styles.icon}>
                     {navMenu === nav.name ? nav.actionIcon : nav.icon}

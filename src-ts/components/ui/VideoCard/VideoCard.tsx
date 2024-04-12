@@ -24,25 +24,20 @@ const VideoCard = ({ video, style }: { video: videoProps; style: string }) => {
   const { id } = video;
   const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
 
-  const channerColor = `rgb(${Math.floor(
+  const channerColor = `rgb(${Math.floor(Math.random() * 128 + 100)},${Math.floor(
     Math.random() * 128 + 100
-  )},${Math.floor(Math.random() * 128 + 100)},${Math.floor(
-    Math.random() * 128 + 100
-  )})`;
+  )},${Math.floor(Math.random() * 128 + 100)})`;
 
   return (
     <li className={cx('video', style)}>
-      <Link to={`videos/watch/${id}`} state={{ video }}>
+      <Link to={`/videos/watch/${id}`} state={{ video }}>
         <div className={styles.thumbnail}>
           <div className={styles.thumbnailBox}>
             <img src={`${thumbnails.medium.url}`} alt='섬네일 이미지' />
           </div>
         </div>
         <div className={styles.info}>
-          <div
-            className={`${styles.channelImg}`}
-            style={{ backgroundColor: `${channerColor}` }}
-          >
+          <div className={`${styles.channelImg}`} style={{ backgroundColor: `${channerColor}` }}>
             {channelTitle.charAt(0).toUpperCase()}
           </div>
           <div>
