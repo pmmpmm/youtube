@@ -47,5 +47,6 @@ const App = () => {
   );
 };
 console.log("a-1")
+console.log("a-2")
 export default App;
 
