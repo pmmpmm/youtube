@@ -8,10 +8,7 @@ import {
   IoIosArrowRoundBack,
   IoIosClose,
 } from 'react-icons/io';
-import LogoBox from '@/components/ui/LogoBox/LogoBox';
-import styles from './Header.module.css';
-import classNames from 'classnames/bind';
-const cx = classNames.bind(styles);
+import LogoBox from '@/components/ui/LogoBox';
 
 interface Props {
   setIsNavOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -43,25 +40,30 @@ const Header = (t: Props) => {
   };
 
   return (
-    <header className={styles['header-wrap']}>
-      <div className={styles.header}>
+    <header className='header-wrap w-full bg-white fixed top-0 left-0 z-50 dark:bg-[#171717]'>
+      <div className='header flex flex-row items-center justify-between px-2 bg-[var(--bg-color-50)] relative h-header-height sm:h-header-height-sm sm:px-4'>
         <LogoBox parent={'header'} onClick={() => t.setIsNavOpen(true)} />
-        <div className={styles.formWrap}>
-          <div className={cx('formBox', `${focus ? 'open' : ''}`)}>
+        <div className='formWrap flex flex-initial basis-[62%] justify-end sm:justify-center md:basis-6/12 lg:basis-5/12'>
+          <div
+            className={`formBox items-center w-full h-full px-4 bg-white absolute top-0 left-0 -z-10 
+            sm:flex sm:p-0 sm:relative sm:z-10 dark:bg-neutral-900
+            ${focus ? 'flex z-50' : 'hidden'}`}
+          >
             <button
               onClick={() => {
                 setFocus(false);
               }}
-              className={`${styles.btn} ${styles.close}`}
+              className='btn close flex-none block w-10 h-10 sm:hidden'
               aria-label='모바일 화면 검색 폼 숨김 버튼'
             >
-              <IoIosArrowRoundBack />
+              <IoIosArrowRoundBack className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
             </button>
             <form
               onSubmit={handleSubmit}
               onFocus={() => setFocus(true)}
               onBlur={() => setFocus(false)}
-              className={cx('form', `${focus ? 'focus' : ''}`)}
+              className={`form flex w-full h-10 border border-solid border-neutral-200 rounded-full dark:border-neutral-700
+              ${focus ? 'border-transparent shadow-form-focus dark:border-neutral-100' : ''}`}
             >
               <input
                 type='text'
@@ -69,19 +71,20 @@ const Header = (t: Props) => {
                 ref={searchInp}
                 value={text}
                 onChange={(e) => setText(e.target.value)}
+                className='flex-initial w-full h-10 px-6 font-normal text-neutral-950 bg-transparent border-transparent placeholder:text-neutral-400 dark:text-neutral-100 dark:font-light dark:placeholder:text-neutral-300'
               />
               {text && (
                 <button
-                  className={cx('btn', 'del')}
+                  className='btn del flex-none w-[26px] opacity-50'
                   aria-label='검색어 삭제 버튼'
                   type='button'
                   onClick={() => setText('')}
                 >
-                  <IoIosClose />
+                  <IoIosClose className='inline-block w-7 h-7 text-neutral-700 dark:text-neutral-50' />
                 </button>
               )}
-              <button type='submit' className={styles.btn} aria-label='검색 버튼'>
-                <IoIosSearch />
+              <button type='submit' aria-label='검색 버튼' className='flex-none w-16'>
+                <IoIosSearch className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
               </button>
             </form>
           </div>
@@ -89,22 +92,22 @@ const Header = (t: Props) => {
             onClick={() => {
               setFocus(true);
             }}
-            className={`${styles.btn} ${styles.moShowFormBtn}`}
+            className='btn moShowFormBtn flex-none block mx-1 relative z-[1] w-10 h-10 sm:hidden'
             aria-label='검색 폼 노출 버튼'
           >
-            <IoIosSearch />
+            <IoIosSearch className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
           </button>
         </div>
-        <button className={styles.colorTheme} onClick={modeToggle}>
+        <button onClick={modeToggle} className='flex-none w-10 h-10 text-[0]'>
           {dark ? (
-            <span className={styles.sun}>
+            <span className='block text-center'>
               라이트모드
-              <IoIosSunny />
+              <IoIosSunny className='inline-block -ml-1 w-[66%] h-[66%] text-neutral-700 sm:w-[64%] sm:h-[64%] dark:text-neutral-50' />
             </span>
           ) : (
-            <span className={styles.moon}>
+            <span className='block text-center'>
               다크모드
-              <IoIosMoon />
+              <IoIosMoon className='inline-block -ml-1 w-[66%] h-[66%] text-neutral-700 sm:w-[64%] sm:h-[64%] dark:text-neutral-50' />
             </span>
           )}
         </button>

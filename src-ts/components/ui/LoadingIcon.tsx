@@ -1,0 +1,23 @@
+import React from 'react';
+
+const LoadingIcon = () => {
+  const square = () => {
+    const result = [];
+    const squareStype =
+      'square w-[10px] h-[10px] mr-[8px] mb-[8px] bg-neutral-950 rounded-[3px] box-border float-left relative dark:bg-neutral-100';
+    for (let i = 0; i < 4; i++) {
+      result.push(
+        <>
+          <div className={`${squareStype} animate-[wave_2s_ease_0s_infinite]`}></div>
+          <div className={`${squareStype} animate-[wave_2s_ease_0.2s_infinite]`}></div>
+          <div className={`${squareStype} animate-[wave_2s_ease_0.4s_infinite]`}></div>
+          <div className={`${squareStype} animate-[wave_2s_ease_0.6s_infinite] mr-[-8px]`}></div>
+        </>
+      );
+    }
+    return result;
+  };
+  return <div className='loadingIcon w-[72px] h-[86px] m-auto'>{square()}</div>;
+};
+
+export default LoadingIcon;

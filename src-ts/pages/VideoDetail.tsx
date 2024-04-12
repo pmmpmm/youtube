@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { useQuery, QueryFunctionContext } from '@tanstack/react-query';
 import { useYoutubeApi } from '@/context/YoutubeApiContext';
-import VideoThumbList from '@/components/ui/VideoThumbList/VideoThumbList';
+import VideoThumbList from '@/components/ui/VideoThumbList';
 
 export default function VideoDetail() {
   const {
@@ -42,7 +42,9 @@ export default function VideoDetail() {
             className='w-full aspect-video rounded-2xl overflow-hidden'
           ></iframe>
           <div className='pt-6'>
-            <p className='text-xl font-bold'>{title}</p>
+            <p className='text-xl font-bold text-neutral-950 dark:font-semibold dark:text-neutral-100'>
+              {title}
+            </p>
             <div className='flex items-center pt-2 pb-4'>
               <div className='flex-initial w-11 h-11 rounded-full overflow-hidden relative after:block after:w-full after:h-full after:rounded-full after:rounded-br-full after:absolute after:top-0 after:left-0 after:shadow-[inset_-1px_-1px_4px_rgba(0,0,0,0.1)]'>
                 <img
@@ -51,10 +53,14 @@ export default function VideoDetail() {
                   className='w-full h-full rounded-full'
                 />
               </div>
-              <p className='pl-2 text-sm font-semibold'>{channelTitle}</p>
+              <p className='pl-2 text-sm font-semibold text-neutral-950 dark:font-medium dark:text-neutral-100'>
+                {channelTitle}
+              </p>
             </div>
             <div className='text-base'>
-              <p className='tx'>{description}</p>
+              <p className='tx font-medium text-neutral-950 dark:font-normal dark:text-neutral-100'>
+                {description}
+              </p>
             </div>
           </div>
         </div>
