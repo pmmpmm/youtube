@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
-import styles from './LogoBox.module.css';
 import { IoIosMenu } from 'react-icons/io';
-import Logo from '@/components/ui/Logo/Logo';
-import classNames from 'classnames/bind';
-const cx = classNames.bind(styles);
+import Logo from '@/components/ui/Logo';
 
 interface Props {
   parent: string;
@@ -11,15 +8,15 @@ interface Props {
 }
 const LogoBox = (t: Props) => {
   return (
-    <div className={cx('logoBox', `${t.parent}`)}>
+    <div className={`${t.parent} inline-flex flex-none items-center`}>
       <button
-        className={styles.navBtn}
+        className='navBtn block w-10 h-10 mr-2 sm:hidden'
         onClick={t.onClick}
         aria-label='메뉴 버튼'
       >
-        <IoIosMenu />
+        <IoIosMenu className='w-8 h-8 m-auto text-black dark:text-white' />
       </button>
-      <Link to='/' className={styles.logo}>
+      <Link to='/' className='w-[7.5rem] text-[0]'>
         <h1 className='logo'>
           <Logo />
         </h1>

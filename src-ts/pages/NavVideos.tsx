@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery, QueryFunctionContext } from '@tanstack/react-query';
 import { useYoutubeApi } from '@/context/YoutubeApiContext';
-import VideoCard from '@/components/ui/VideoCard/VideoCard';
+import VideoCard from '@/components/ui/VideoCard';
 import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
 
