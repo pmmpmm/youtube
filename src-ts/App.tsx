@@ -46,6 +46,6 @@ const App = () => {
     </QueryClientProvider>
   );
 };
-
+console.log("a-1")
 export default App;
 
