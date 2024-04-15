@@ -46,7 +46,6 @@ const Header = () => {
           >
             <IoIosArrowRoundBack className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
           </button>
-
           {/* form */}
           <div
             onFocus={() => setFocus(true)}
