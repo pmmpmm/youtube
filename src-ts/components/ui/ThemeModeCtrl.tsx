@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { IoIosSunny, IoIosMoon } from 'react-icons/io';
 
-const DarkModeBtn = () => {
+const ThemeModeCtrl = () => {
   const [dark, setDark] = useState(localStorage.theme === 'dark' ? true : false || false);
 
   useEffect(() => {
@@ -33,4 +33,4 @@ const DarkModeBtn = () => {
   );
 };
 
-export default DarkModeBtn;
+export default ThemeModeCtrl;

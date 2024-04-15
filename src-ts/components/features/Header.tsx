@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, KeyboardEvent } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { IoIosSearch, IoIosArrowRoundBack, IoIosClose } from 'react-icons/io';
 import Logo from '@/components/ui/Logo';
-import DarkModeBtn from '@/components/ui/DarkModeBtn';
+import ThemeModeCtrl from '@/components/ui/ThemeModeCtrl';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -94,7 +94,7 @@ const Header = () => {
       </div>
 
       {/* 다크모드 버튼 */}
-      <DarkModeBtn />
+      <ThemeModeCtrl />
     </>
   );
 };
