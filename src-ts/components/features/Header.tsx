@@ -23,10 +23,8 @@ const Header = () => {
     if (text.trim().length > 0) navigate(`/videos/${text.trim()}`);
     setFocus(false);
   };
-  const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
-      handleSubmit();
-    }
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') handleSubmit();
   };
   return (
     <>
@@ -48,6 +46,7 @@ const Header = () => {
           >
             <IoIosArrowRoundBack className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
           </button>
+
           {/* form */}
           <div
             onFocus={() => setFocus(true)}
@@ -62,11 +61,11 @@ const Header = () => {
               value={text}
               onChange={(e) => setText(e.target.value)}
               className='flex-initial w-full h-10 px-6 font-normal text-neutral-950 bg-transparent border-transparent placeholder:text-neutral-400 dark:text-neutral-100 dark:font-light dark:placeholder:text-neutral-300'
-              onKeyPress={handleKeyPress}
+              onKeyDown={handleKeyDown}
             />
             {text && (
               <button
-                className='btn del flex-none w-[26px] opacity-50'
+                className='flex-none w-[26px] opacity-50'
                 aria-label='검색어 삭제 버튼'
                 type='button'
                 onClick={() => setText('')}
@@ -86,10 +85,8 @@ const Header = () => {
         </div>
         {/* 모바일화면 - 검색폼 노출 버튼 */}
         <button
-          onClick={() => {
-            setFocus(true);
-          }}
-          className='btn moShowFormBtn flex-none block mx-1 relative z-[1] w-10 h-10 sm:hidden'
+          onClick={() => setFocus(true)}
+          className='flex-none block mx-1 relative z-[1] w-10 h-10 sm:hidden'
           aria-label='검색 폼 노출 버튼'
         >
           <IoIosSearch className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
