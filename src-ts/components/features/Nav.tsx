@@ -7,7 +7,7 @@ import { FaSmile } from 'react-icons/fa';
 import { MdHomeFilled } from 'react-icons/md';
 import { PiNewspaper, PiNewspaperFill } from 'react-icons/pi';
 import { IoMusicalNotesOutline, IoMusicalNotes } from 'react-icons/io5';
-import Logo from '../ui/Logo';
+import Logo from '@/components/ui/Logo';
 
 const navs = [
   {
@@ -76,6 +76,7 @@ const Nav = (props: NavProps) => {
     if (pathname.includes('watch') || keyword) setNavMenu('');
   };
 
+  // TODO: handleNavClick 리팩토링 필요
   //모바일 nav open → nav 클릭 영역에 따른 close 혹은 open
   const handleNavClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     const nav = navRef.current && navRef.current;

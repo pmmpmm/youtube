@@ -4,11 +4,11 @@ import { IoIosMenu } from 'react-icons/io';
 import Header from '@/components/features/Header';
 import Nav from '@/components/features/Nav';
 
-export type LayoutAchildren = {
+export type LayoutAProps = {
   children: string | ReactElement | ReactElement[];
 };
 
-const LayoutA = ({ children }: LayoutAchildren) => {
+const LayoutA = ({ children }: LayoutAProps) => {
   const screenX = window.matchMedia(`(max-width: ${screens.sm})`);
   const [mobileScreenX, setMobileScreenX] = useState(screenX.matches);
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
@@ -19,7 +19,7 @@ const LayoutA = ({ children }: LayoutAchildren) => {
       if (mobileScreenX) setIsNavOpen(false);
       setMobileScreenX(screenX.matches);
     });
-  }, [screenX, mobileScreenX]);
+  }, []);
 
   return (
     <>
