@@ -1,12 +1,13 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useParams, useLocation } from 'react-router-dom';
 import { GoHome, GoSmiley } from 'react-icons/go';
-import { MdHomeFilled } from 'react-icons/md';
+import { IoIosMenu } from 'react-icons/io';
 import { FaSmile } from 'react-icons/fa';
+import { MdHomeFilled } from 'react-icons/md';
 import { PiNewspaper, PiNewspaperFill } from 'react-icons/pi';
 import { IoMusicalNotesOutline, IoMusicalNotes } from 'react-icons/io5';
-import LogoBox from '@/components/ui/LogoBox';
+import Logo from '@/components/ui/Logo';
 
 const navs = [
   {
@@ -43,17 +44,16 @@ const navs = [
   },
 ];
 
-interface Props {
-  device: string;
+interface NavProps {
   isNavOpen: boolean;
   setIsNavOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  screenX: MediaQueryList;
+  mobileScreenX: boolean;
 }
 interface RouteState {
   pathname: string;
 }
 
-const Nav = (t: Props) => {
+const Nav = (props: NavProps) => {
   const navRef = useRef<HTMLElement>(null);
   const [navMenu, setNavMenu] = useState(navs[0].name);
   const navigate = useNavigate();
@@ -76,49 +76,56 @@ const Nav = (t: Props) => {
     if (pathname.includes('watch') || keyword) setNavMenu('');
   };
 
-  //모바일 nav open → 클릭 영역에 따른 close 혹은 open
+  // TODO: handleNavClick 리팩토링 필요
+  //모바일 nav open → nav 클릭 영역에 따른 close 혹은 open
   const handleNavClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     const nav = navRef.current && navRef.current;
     const navParent = nav && navRef.current.parentElement;
     const target = e.target as HTMLElement;
-    // const elementList = e.nativeEvent.composedPath();
-    // const isNavExist = elementList.includes(nav!);
     if (target === navParent || target.closest('h1.logo') || target.closest('li .btn')) {
-      t.setIsNavOpen(false);
+      props.setIsNavOpen(false);
     }
   };
 
   useEffect(() => {
-    if (t.isNavOpen) {
-      t.screenX.addEventListener('change', function () {
-        if (t.screenX.matches) t.setIsNavOpen(false);
-      });
-    }
     navActiveHandle(pathname, keyword);
-  }, [t, t.isNavOpen, keyword, pathname, t.screenX]);
+  }, [keyword, pathname]);
 
   return (
     <div
       onClick={(e) => handleNavClick(e)}
       className={`nav-wrap flex-none h-full fixed top-0 left-0 z-50 sm:z-0 
       ${
-        t.isNavOpen &&
+        props.isNavOpen &&
         `before:content-[''] before:block before:w-full before:h-full before:bg-black/[.30] before:backdrop-blur-[2px] before:fixed before:top-0 before:left-0 before:z-0`
       }`}
     >
       <nav
         ref={navRef}
-        className={`nav flex-none flex-col w-60 h-full px-2 bg-white absolute top-0 sm:w-20 sm:px-4 sm:z-0 xl:w-60 dark:bg-[#171717] ${
-          t.device === 'not-mobile'
-            ? 'hidden left-0 sm:flex'
-            : t.device === 'mobile'
+        className={`flex-none flex-col w-60 h-full px-2 bg-white absolute top-0 sm:w-20 sm:px-4 sm:z-0 xl:w-60 dark:bg-[#171717] 
+        ${
+          props.mobileScreenX
             ? 'flex -left-60 z-50 duration-300 sm:hidden'
-            : ''
-        } ${t.isNavOpen ? 'left-0' : ''}`}
+            : 'hidden left-0 sm:flex'
+        }
+        ${props.isNavOpen ? 'left-0' : ''}
+        `}
       >
-        <div className='logoBox visible flex items-center h-header-height sm:invisible sm:h-header-height-sm'>
-          <LogoBox parent={'nav'} onClick={() => t.setIsNavOpen(false)} />
+        <div className='visible flex items-center h-header-height sm:invisible sm:h-header-height-sm'>
+          <button
+            onClick={() => props.setIsNavOpen(!props.isNavOpen)}
+            className='block flex-none w-10 h-10 mr-2 sm:hidden'
+            aria-label='메뉴 열림, 닫힘 버튼'
+          >
+            <IoIosMenu className='w-8 h-8 m-auto text-black dark:text-white' />
+          </button>
+          <Link to='/' className='flex-none w-[7.5rem] text-[0]'>
+            <h1 className='logo'>
+              <Logo />
+            </h1>
+          </Link>
         </div>
+
         <ul className='navList px-1 sm:px-0'>
           {navs.map((nav, idx) => {
             return (
