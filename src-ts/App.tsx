@@ -2,8 +2,6 @@ import queryClient from '@/service/QueryClient';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import NavVideos from '@/pages/NavVideos';
-//
 import NotFound from '@/pages/NotFound';
 import PopularVideos from '@/pages/PopularVideos';
 import SearchVideos from '@/pages/SearchVideos';

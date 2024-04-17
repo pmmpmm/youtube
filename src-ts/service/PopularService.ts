@@ -1,16 +1,17 @@
-import { VideoItem } from "@/domain/Video"
-import youtubeV3Client from "./YoutubeV3Client"
+import { youtubeMockUpClient } from '@/service/YoutubeV3Client';
+import { VideoItem } from '@/domain/Video';
 
 export type PopularListRes = {
-  kind: string,
-  etag: string,
-  items: VideoItem[]
-}
+  kind: string;
+  etag: string;
+  items: VideoItem<string>[];
+};
 
-const getPopularList = async (): Promise<PopularListRes> => 
-  await youtubeV3Client.get<PopularListRes>("/data/most_popular.json")
-    .then((response) => response.data)
+const getPopularList = async (): Promise<PopularListRes> =>
+  await youtubeMockUpClient
+    .get<PopularListRes>('/data/most_popular.json')
+    .then((response) => response.data);
 
-export default {
-  getPopularList
-}
+const api = { getPopularList };
+
+export default api;

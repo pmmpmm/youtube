@@ -18,30 +18,18 @@ export type Localized = {
 };
 
 export type Snippet = {
-  publishedAt: string;
-  channelId: string;
   title: string;
   description: string;
+  customUrl: string;
+  publishedAt: string;
   thumbnails: Thumbnail;
-  channelTitle: string;
-  categoryId?: string;
-  liveBroadcastContent: string;
-  tags?: [];
   localized?: Localized;
-  defaultAudioLanguage?: string;
-  publishTime?: string;
+  country: string;
 };
 
-export type VideoId = {
-  kind: string;
-  videoId?: string;
-  channelId?: string;
-  playlistId?: string;
-};
-
-export type VideoItem<T> = {
+export type ChannelDatailItem = {
   kind: string;
   etag: string;
-  id: T extends string ? string : VideoId;
+  id: string;
   snippet: Snippet;
 };
