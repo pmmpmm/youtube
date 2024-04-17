@@ -1,5 +1,5 @@
-import PopularVideosContent from '@/components/features/PopularVideosContent';
 import LayoutA from '@/components/features/common/layouts/LayoutA';
+import PopularVideosContent from '@/components/features/PopularVideosContent';
 
 const PopularVideos = () => {
   return (
