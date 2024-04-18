@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BiMessageSquareError } from 'react-icons/bi';
 import { TbFaceIdError } from 'react-icons/tb';
-import LoadingIcon from './LoadingIcon';
+import LoadingIcon from '@/components/ui/LoadingIcon';
 
 interface Props {
   type: string;
