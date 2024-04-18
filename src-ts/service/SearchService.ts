@@ -15,12 +15,12 @@ type SearchListRes = {
 };
 
 const getSearchList = async (keyword: string): Promise<SearchListRes> =>
-  await youtubeV3Client
-    .get<SearchListRes>('search', { params: { maxResults: 1, q: keyword } } as Params)
+  // await youtubeV3Client
+  //   .get<SearchListRes>('search', { params: { maxResults: 1, q: keyword } } as Params)
+  //   .then((response) => response.data);
+  await youtubeMockUpClient
+    .get<SearchListRes>('/data/keyword_bts.json')
     .then((response) => response.data);
-//   await youtubeMockUpClient
-//     .get<SearchListRes>('/data/keyword_bts.json')
-//     .then((response) => response.data);
 
 const api = { getSearchList };
 
