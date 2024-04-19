@@ -1,19 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { VideoItem } from '@/domain/Video';
 import { publishedDate } from '@/utils/publishedData';
 
-interface videoProps {
-  id: string;
-  snippet: {
-    channelTitle: string;
-    publishedAt: string;
-    title: string;
-    description: string;
-    thumbnails: {
-      medium: { url: string };
-    };
-  };
-}
+interface videoProps extends VideoItem<string> {}
 
 const VideoCard = ({ video, style }: { video: videoProps; style: string }) => {
   const { id } = video;

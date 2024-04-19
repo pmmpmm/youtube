@@ -1,15 +1,20 @@
 import { useQuery } from '@tanstack/react-query';
-import PopularService from '@/service/PopularService';
+import { VideoItem } from '@/domain/Video';
+import NewsService from '@/service/NewsService';
 import VideoCard from '@/components/ui/VideoCard';
 import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
 
-const PopularVideosContent = () => {
+const NewsVideosContent = () => {
   const { isLoading, error, data } = useQuery({
-    queryKey: ['popularList'],
-    queryFn: PopularService.getPopularList,
+    queryKey: ['newsList'],
+    queryFn: NewsService.getNewsList,
     select: (response) => {
-      return response.items;
+      const items = response.items.map((item) => ({
+        ...item,
+        id: item.id.videoId ? item.id.videoId : item.id.channelId,
+      })) as VideoItem<string>[];
+      return items;
     },
   });
 
@@ -24,4 +29,4 @@ const PopularVideosContent = () => {
   );
 };
 
-export default PopularVideosContent;
+export default NewsVideosContent;
