@@ -1,11 +1,10 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { VideoItem } from '@/domain/Video';
 import { publishedDate } from '@/utils/publishedData';
 
-interface videoProps extends VideoItem<string> {}
+interface VideoProps extends VideoItem {}
 
-const VideoCard = ({ video, style }: { video: videoProps; style: string }) => {
+const VideoCard = ({ video, style }: { video: VideoProps; style: string }) => {
   const { id } = video;
   const { channelTitle, publishedAt, title, thumbnails, description } = video.snippet;
 
@@ -58,7 +57,7 @@ const VideoCard = ({ video, style }: { video: videoProps; style: string }) => {
                   : 'mb-1 text-base leading-5 line-clamp-2'
               }`}
             >
-              {title.replaceAll(/&#39;/gi, "'").replaceAll(/&quot;/gi, '"')}
+              {title.replace(/&#39;/gi, "'").replace(/&quot;/gi, '"')}
             </p>
             <div className={`channelInfo ${style ? 'flex items-center' : ''}`}>
               <div

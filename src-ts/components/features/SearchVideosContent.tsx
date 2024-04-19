@@ -15,8 +15,8 @@ const SearchVideosContent = () => {
     select: (response) => {
       const items = response.items.map((item) => ({
         ...item,
-        id: item.id.videoId ? item.id.videoId : item.id.channelId,
-      })) as VideoItem<string>[];
+        id: typeof item.id === "string" ? item.id : item.id.channelId
+      })) as VideoItem[];
       return items;
     },
   });
@@ -26,7 +26,7 @@ const SearchVideosContent = () => {
       {error && <Error />}
       {isLoading && <Loading />}
       <ul className='grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-4 sm:gap-y-10 lg:grid-cols-3 2xl:grid-cols-4'>
-        {data && data.map((item) => <VideoCard key={item.id} video={item} style='' />)}
+        {data && data.map((item, index) => <VideoCard key={`search-${index}`} video={item} style='' />)}
       </ul>
     </>
   );

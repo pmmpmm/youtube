@@ -1,6 +1,6 @@
-import { youtubeV3Client, youtubeMockUpClient } from '@/service/YoutubeV3Client';
+import { youtubeV3Client } from '@/service/YoutubeV3Client';
 import { Params } from '@/domain/Params';
-import { VideoItem, VideoId } from '@/domain/Video';
+import { VideoItem } from '@/domain/Video';
 
 type SearchListRes = {
   kind: string;
@@ -11,7 +11,7 @@ type SearchListRes = {
     totalResults: number;
     resultsPerPage: number;
   };
-  items: VideoItem<VideoId>[];
+  items: VideoItem[];
 };
 
 const getSearchList = async (keyword: string): Promise<SearchListRes> =>

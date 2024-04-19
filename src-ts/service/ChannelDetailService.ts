@@ -1,5 +1,4 @@
-import { youtubeV3Client, youtubeMockUpClient } from '@/service/YoutubeV3Client';
-import { Params } from '@/domain/Params';
+import { youtubeMockUpClient } from '@/service/YoutubeV3Client';
 import { ChannelDatailItem } from '@/domain/ChannelDetail';
 
 type ChannelDetailRes = {
