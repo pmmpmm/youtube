@@ -6,7 +6,6 @@ import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
 import { getVideoIdOrChannelId } from '@/common/VideoUtil';
 import VideoListContainer from '@/components/ui/VideoListContainer';
-import VideoList from '@/components/ui/VideoList';
 
 const SearchVideosContent = () => {
   const { keyword = '' } = useParams();
@@ -27,9 +26,7 @@ const SearchVideosContent = () => {
     <>
       {error && <Error />}
       {isLoading && <Loading />}
-      <VideoListContainer>
-        {data && data.map((item, index) => <VideoList key={`search-${index}`} video={item} />)}
-      </VideoListContainer>
+      {data && <VideoListContainer videos={data} />}
     </>
   );
 };

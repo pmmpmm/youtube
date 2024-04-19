@@ -5,7 +5,6 @@ import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
 import { getVideoIdOrChannelId } from '@/common/VideoUtil';
 import VideoCardContainer from '@/components/ui/VideoCardContainer';
-import VideoCard from '@/components/ui/VideoCard';
 
 const NewsVideosContent = () => {
   const { isLoading, error, data } = useQuery({
@@ -24,9 +23,7 @@ const NewsVideosContent = () => {
     <>
       {isLoading && <Loading />}
       {error && <Error />}
-      <VideoCardContainer>
-        {data && data.map((item, index) => <VideoCard key={`news-${index}`} video={item} />)}
-      </VideoCardContainer>
+      {data && <VideoCardContainer videos={data} />}
     </>
   );
 };

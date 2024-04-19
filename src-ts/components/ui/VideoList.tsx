@@ -2,9 +2,7 @@ import { Link } from 'react-router-dom';
 import { VideoItem } from '@/domain/Video';
 import { publishedDate } from '@/utils/publishedData';
 
-interface videoProps extends VideoItem<string> {}
-
-const VideoList = ({ video }: { video: videoProps }) => {
+const VideoList = ({ video }: { video: VideoItem<string> }) => {
   const { id } = video;
   const { channelTitle, publishedAt, title, thumbnails, description } = video.snippet;
 

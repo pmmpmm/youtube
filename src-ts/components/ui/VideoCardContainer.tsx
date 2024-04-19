@@ -1,12 +1,12 @@
-const VideoCardContainer = ({ children }: { children: React.ReactNode }) => {
-<<<<<<< HEAD
-=======
-  console.log('VideoCardContainer');
+import { VideoItem } from '@/domain/Video';
+import VideoCard from '@/components/ui/VideoCard';
 
->>>>>>> 0c6215d (RY-58 refactor: video card divide)
+const VideoCardContainer = ({ videos }: { videos: VideoItem<string>[] }) => {
   return (
     <ul className='grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-4 sm:gap-y-10 lg:grid-cols-3 2xl:grid-cols-4'>
-      {children}
+      {videos.map((item) => (
+        <VideoCard key={item.id} video={item} />
+      ))}
     </ul>
   );
 };

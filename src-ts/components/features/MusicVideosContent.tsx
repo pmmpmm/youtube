@@ -5,7 +5,6 @@ import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
 import { getVideoIdOrPlaylistId } from '@/common/VideoUtil';
 import VideoCardContainer from '@/components/ui/VideoCardContainer';
-import VideoCard from '@/components/ui/VideoCard';
 
 const MusicVideosContent = () => {
   const { isLoading, error, data } = useQuery({
@@ -24,9 +23,7 @@ const MusicVideosContent = () => {
     <>
       {error && <Error />}
       {isLoading && <Loading />}
-      <VideoCardContainer>
-        {data && data.map((item, index) => <VideoCard key={`music-${index}`} video={item} />)}
-      </VideoCardContainer>
+      {data && <VideoCardContainer videos={data} />}
     </>
   );
 };
