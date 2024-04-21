@@ -30,7 +30,7 @@ const VideoDetailContent = () => {
 
   return (
     <>
-      <div className='flex flex-col lg:flex-row lg:gap-x-6'>
+      <div className='flex flex-col m-auto lg:flex-row lg:gap-x-6 xl:max-w-screen-xl'>
         <div className='w-full lg:w-2/3 md:min-w-[640px]'>
           <iframe
             id='player'

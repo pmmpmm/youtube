@@ -12,7 +12,7 @@ const VideoCard = ({ video }: { video: VideoItem }) => {
 
   return (
     <li>
-      <Link to={`/videos/watch/${id}`} state={{ video }} className='flex flex-col'>
+      <Link to={`/videos/watch?v=${id}`} state={{ video }} className='flex flex-col'>
         <div className='flex justify-center items-start w-full'>
           <div className={`w-full rounded-2xl  overflow-hidden aspect-video`}>
             <img

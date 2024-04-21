@@ -1,35 +1,41 @@
 import React, { useEffect, useRef, useState, KeyboardEvent } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { IoIosSearch, IoIosArrowRoundBack, IoIosClose } from 'react-icons/io';
 import Logo from '@/components/ui/Logo';
 import ThemeModeCtrl from '@/components/ui/ThemeModeCtrl';
 
 const Header = () => {
   const navigate = useNavigate();
-  const { keyword } = useParams();
+  const { search } = useLocation();
+  const keyword = new URLSearchParams(search).get('searchQuery') as string;
   const [text, setText] = useState('');
   const [focus, setFocus] = useState(false);
   const searchInp = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     !keyword ? setText('') : setText(keyword);
+  }, [keyword]);
 
+  useEffect(() => {
     focus
       ? searchInp.current && searchInp.current.focus()
       : searchInp.current && searchInp.current.blur();
-  }, [keyword, focus]);
+  }, [focus]);
 
   const handleSubmit = () => {
-    if (text.trim().length > 0) navigate(`/videos/${text.trim()}`);
+    if (text.trim().length > 0) navigate(`/videos/results?searchQuery=${text.trim()}`);
     setFocus(false);
   };
+
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (e.nativeEvent.isComposing || e.keyCode === 229) return;
     if (e.key === 'Enter') handleSubmit();
   };
+
   return (
     <>
       <Link to='/' className='flex-none w-[7.5rem] text-[0]'>
-        <h1 className='logo'>
+        <h1>
           <Logo />
         </h1>
       </Link>
@@ -41,7 +47,7 @@ const Header = () => {
         >
           <button
             onClick={() => setFocus(false)}
-            className='btn close flex-none block w-10 h-10 sm:hidden'
+            className='flex-none block w-10 h-10 sm:hidden'
             aria-label='모바일 화면 검색 폼 숨김 버튼'
           >
             <IoIosArrowRoundBack className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
