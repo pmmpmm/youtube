@@ -1,26 +1,16 @@
-import React, { useEffect, useRef, useState, KeyboardEvent } from 'react';
-import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { useEffect, useRef, useState, KeyboardEvent } from 'react';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { IoIosSearch, IoIosArrowRoundBack, IoIosClose } from 'react-icons/io';
 import Logo from '@/components/ui/Logo';
 import ThemeModeCtrl from '@/components/ui/ThemeModeCtrl';
 
 const Header = () => {
   const navigate = useNavigate();
-  const { search } = useLocation();
-  const keyword = new URLSearchParams(search).get('searchQuery') as string;
-  const [text, setText] = useState('');
+  const [searchParams] = useSearchParams();
+  const keyword = searchParams.get('searchQuery');
+  const [text, setText] = useState(keyword ?? '');
   const [focus, setFocus] = useState(false);
   const searchInp = useRef<HTMLInputElement>(null);
-
-  useEffect(() => {
-    !keyword ? setText('') : setText(keyword);
-  }, [keyword]);
-
-  useEffect(() => {
-    focus
-      ? searchInp.current && searchInp.current.focus()
-      : searchInp.current && searchInp.current.blur();
-  }, [focus]);
 
   const handleSubmit = () => {
     if (text.trim().length > 0) navigate(`/videos/results?searchQuery=${text.trim()}`);
@@ -28,9 +18,12 @@ const Header = () => {
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.nativeEvent.isComposing || e.keyCode === 229) return;
+    if (e.nativeEvent.isComposing) return;
     if (e.key === 'Enter') handleSubmit();
   };
+  useEffect(() => {
+    !keyword ? setText('') : setText(keyword);
+  }, [keyword]);
 
   return (
     <>
@@ -73,7 +66,10 @@ const Header = () => {
                 className='flex-none w-[26px] opacity-50'
                 aria-label='검색어 삭제 버튼'
                 type='button'
-                onClick={() => setText('')}
+                onClick={() => {
+                  setText('');
+                  searchInp.current && searchInp.current.focus();
+                }}
               >
                 <IoIosClose className='inline-block w-7 h-7 text-neutral-700 dark:text-neutral-50' />
               </button>
