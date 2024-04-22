@@ -1,4 +1,5 @@
 import { ReactElement, useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { screens } from 'tailwindcss/defaultTheme';
 import { IoIosMenu } from 'react-icons/io';
 import Header from '@/components/features/Header';
@@ -12,6 +13,8 @@ const LayoutA = ({ children }: LayoutAProps) => {
   const screenX = window.matchMedia(`(max-width: ${screens.sm})`);
   const [mobileScreenX, setMobileScreenX] = useState(screenX.matches);
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
+  const [navMenu, setNavMenu] = useState('/');
+  const { pathname = '' } = useLocation();
 
   useEffect(() => {
     // 화면 가로사이즈 resize
@@ -21,9 +24,17 @@ const LayoutA = ({ children }: LayoutAProps) => {
     });
   }, []);
 
+  useEffect(() => {
+    const pathArray = pathname.split('/').slice(1);
+    if (pathArray.includes('page') || pathArray.length === 1) {
+      let path = pathArray.slice(-1)[0];
+      path = path ? path : 'home';
+      setNavMenu(path);
+    }
+  }, [pathname]);
+
   return (
     <>
-      {/* Header */}
       <div className='w-full flex flex-row items-center justify-between px-2 h-header-height bg-white fixed top-0 left-0 z-50 dark:bg-[#171717] sm:h-header-height-sm sm:px-4'>
         {/* nav menu btn */}
         <button
@@ -36,8 +47,12 @@ const LayoutA = ({ children }: LayoutAProps) => {
         <Header />
       </div>
 
-      {/* LNB */}
-      <Nav isNavOpen={isNavOpen} setIsNavOpen={setIsNavOpen} mobileScreenX={mobileScreenX} />
+      <Nav
+        isNavOpen={isNavOpen}
+        setIsNavOpen={setIsNavOpen}
+        mobileScreenX={mobileScreenX}
+        navMenu={navMenu}
+      />
 
       {/* contents */}
       <div className='flex pt-container-top pb-8 sm:pt-container-top-sm'>
