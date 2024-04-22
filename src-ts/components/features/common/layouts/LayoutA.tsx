@@ -17,6 +17,9 @@ const LayoutA = ({ children }: LayoutAProps) => {
   const { pathname = '' } = useLocation();
 
   useEffect(() => {
+    // 페이지 렌더링 스크롤 0
+    window.scrollTo(0, 0);
+
     // 화면 가로사이즈 resize
     screenX.addEventListener('change', () => {
       if (mobileScreenX) setIsNavOpen(false);

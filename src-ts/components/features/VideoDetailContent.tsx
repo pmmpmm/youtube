@@ -3,11 +3,13 @@ import { useQuery } from '@tanstack/react-query';
 import ChannelDetailService from '@/service/ChannelDetailService';
 import ChannelVideosService from '@/service/ChannelVideosService';
 import { VideoItem } from '@/domain/Video';
+import { getVideoIdOrChannelId } from '@/common/VideoUtil';
 import VideoThumbList from '@/components/ui/VideoThumbList';
 
 const VideoDetailContent = () => {
   const location = useLocation();
   const video = location.state.video as VideoItem;
+
   const id = video.id;
   const { channelId, channelTitle, description, title } = video.snippet;
 
@@ -22,7 +24,7 @@ const VideoDetailContent = () => {
     select: (response) => {
       const items = response.items.map((item) => ({
         ...item,
-        id: typeof item.id === "string" ? item.id : item.id.channelId
+        id: getVideoIdOrChannelId(item),
       })) as VideoItem[];
       return items;
     },
@@ -64,7 +66,9 @@ const VideoDetailContent = () => {
         </div>
         <ul className='flex flex-col gap-y-3 w-full mt-8 pt-8 border-t border-[var(--bg-color-200)] lg:w-1/3 lg:mt-0 lg:pt-0 lg:border-t-0'>
           {channelVideos &&
-            channelVideos.map((item, index) => <VideoThumbList key={`video-${index}`} video={item} />)}
+            channelVideos.map((item, index) => (
+              <VideoThumbList key={`video-${index}`} video={item} />
+            ))}
         </ul>
       </div>
     </>

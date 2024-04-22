@@ -1,5 +1,4 @@
-import { youtubeV3Client } from '@/service/YoutubeV3Client';
-import { Params } from '@/domain/Params';
+import { youtubeV3Client, YoutubeReq } from '@/service/YoutubeV3Client';
 import { VideoItem } from '@/domain/Video';
 
 type ChannelVideosRes = {
@@ -16,11 +15,11 @@ type ChannelVideosRes = {
 
 const getChannelVideosList = async (channelId: string): Promise<ChannelVideosRes> =>
   await youtubeV3Client
-    .get<ChannelVideosRes>('search', { params: { maxResults: 6, channelId } } as Params)
+    .get<ChannelVideosRes>('search', { params: { maxResults: 6, channelId } } as YoutubeReq)
     .then((response) => response.data);
-//   return await youtubeMockUpClient
-//     .get<ChannelVideosRes>('/data/channel_videos.json')
-//     .then((response) => response.data)
+// await youtubeMockUpClient
+//   .get<ChannelVideosRes>('/data/channel_videos.json')
+//   .then((response) => response.data);
 
 const api = { getChannelVideosList };
 
