@@ -1,4 +1,4 @@
-import axios, { AxiosResponse } from 'axios';
+import axios from 'axios';
 
 const YOUTUBE_KEY = import.meta.env.VITE_APP_YOUTUBE_KEY;
 

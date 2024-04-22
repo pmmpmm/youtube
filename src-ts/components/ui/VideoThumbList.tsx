@@ -1,8 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { publishedDate } from '@/utils/publishedData';
 
-interface videoProps {
+interface VideoProps {
   id: string;
   snippet: {
     channelTitle: string;
@@ -13,7 +12,7 @@ interface videoProps {
     };
   };
 }
-const VideoThumbList = ({ video }: { video: videoProps }) => {
+const VideoThumbList = ({ video }: { video: VideoProps }) => {
   const { id } = video;
   const { title, publishedAt, thumbnails, channelTitle } = video.snippet;
 

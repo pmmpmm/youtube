@@ -1,5 +1,5 @@
 import { youtubeMockUpClient } from '@/service/YoutubeV3Client';
-import { VideoItem, VideoId } from '@/domain/Video';
+import { VideoItem } from '@/domain/Video';
 
 type NewsListRes = {
   kind: string;
@@ -10,7 +10,7 @@ type NewsListRes = {
     totalResults: number;
     resultsPerPage: number;
   };
-  items: VideoItem<VideoId>[];
+  items: VideoItem[];
 };
 
 const getNewsList = async (): Promise<NewsListRes> =>

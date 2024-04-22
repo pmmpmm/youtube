@@ -39,9 +39,9 @@ export type VideoId = {
   playlistId?: string;
 };
 
-export type VideoItem<T> = {
+export type VideoItem = {
   kind: string;
   etag: string;
-  id: T extends string ? string : VideoId;
+  id: string | VideoId;
   snippet: Snippet;
 };

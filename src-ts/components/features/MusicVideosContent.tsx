@@ -4,6 +4,7 @@ import MusicService from '@/service/MusicService';
 import VideoCard from '@/components/ui/VideoCard';
 import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
+import { getVideoIdOrPlaylistId } from '@/common/VideoUtil';
 
 const MusicVideosContent = () => {
   const { isLoading, error, data } = useQuery({
@@ -12,8 +13,8 @@ const MusicVideosContent = () => {
     select: (response) => {
       const items = response.items.map((item) => ({
         ...item,
-        id: item.id.videoId ? item.id.videoId : item.id.playlistId,
-      })) as VideoItem<string>[];
+        id: getVideoIdOrPlaylistId(item)
+      })) as VideoItem[];
       return items;
     },
   });
@@ -23,7 +24,7 @@ const MusicVideosContent = () => {
       {error && <Error />}
       {isLoading && <Loading />}
       <ul className='grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-4 sm:gap-y-10 lg:grid-cols-3 2xl:grid-cols-4'>
-        {data && data.map((item) => <VideoCard key={item.id} video={item} style='' />)}
+        {data && data.map((item, index) => <VideoCard key={`music-${index}`} video={item} style='' />)}
       </ul>
     </>
   );

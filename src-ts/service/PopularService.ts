@@ -4,7 +4,7 @@ import { VideoItem } from '@/domain/Video';
 export type PopularListRes = {
   kind: string;
   etag: string;
-  items: VideoItem<string>[];
+  items: VideoItem[];
 };
 
 const getPopularList = async (): Promise<PopularListRes> =>
