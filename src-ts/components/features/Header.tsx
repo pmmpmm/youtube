@@ -1,35 +1,34 @@
-import React, { useEffect, useRef, useState, KeyboardEvent } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useEffect, useRef, useState, KeyboardEvent } from 'react';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { IoIosSearch, IoIosArrowRoundBack, IoIosClose } from 'react-icons/io';
 import Logo from '@/components/ui/Logo';
 import ThemeModeCtrl from '@/components/ui/ThemeModeCtrl';
 
 const Header = () => {
   const navigate = useNavigate();
-  const { keyword } = useParams();
-  const [text, setText] = useState('');
+  const [searchParams] = useSearchParams();
+  const keyword = searchParams.get('searchQuery');
+  const [text, setText] = useState(keyword ?? '');
   const [focus, setFocus] = useState(false);
   const searchInp = useRef<HTMLInputElement>(null);
 
-  useEffect(() => {
-    !keyword ? setText('') : setText(keyword);
-
-    focus
-      ? searchInp.current && searchInp.current.focus()
-      : searchInp.current && searchInp.current.blur();
-  }, [keyword, focus]);
-
   const handleSubmit = () => {
-    if (text.trim().length > 0) navigate(`/videos/${text.trim()}`);
+    if (text.trim().length > 0) navigate(`/videos/results?searchQuery=${text.trim()}`);
     setFocus(false);
   };
+
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (e.nativeEvent.isComposing) return;
     if (e.key === 'Enter') handleSubmit();
   };
+  useEffect(() => {
+    !keyword ? setText('') : setText(keyword);
+  }, [keyword]);
+
   return (
     <>
       <Link to='/' className='flex-none w-[7.5rem] text-[0]'>
-        <h1 className='logo'>
+        <h1>
           <Logo />
         </h1>
       </Link>
@@ -41,7 +40,7 @@ const Header = () => {
         >
           <button
             onClick={() => setFocus(false)}
-            className='btn close flex-none block w-10 h-10 sm:hidden'
+            className='flex-none block w-10 h-10 sm:hidden'
             aria-label='모바일 화면 검색 폼 숨김 버튼'
           >
             <IoIosArrowRoundBack className='inline-block w-7 h-7 text-neutral-700 dark:text-white' />
@@ -67,7 +66,10 @@ const Header = () => {
                 className='flex-none w-[26px] opacity-50'
                 aria-label='검색어 삭제 버튼'
                 type='button'
-                onClick={() => setText('')}
+                onClick={() => {
+                  setText('');
+                  searchInp.current && searchInp.current.focus();
+                }}
               >
                 <IoIosClose className='inline-block w-7 h-7 text-neutral-700 dark:text-neutral-50' />
               </button>

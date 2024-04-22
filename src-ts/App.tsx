@@ -19,11 +19,11 @@ const App = () => {
           { path: '/', element: <PopularVideos /> },
           { path: '*', element: <NotFound /> },
           { path: 'videos', element: <PopularVideos /> },
-          { path: 'videos/:keyword', element: <SearchVideos /> },
+          { path: 'videos/results', element: <SearchVideos /> },
           { path: 'page/music', element: <MusicVideos /> },
           { path: 'page/enter', element: <EnterVideos /> },
           { path: 'page/news', element: <NewsVideos /> },
-          { path: 'videos/watch/:id', element: <VideoDetail /> },
+          { path: 'videos/watch', element: <VideoDetail /> },
         ])}
       />
     </QueryClientProvider>

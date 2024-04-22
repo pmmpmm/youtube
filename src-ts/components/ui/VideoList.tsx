@@ -12,7 +12,7 @@ const VideoList = ({ video }: { video: VideoItem<string> }) => {
 
   return (
     <li>
-      <Link to={`/videos/watch/${id}`} state={{ video }} className='flex flex-col sm:flex-row'>
+      <Link to={`/videos/watch?v=${id}`} state={{ video }} className='flex flex-col sm:flex-row'>
         <div className='flex-none w-full max-w-full min-w-full sm:w-2/5 sm:max-w-[360px] sm:min-w-[180px]'>
           <div className='w-full rounded-2xl  overflow-hidden aspect-video'>
             <img
