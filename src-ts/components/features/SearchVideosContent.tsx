@@ -5,6 +5,7 @@ import SearchService from '@/service/SearchService';
 import VideoCard from '@/components/ui/VideoCard';
 import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
+import { getVideoIdOrChannelId } from '@/common/VideoUtil';
 
 const SearchVideosContent = () => {
   const { keyword = '' } = useParams();
@@ -15,7 +16,7 @@ const SearchVideosContent = () => {
     select: (response) => {
       const items = response.items.map((item) => ({
         ...item,
-        id: typeof item.id === "string" ? item.id : item.id.channelId
+        id: getVideoIdOrChannelId(item)
       })) as VideoItem[];
       return items;
     },

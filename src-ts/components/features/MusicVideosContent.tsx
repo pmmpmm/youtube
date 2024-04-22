@@ -4,6 +4,7 @@ import MusicService from '@/service/MusicService';
 import VideoCard from '@/components/ui/VideoCard';
 import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
+import { getVideoIdOrPlaylistId } from '@/common/VideoUtil';
 
 const MusicVideosContent = () => {
   const { isLoading, error, data } = useQuery({
@@ -12,7 +13,7 @@ const MusicVideosContent = () => {
     select: (response) => {
       const items = response.items.map((item) => ({
         ...item,
-        id: typeof item.id === "string" ? item.id : item.id.playlistId
+        id: getVideoIdOrPlaylistId(item)
       })) as VideoItem[];
       return items;
     },

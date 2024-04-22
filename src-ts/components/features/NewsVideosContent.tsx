@@ -4,6 +4,7 @@ import NewsService from '@/service/NewsService';
 import VideoCard from '@/components/ui/VideoCard';
 import Error from '@/components/features/Error';
 import Loading from '@/components/features/Loading';
+import { getVideoIdOrChannelId } from '@/common/VideoUtil';
 
 const NewsVideosContent = () => {
   const { isLoading, error, data } = useQuery({
@@ -12,7 +13,7 @@ const NewsVideosContent = () => {
     select: (response) => {
       const items = response.items.map((item) => ({
         ...item,
-        id: typeof item.id === "string" ? item.id : item.id.channelId
+        id: getVideoIdOrChannelId(item)
       })) as VideoItem[];
       return items;
     },
