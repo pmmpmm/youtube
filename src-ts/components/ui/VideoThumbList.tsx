@@ -1,18 +1,13 @@
 import { Link } from 'react-router-dom';
-import { publishedDate } from '@/utils/publishedData';
+import { VideoItem } from '@/domain/Video';
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
+import 'dayjs/locale/ko';
 
-interface VideoProps {
-  id: string;
-  snippet: {
-    channelTitle: string;
-    publishedAt: string;
-    title: string;
-    thumbnails: {
-      default: { url: string };
-    };
-  };
-}
-const VideoThumbList = ({ video }: { video: VideoProps }) => {
+dayjs.locale('ko');
+dayjs.extend(relativeTime);
+
+const VideoThumbList = ({ video }: { video: VideoItem }) => {
   const { id } = video;
   const { title, publishedAt, thumbnails, channelTitle } = video.snippet;
 
@@ -30,7 +25,7 @@ const VideoThumbList = ({ video }: { video: VideoProps }) => {
           </p>
           <p className='channelTitle pt-2 text-xs font-normal text-neutral-500'>{channelTitle}</p>
           <p className='publishedAt text-xs font-normal text-neutral-500'>
-            {publishedDate(publishedAt)}
+            {dayjs(publishedAt).fromNow()}
           </p>
         </div>
       </Link>

@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom';
 import { VideoItem } from '@/domain/Video';
-import { publishedDate } from '@/utils/publishedData';
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
+import 'dayjs/locale/ko';
+
+dayjs.locale('ko');
+dayjs.extend(relativeTime);
 
 const VideoCard = ({ video }: { video: VideoItem }) => {
   const { id } = video;
@@ -22,30 +27,28 @@ const VideoCard = ({ video }: { video: VideoItem }) => {
             />
           </div>
         </div>
-        <div className='info flex items-start pt-2'>
+        <div className='flex items-start pt-2'>
           <div
-            className='channelImg flex-none w-[2rem] h-[2rem] mr-2 text-lg font-bold text-white text-center leading-[2rem] rounded-full overflow-hidden'
+            className='flex-none w-[2rem] h-[2rem] mr-2 text-lg font-bold text-white text-center leading-[2rem] rounded-full overflow-hidden'
             style={{ backgroundColor: `${channerColor}` }}
           >
             {channelTitle.charAt(0).toUpperCase()}
           </div>
           <div>
-            <p className='title font-bold text-neutral-950 dark:font-semibold dark:text-neutral-100 mb-1 text-base leading-5 line-clamp-2'>
-              {title.replace(/&#39;/gi, "'").replace(/&quot;/gi, '"')}
+            <p className='font-bold text-neutral-950 dark:font-semibold dark:text-neutral-100 mb-1 text-base leading-5 line-clamp-2 break-all'>
+              {title.replaceAll(/&#39;/gi, "'").replaceAll(/&quot;/gi, '"')}
             </p>
             <div>
               <div
-                className='channelImg flex-none w-[2rem] h-[2rem] mr-2 text-lg font-bold text-white text-center leading-[2rem] rounded-full overflow-hidden hidden'
+                className='flex-none w-[2rem] h-[2rem] mr-2 text-lg font-bold text-white text-center leading-[2rem] rounded-full overflow-hidden hidden'
                 style={{ backgroundColor: `${channerColor}` }}
               >
                 {channelTitle.charAt(0).toUpperCase()}
               </div>
-              <p className='channelTitle text-sm font-medium leading-5 text-[#888888]'>
-                {channelTitle}
-              </p>
+              <p className='text-sm font-medium leading-5 text-[#888888]'>{channelTitle}</p>
             </div>
             <p className='text-[#888888] text-sm font-medium leading-5'>
-              {publishedDate(publishedAt)}
+              {dayjs(publishedAt).fromNow()}
             </p>
             <p className='text-[#888888] hidden'>{description}</p>
           </div>
