@@ -1,0 +1,1372 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "Kiq3bATq5OrWD0f3HAjDNFXyXso",
+    "nextPageToken": "CCgQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 40
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JD5Y0edn9MRdANQq0My3Dz5yWsw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UCmgGZbfjmk"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-16T15:00:03Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "ILLIT (아일릿) &#39;Lucky Girl Syndrome&#39; Official MV",
+                "description": "Creative Director: Serian Heu Music Video Director: AFF c BELIFT LAB Inc. All Rights Reserved Connect with ILLIT ILLIT ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UCmgGZbfjmk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UCmgGZbfjmk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UCmgGZbfjmk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-16T15:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ReEr6xDJoJ5zY_V5hCdXP5mbATs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "u9nP3qXQA4o"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-15T09:00:02Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "BOYNEXTDOOR (보이넥스트도어) &#39;Earth, Wind &amp; Fire&#39; Official MV",
+                "description": "BOYNEXTDOOR 2nd EP [HOW?] https://bnd.lnk.to/HOW #BOYNEXTDOOR #보이넥스트도어 #BND #BOYNEXTDOOR_HOW ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/u9nP3qXQA4o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/u9nP3qXQA4o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/u9nP3qXQA4o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-15T09:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MJcrrO9cfRit-uMZR12jgZ9LlCM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jCzez_q8si0"
+            },
+            "snippet": {
+                "publishedAt": "2024-02-23T04:58:10Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "TWICE &quot;ONE SPARK&quot; M/V",
+                "description": "TWICE \"ONE SPARK\" M/V TWICE 13TH MINI ALBUM \"With YOU-th\" +*:ꔫ:* Listen Witℎ YOU-tℎ *:ꔫ:*+ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jCzez_q8si0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jCzez_q8si0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jCzez_q8si0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-02-23T04:58:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fOqOlRkhU5-Bx7FB98CTnGyX4C8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4R7vRFGJr3k"
+            },
+            "snippet": {
+                "publishedAt": "2023-12-17T14:59:58Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "ITZY &quot;BORN TO BE&quot; M/V @ITZY",
+                "description": "ITZY \"BORN TO BE\" M/V ITZY “BORN TO BE” - UNTOUCHABLE Melon https://kko.to/H1Pbs5MKtK M/V ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4R7vRFGJr3k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4R7vRFGJr3k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4R7vRFGJr3k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-12-17T14:59:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OLvxk63rB9CpBipb0VcJ_Zdkoxg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xU8mQMLx0tk"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-19T00:00:11Z",
+                "channelId": "UC-Fnix71vRP64WXeo0ikd0Q",
+                "title": "IVE 아이브 &#39;All Night (Feat. Saweetie)&#39; Official Music Video",
+                "description": "IVE 아이브 'All Night (Feat. Saweetie)' Official Music Video Listen to & Download \"All Night\" out now: https://ive.lnk.to/AllNight ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xU8mQMLx0tk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xU8mQMLx0tk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xU8mQMLx0tk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "IVE",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-19T00:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_ThlXJd3efUgbecn5QT2bEaGsdk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rBHK8Z8cwmQ"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-26T05:00:08Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "VCHA &quot;Girls of the Year&quot; M/V",
+                "description": "VCHA \"Girls of the Year\" M/V VCHA The First Single “Girls of the Year”   🗓️Released on Jan 26th 0AM ET ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rBHK8Z8cwmQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rBHK8Z8cwmQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rBHK8Z8cwmQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-26T05:00:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Vy0ETrDYFOEth7XBxv2d9lE7l3k",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VkIEfqHFNkU"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-01T14:59:57Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "ITZY &quot;Mr. Vampire&quot; M/V @ITZY",
+                "description": "ITZY \"Mr. Vampire\" M/V ITZY “BORN TO BE” - UNTOUCHABLE Melon https://kko.to/H1Pbs5MKtK M/V ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VkIEfqHFNkU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VkIEfqHFNkU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VkIEfqHFNkU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-01T14:59:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5TGOvgX3U4zZyj4CfvRdKb968Xc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oc_2sjQXa0Q"
+            },
+            "snippet": {
+                "publishedAt": "2024-02-27T15:00:03Z",
+                "channelId": "UCQdq-lqPEq_yZ_wP_kuVB9Q",
+                "title": "ATEEZ(에이티즈) - &#39;NOT OKAY&#39; Official MV",
+                "description": "ATEEZ JAPAN 3RD SINGLE 「NOT OKAY」 Release Date: 2024. 2. 28 ▷ ATEEZ Japan Official Site: https://ateez-official.jp/ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oc_2sjQXa0Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oc_2sjQXa0Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oc_2sjQXa0Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KQ ENTERTAINMENT",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-02-27T15:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wLg2czCZWqaRu1ymSt0wSty04ws",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rVWO752XRx4"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-22T15:22:00Z",
+                "channelId": "UCdc9eWOOV_-jcVZcVOlZxVA",
+                "title": "MOST VIEWED K-POP music videos April 2024 (2nd week)",
+                "description": "This video was a little delayed due to vacation) This is the top 30 most viewed K-Pop music videos during the week from 2024/4/8 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rVWO752XRx4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rVWO752XRx4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rVWO752XRx4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "T-Stats",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-22T15:22:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ZcTLqPGUbjsA-CJBP_RiDqI0huo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7UecFm_bSTU"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-15T09:00:02Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "NMIXX “DASH” M/V",
+                "description": "NMIXX “DASH” M/V NMIXX Official YouTube ▷ https://www.youtube.com/c/NMIXXOfficial NMIXX Official X(Twitter) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7UecFm_bSTU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7UecFm_bSTU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7UecFm_bSTU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-15T09:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "D_yavhP3FZcj8VFSfKqMB5oIMKM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ey53EQhkLY8"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-18T09:00:18Z",
+                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+                "title": "RIIZE 라이즈 &#39;Impossible&#39; MV",
+                "description": "RIIZE's prologue single \"Impossible\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/Impossible [Tracklist] ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ey53EQhkLY8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ey53EQhkLY8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ey53EQhkLY8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SMTOWN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-18T09:00:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "T6Oy-zYh6mq3oqBl46cb4UEzEyo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ttJSK3ihTLI"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-22T15:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) BEST ALBUM &#39;17 IS RIGHT HERE&#39; Highlight Medley",
+                "description": "SEVENTEEN (세븐틴) BEST ALBUM '17 IS RIGHT HERE' Highlight Medley 2024.04.29 6PM (KST) 2024.04.29 5AM (ET) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ttJSK3ihTLI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ttJSK3ihTLI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ttJSK3ihTLI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-22T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bwL-kNP0qW-tWmZXajkZpPNzTLg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Os_heh8vPfs"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-08T08:59:11Z",
+                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+                "title": "aespa 에스파 &#39;Spicy&#39; MV",
+                "description": "aespa's 3rd Mini Album \"MY WORLD\" is out! Listen and download on your favorite platforms: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Os_heh8vPfs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Os_heh8vPfs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Os_heh8vPfs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SMTOWN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-08T08:59:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7Y10HhrjChXMZLyOa_T4hzFYwn8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "L3UuNT5uKJk"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-14T11:30:10Z",
+                "channelId": "UC427i7YN50OJWsUJVLjpfLA",
+                "title": "K-pop Idols Who Featured in Senior Artists&#39; Music Videos Pre-debut",
+                "description": "Enjoyed the video? Help us to get 1 million subscribers ▻ SUBSCRIBE to BeBossTV → https://bit.ly/3dKg57s ▻ Hit the LIKE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/L3UuNT5uKJk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/L3UuNT5uKJk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/L3UuNT5uKJk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "BeBoss TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-14T11:30:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "e7ewqg3WV5lZnEL4QOgcmUjSURE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-GQg25oP0S4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-24T08:58:11Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;손오공&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) '손오공' Official MV #SEVENTEEN #세븐틴 #FML #손오공 #Super Credits: Production｜OUI PRODUCTION ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-24T08:58:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ui67zmMqmWJXNA2GP7Yjrmmv0HU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "j6tKIdt9K9M"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-08T15:00:02Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "NMIXX “Run For Roses” Performance Video",
+                "description": "NMIXX “Run For Roses” Performance Video NMIXX Official YouTube ▷ https://www.youtube.com/c/NMIXXOfficial NMIXX Official ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j6tKIdt9K9M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j6tKIdt9K9M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j6tKIdt9K9M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-08T15:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_nKuHT6wnBYS2n42aFuu_jbpduQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Nzk-n7lZ7J4"
+            },
+            "snippet": {
+                "publishedAt": "2023-11-20T09:00:00Z",
+                "channelId": "UCkJ1rbOrsyPfBuHNfnLPm-Q",
+                "title": "THE BOYZ(더보이즈) &#39;WATCH IT&#39; MV",
+                "description": "THE BOYZ 'WATCH IT' on iTunes : https://apple.co/47HUokq ✓ More information about THE BOYZ http://www.theboyz.kr ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Nzk-n7lZ7J4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Nzk-n7lZ7J4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Nzk-n7lZ7J4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "THE BOYZ",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-20T09:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1CzuR8Zij7nGhT_oCtIssCszNIA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7HDeem-JaSY"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-15T09:00:04Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - &#39;퀸카 (Queencard)&#39; Official Music Video",
+                "description": "(여자)아이들((G)I-DLE) - '퀸카 (Queencard)' Official Music Video [  ] [I feel] ▫Melon http://kko.to/VMbOLGvKmy ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7HDeem-JaSY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7HDeem-JaSY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7HDeem-JaSY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-15T09:00:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3U8_ziMXU-O612YDLTCCzp8xzRQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JsOOis4bBFg"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-02T03:59:56Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "Stray Kids &quot;특(S-Class)&quot; M/V",
+                "description": "Stray Kids(스트레이 키즈) \"특(S-Class)\" M/V Listen to ＜ (5-STAR)＞ now! https://Stray-Kids.lnk.to/5-STAR Stray Kids ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JsOOis4bBFg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JsOOis4bBFg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JsOOis4bBFg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-02T03:59:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "79mwxqQizmpiyBJ-giNDoSF6jH8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "LZb7-7oXzA4"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-16T06:14:56Z",
+                "channelId": "UCHWfAuT1j7bTLXTIBcY_l6w",
+                "title": "NEW K-POP SONGS | APRIL 2024 (WEEK 2)",
+                "description": "Welcome back to the 'New #KPOP Songs' series! Releases this week include: #Loossemble, #BOYNEXTDOOR, #ONF, #WOOAH ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LZb7-7oXzA4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LZb7-7oXzA4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LZb7-7oXzA4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "K-Ville Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-16T06:14:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "HbvIIiNhhhCPC-a5sROWc4A3jZU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "2FBW7dK0vus"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-13T02:05:28Z",
+                "channelId": "UCY3jpJxcRPZtiR5gEthdO2g",
+                "title": "&quot;K-Pop idol MV &quot; KPOP playlist",
+                "description": "Pinterest : https://www.pinterest.co.kr/leehojae110/pins/ Instagram : jjabfilm Email : leehojae110@gmail.com #kpop #idol ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2FBW7dK0vus/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2FBW7dK0vus/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2FBW7dK0vus/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "쥅쥅",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-13T02:05:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kVyv64LfVtgBHC4VigTfRhPY3bk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gQlMMD8auMs"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-19T04:00:13Z",
+                "channelId": "UCOmHUn--16B90oW2L6FRR3A",
+                "title": "BLACKPINK - ‘Pink Venom’ M/V",
+                "description": "BLACKPINK - 'Pink Venom' Kick in the door Waving the coco 팝콘이나 챙겨 껴들 생각 말고 I talk that talk Runways I walk walk 눈 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gQlMMD8auMs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gQlMMD8auMs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gQlMMD8auMs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "BLACKPINK",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-19T04:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hEseIbIKk4is2-F5i2tLmqREOvA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6ZUIwj3FgUY"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-10T09:00:10Z",
+                "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
+                "title": "IVE 아이브 &#39;I AM&#39; MV",
+                "description": "STARSHIP SQUARE (Domestic) : https://bit.ly/3HtQ7GF STARSHIP SQUARE (Global) : https://bit.ly/3JWPxm0 IVE US EXCLUSIVE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "STARSHIP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-10T09:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "20TqyxVk3rZRXaln7jH3Ft6hURA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wXFLzODIdUI"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-22T08:56:10Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "ENHYPEN (엔하이픈) &#39;Bite Me&#39; Official MV",
+                "description": "ENHYPEN (엔하이픈) 'Bite Me' Official MV Credits: Production : LOVEANDMONEY Director : Mingyu Song 1st AD : Moonju Jeong ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wXFLzODIdUI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wXFLzODIdUI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wXFLzODIdUI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-22T08:56:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0VTsYltAumqNiJNuHw8uj8Ry9xY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "DSjTXe6tiWM"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-13T16:21:24Z",
+                "channelId": "UCyUEqajkVIGSwvZVw7NfD-Q",
+                "title": "What&#39;s the funniest #kpop music video? 🤩 #streetinterview #shorts",
+                "description": "K-Pop music videos are known for their amazing quality and colorful visuals. What makes them truly memorable is their ability to ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DSjTXe6tiWM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DSjTXe6tiWM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DSjTXe6tiWM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "luluboi 🤠",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-13T16:21:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "o5XqAq0ZY_31-0B7zWX6SLvoc_I",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "dYRITmpFbJ4"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-08T04:00:14Z",
+                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+                "title": "aespa 에스파 &#39;Girls&#39; MV",
+                "description": "aespa's 2nd Mini Album \"Girls\" is out! Listen and download on your favorite platform: https://aespa.lnk.to/GirlsEP [Tracklist] 01 Girls ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dYRITmpFbJ4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dYRITmpFbJ4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dYRITmpFbJ4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SMTOWN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-08T04:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kFB992CEs3o3IMzbUUY1RuOVbhc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "11cta61wi0g"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-18T09:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Hype Boy&#39; Official MV (Performance ver.1)",
+                "description": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Dongle Shin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-18T09:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KXThFaaDqIDLDGz5DN2pjqpIcro",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "L7spCJxloLY"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-25T09:00:10Z",
+                "channelId": "UC12HMtO5MYph9dCZZ7yygng",
+                "title": "XG - SHOOTING STAR (Official Music Video)",
+                "description": "XG 3rd Single  SHOOTING STAR   2023.01.25 Wed DIGITAL/CD BOX https://xgalx.com/xg/discography/ Tracklist: 1.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/L7spCJxloLY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/L7spCJxloLY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/L7spCJxloLY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "XG",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-25T09:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bSdAlSN_dxvfnF5TSX6hwqpsb_M",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zlTIextYnyQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-13T08:59:10Z",
+                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+                "title": "KAI 카이 &#39;Rover&#39; MV",
+                "description": "KAI's 3rd mini album \"Rover\" is out! Listen and download on your favorite platform: http://KAI.lnk.to/Rover [Tracklist] 01 Rover 02 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zlTIextYnyQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zlTIextYnyQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zlTIextYnyQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SMTOWN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-13T08:59:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PnrDjZeOjo-V1iLxFLdNvka0kJM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WMweEpGlu_U"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-21T03:46:13Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "BTS (방탄소년단) &#39;Butter&#39; Official MV",
+                "description": "BTS (방탄소년단) 'Butter' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: Jihye Yoon (Lumpens) 2nd AD: Ran ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WMweEpGlu_U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WMweEpGlu_U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WMweEpGlu_U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-21T03:46:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vk2m5F64IffMx1Oz1w7wg6CY4pw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "f5_wn8mexmM"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-01T03:58:11Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "TWICE &quot;The Feels&quot; M/V",
+                "description": "TWICE \"The Feels\" M/V TWICE's 1ST Full English Single \"The Feels\" Released on 10.01_FRI , 0AM (EST) 1PM (KST) Listen ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/f5_wn8mexmM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/f5_wn8mexmM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/f5_wn8mexmM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-01T03:58:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "D2DpOT8Zt4NaAtEyXivEPatn5SQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "s8So5qnyfLM"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-10T14:00:34Z",
+                "channelId": "UC8bv9zYTH0PMMK5zShdgMWg",
+                "title": "kpop music videos be like:",
+                "description": "This is just a joke Instagram: https://www.instagram.com/victor_sogaard/ Tiktok: yoongitea2 #lesserafim #fearless #kpop",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/s8So5qnyfLM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/s8So5qnyfLM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/s8So5qnyfLM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "yoongitea2",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-10T14:00:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "86kjEi3rEfYAPvMr7BRcINN7Reo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sVTy_wmn5SU"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-03T11:30:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;OMG&#39; Official MV (Performance ver.1)",
+                "description": "NewJeans (뉴진스) 'OMG' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Wooseok Shin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-03T11:30:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "oQ3pDyY0tekHQ_waCJiT2fDe7ZY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "i0p1bmr0EmE"
+            },
+            "snippet": {
+                "publishedAt": "2018-04-09T08:59:51Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "TWICE &quot;What is Love?&quot; M/V",
+                "description": "TWICE(트와이스) \"What is Love?\" M/V Spotify https://goo.gl/jVLYYY iTunes & Apple Music https://goo.gl/DKyKZf Google Music ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/i0p1bmr0EmE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/i0p1bmr0EmE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/i0p1bmr0EmE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-04-09T08:59:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ae8R5ObBIHsU2LKDhaMbKNBXx8E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Qc7_zRjH808"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-23T13:00:10Z",
+                "channelId": "UCJEER74X9kBenMT_x9iK9Mw",
+                "title": "FIFTY FIFTY (피프티피프티) - &#39;Cupid&#39;  Official MV",
+                "description": "Stream 'Cupid' https://linktr.ee/we_fiftyfifty Album Pre-Order https://bit.ly/3KubUQG [ The 1st Single Album “The Beginning: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Qc7_zRjH808/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Qc7_zRjH808/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Qc7_zRjH808/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "FIFTY FIFTY Official",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-23T13:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "HCVBay-HEiQo50jDFJI8VEY2Z1o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8dJyRm2jJ-U"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-29T09:00:10Z",
+                "channelId": "UCrDkAvwZum-UTjHmzDI2iIw",
+                "title": "PSY - &#39;That That (prod. &amp; feat. SUGA of BTS)&#39; MV",
+                "description": "PSY - 'That That (prod. & feat. SUGA of BTS)' MV MV Executive Producer: P NATION MV Director: 최용석 @LUMPENS Composed ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8dJyRm2jJ-U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8dJyRm2jJ-U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8dJyRm2jJ-U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "officialpsy",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-29T09:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iFSeZfgP19RvyW9-V_s_rv9yRng",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "osmHArcf_aE"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-10T08:55:12Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "ENHYPEN (엔하이픈) &#39;Blessed-Cursed&#39; Official MV",
+                "description": "ENHYPEN (엔하이픈) 'Blessed-Cursed' Official MV Credits: Director: Yong Seok Choi (Lumpens) Co-Director & Edit: Jihye Yoon ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/osmHArcf_aE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/osmHArcf_aE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/osmHArcf_aE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-10T08:55:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yTfLcSdZZUmH_g6FG7w0s4PvBwU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_ZAgIHmHLdc"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-02T09:00:00Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;OMG&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'OMG' Official MV Producer: MIN HEE JIN Music Video Director: Wooseok Shin (DOLPHINERS FILM) c 2023 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-02T09:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Ee3LDQS_3A1K2n9Kg5j6OeMUXto",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OwJPPaEyqhI"
+            },
+            "snippet": {
+                "publishedAt": "2017-05-10T09:00:02Z",
+                "channelId": "UCrDkAvwZum-UTjHmzDI2iIw",
+                "title": "PSY - ‘New Face’ M/V",
+                "description": "Available on iTunes @ https://smarturl.it/PSY_8thAlbum Available on Apple Music @ https://smarturl.it/PSY_8th PSY - 'I LUV IT' ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OwJPPaEyqhI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OwJPPaEyqhI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OwJPPaEyqhI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "officialpsy",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-05-10T09:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ewwfYFHiqb1jdl8W7imDhBeLBYE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "2S24-y0Ij3Y"
+            },
+            "snippet": {
+                "publishedAt": "2019-04-04T14:58:45Z",
+                "channelId": "UCOmHUn--16B90oW2L6FRR3A",
+                "title": "BLACKPINK - &#39;Kill This Love&#39; M/V",
+                "description": "BLACKPINK - Kill This Love 천사 같은 Hi 끝엔 악마 같은 Bye 매번 미칠듯한 High 뒤엔 뱉어야 하는 Price 이건 답이 없는 Test 매번 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2S24-y0Ij3Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2S24-y0Ij3Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2S24-y0Ij3Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "BLACKPINK",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-04-04T14:58:45Z"
+            }
+        }
+    ]
+  }
