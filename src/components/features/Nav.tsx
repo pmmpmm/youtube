@@ -97,7 +97,7 @@ const Nav = (props: NavProps) => {
             <li key={idx} className="py-1">
               {props.navMenu === nav.name ? (
                 <button
-                  className="flex flex-row items-center w-full px-2 py-[0.625rem] rounded-lg sm:flex-col xl:flex-row bg-neutral-100 sm:bg-white xl:bg-neutral-100 dark:bg-neutral-800 dark:sm:bg-[#171717]"
+                  className="flex flex-row items-center w-full px-2 py-[0.625rem] rounded-lg sm:flex-col xl:flex-row bg-neutral-100 sm:bg-white xl:bg-neutral-100 dark:xl:bg-neutral-700/40 dark:sm:bg-[#171717]"
                   onClick={() => handleNavLink(nav.name)}
                 >
                   <span className="flex justify-center items-center w-[1.625rem] h-[1.625rem] mr-3 sm:mr-0 xl:mr-3">

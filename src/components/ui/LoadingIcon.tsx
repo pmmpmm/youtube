@@ -15,7 +15,7 @@ const LoadingIcon = () => {
     }
     return result;
   };
-  return <div className="loadingIcon w-[72px] h-[86px] m-auto">{square()}</div>;
+  return <div className="w-[72px] h-[86px] m-auto">{square()}</div>;
 };
 
 export default LoadingIcon;
