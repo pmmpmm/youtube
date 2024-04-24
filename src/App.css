@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --bg-color: #ffffff;
+  --bg-color: rgb(255, 255, 255);
   --bg-color-100: rgb(245, 245, 245);
   --bg-color-200: rgb(229, 229, 229);
-  --bg-reverse-color-700: rgb(202, 202, 202);
+  /* scroll bar */
+  --scrollbar-track-border:rgb(229, 229, 229);
+  --scrollbar-track-bg:rgb(245, 245, 245);
+  --scrollbar-thumb: rgb(202, 202, 202);
   /* config */
   --header-height-sm: 82px;
   --header-height: 66px;
@@ -15,17 +18,20 @@ html.dark {
   --bg-color: rgb(23, 23, 23);
   --bg-color-100: rgb(40, 40, 40);
   --bg-color-200: rgb(73, 73, 73);
-  --bg-reverse-color-700: rgb(76, 76, 76);
+  /* scroll bar */
+  --scrollbar-track-border:rgb(58, 58, 58);
+  --scrollbar-track-bg:rgb(34, 34, 34);
+  --scrollbar-thumb: rgb(76, 76, 76);
 }
 @layer base {
   body::-webkit-scrollbar {
     @apply w-4;
   }
   body::-webkit-scrollbar-thumb {
-    @apply border-4 bg-[var(--bg-reverse-color-700)] bg-clip-padding border-transparent border-solid rounded-xl;
+    @apply border-4 bg-[var(--scrollbar-thumb)] bg-clip-padding border-transparent border-solid rounded-xl;
   }
   body::-webkit-scrollbar-track {
-    @apply border border-solid border-[var(--bg-color-200)] bg-[var(--bg-color-100)];
+    @apply border border-solid border-[var(--scrollbar-track-border)] bg-[var(--scrollbar-track-bg)];
   }
   input[type="text"] {
     @apply border border-solid border-transparent rounded-full;

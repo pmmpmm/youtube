@@ -13,7 +13,7 @@ const VideoThumbList = ({ video }: { video: VideoItem }) => {
 
   return (
     <li className="video w-full">
-      <Link to={`/videos/watch/${id}`} state={{ video }} className="flex gap-x-2 w-full">
+      <Link to={`/videos/watch?v=${id}`} state={{ video }} className="flex gap-x-2 w-full">
         <div className="thumbnail lex-none min-w-[10.5rem]">
           <div className="thumbnailBox w-full rounded-lg overflow-hidden aspect-video">
             <img src={thumbnails.default.url} className="w-full h-full object-cover" alt="" />
