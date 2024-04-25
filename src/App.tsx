@@ -23,7 +23,8 @@ const App = () => {
           { path: "page/music", element: <MusicVideos /> },
           { path: "page/enter", element: <EnterVideos /> },
           { path: "page/news", element: <NewsVideos /> },
-          { path: "videos/watch", element: <VideoDetail /> }
+          { path: "videos/watch", element: <VideoDetail /> },
+          { path: "videos/watch1", element: <VideoDetail /> }
         ])}
       />
     </QueryClientProvider>
