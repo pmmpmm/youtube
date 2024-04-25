@@ -1,7 +1,10 @@
-export default function Logo() {
+const Logo = ({ width = "100%" }: { width: string }) => {
+  console.log(width);
+
   return (
     <svg
-      className="w-full h-auto"
+      className={`w-[${width}] h-auto`}
+      style={{ width: "100px" }}
       viewBox="0 0 90 20"
       preserveAspectRatio="xMidYMid meet"
       xmlns="http://www.w3.org/2000/svg"
@@ -26,4 +29,6 @@ export default function Logo() {
       </g>
     </svg>
   );
-}
+};
+
+export default Logo;

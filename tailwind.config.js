@@ -6,9 +6,6 @@ export default {
     color: {
       logo: "#000000"
     },
-    boxShadow: {
-      ["form-focus"]: "0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.2)"
-    },
     extend: {
       height: {
         ["header-height"]: "var(--header-height)",
@@ -16,7 +13,12 @@ export default {
       },
       padding: {
         ["container-top"]: "var(--header-height)",
-        ["container-top-sm"]: "var(--header-height-sm)"
+        ["container-top-sm"]: "var(--header-height-sm)",
+        ["container-bottom"]: "var(--container-bottom)",
+        ["container-rl"]: "var(--container-right-left)"
+      },
+      boxShadow: {
+        ["form-focus"]: "0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.2)"
       },
       keyframes: {
         wave: {

@@ -1,9 +1,10 @@
 import LayoutB from "@/components/features/common/layouts/LayoutB";
+import SignupContent from "@/components/features/SignupContent";
 
 const Signup = () => {
   return (
     <LayoutB>
-      <p>회원가입</p>
+      <SignupContent />
     </LayoutB>
   );
 };

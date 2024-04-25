@@ -29,7 +29,7 @@ const Header = () => {
     <>
       <Link to="/" className="flex-none w-[7.5rem] text-[0]">
         <h1>
-          <Logo />
+          <Logo width="100%" />
         </h1>
       </Link>
       <div className="flex flex-initial basis-[62%] justify-end sm:justify-center md:basis-6/12 lg:basis-5/12">
@@ -58,7 +58,7 @@ const Header = () => {
               ref={searchInp}
               value={text}
               onChange={(e) => setText(e.target.value)}
-              className="flex-initial w-full h-10 px-6 font-normal text-neutral-950 bg-transparent border-transparent placeholder:text-neutral-400 dark:text-neutral-100 dark:font-light dark:placeholder:text-neutral-300"
+              className="flex-initial w-full h-10 px-6 font-normal text-neutral-950 bg-transparent border-0 border-transparent rounded-full placeholder:text-neutral-400 dark:text-neutral-100 dark:font-light dark:placeholder:text-neutral-300 focus:outline-none"
               onKeyDown={handleKeyDown}
             />
             {text && (

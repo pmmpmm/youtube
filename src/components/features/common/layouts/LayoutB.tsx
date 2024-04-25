@@ -18,9 +18,7 @@ const LayoutB = ({ children }: LayoutAProps) => {
       </div>
 
       {/* contents */}
-      <div className="pt-container-top pb-8 sm:pt-container-top-sm">
-        <div className="px-4">{children}</div>
-      </div>
+      <div className="pt-container-top px-container-rl pb-container-bottom sm:pt-container-top-sm">{children}</div>
     </>
   );
 };
