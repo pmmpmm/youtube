@@ -88,9 +88,25 @@ const Header = () => {
           <IoIosSearch className="inline-block w-7 h-7 text-neutral-700 dark:text-white" />
         </button>
       </div>
-
-      {/* 다크모드 버튼 */}
-      <ThemeModeCtrl />
+      <div className="flex gap-3 items-center">
+        {/* 계정 관련 페이지 확인 버튼*/}
+        <Link
+          to="/member/login"
+          className="flex px-4 py-1 text-[13px] border border-neutral-400 rounded-full dark:text-neutral-100"
+        >
+          로그인
+        </Link>
+        <Link to="/member/signup" className="text-sm">
+          회원가입
+        </Link>
+        <Link
+          to="/mypage"
+          className="flex px-4 py-1 text-[13px] border border-neutral-400 rounded-full dark:text-neutral-100"
+        >
+          마이페이지
+        </Link>
+        <ThemeModeCtrl />
+      </div>
     </>
   );
 };
