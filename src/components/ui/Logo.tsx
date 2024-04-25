@@ -1,10 +1,8 @@
 const Logo = ({ width = "100%" }: { width: string }) => {
-  console.log(width);
-
   return (
     <svg
-      className={`w-[${width}] h-auto`}
-      style={{ width: "100px" }}
+      className="h-auto"
+      style={{ width: `${width}` }}
       viewBox="0 0 90 20"
       preserveAspectRatio="xMidYMid meet"
       xmlns="http://www.w3.org/2000/svg"

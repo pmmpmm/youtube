@@ -19,7 +19,7 @@ const VideoDetailContent = () => {
     select: (response) => response.items[0]
   });
   const { data: channelVideos } = useQuery({
-    queryKey: ["channelVideos"],
+    queryKey: ["channelVideos", channelId],
     queryFn: () => ChannelVideosService.getChannelVideosList(channelId),
     select: (response) => {
       const items = response.items.map((item) => ({
