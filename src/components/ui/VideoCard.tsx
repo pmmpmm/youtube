@@ -9,7 +9,7 @@ dayjs.extend(relativeTime);
 
 const VideoCard = ({ video }: { video: VideoItem }) => {
   const { id } = video;
-  const { channelTitle, publishedAt, title, thumbnails, description } = video.snippet;
+  const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
 
   const channerColor = `rgb(${Math.floor(Math.random() * 128 + 100)},${Math.floor(
     Math.random() * 128 + 100
@@ -31,7 +31,7 @@ const VideoCard = ({ video }: { video: VideoItem }) => {
             {channelTitle.charAt(0).toUpperCase()}
           </div>
           <div>
-            <p className="font-bold text-neutral-950 dark:font-semibold dark:text-neutral-100 mb-1 text-base leading-5 line-clamp-2 break-all">
+            <p className="font-bold text-base-100 dark:font-semibold mb-1 text-base leading-5 line-clamp-2 break-all">
               {title.replaceAll(/&#39;/gi, "'").replaceAll(/&quot;/gi, '"')}
             </p>
             <div>
@@ -41,10 +41,9 @@ const VideoCard = ({ video }: { video: VideoItem }) => {
               >
                 {channelTitle.charAt(0).toUpperCase()}
               </div>
-              <p className="text-sm font-medium leading-5 text-[#888888]">{channelTitle}</p>
+              <p className="text-sm text-base-500 font-normal leading-5">{channelTitle}</p>
             </div>
-            <p className="text-[#888888] text-sm font-medium leading-5">{dayjs(publishedAt).fromNow()}</p>
-            <p className="text-[#888888] hidden">{description}</p>
+            <p className="text-sm text-base-500 font-normal leading-5">{dayjs(publishedAt).fromNow()}</p>
           </div>
         </div>
       </Link>

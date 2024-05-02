@@ -12,26 +12,26 @@ const navs = [
   {
     title: "홈",
     name: "home",
-    icon: <GoHome className="w-[1.375rem] h-[1.375rem] text-neutral-800 dark:text-neutral-200" />,
-    actionIcon: <MdHomeFilled className="w-[1.5rem] h-[1.5rem] text-neutral-950 dark:text-white" />
+    icon: <GoHome className="w-[1.375rem] h-[1.375rem] text-base-200" />,
+    actionIcon: <MdHomeFilled className="w-[1.5rem] h-[1.5rem] text-base-50" />
   },
   {
     title: "음악",
     name: "music",
-    icon: <IoMusicalNotesOutline className="w-[1.3rem] h-[1.3rem] text-neutral-800 dark:text-neutral-200" />,
-    actionIcon: <IoMusicalNotes className="w-[1.3rem] h-[1.3rem] text-neutral-950 dark:text-white" />
+    icon: <IoMusicalNotesOutline className="w-[1.3rem] h-[1.3rem] text-base-200" />,
+    actionIcon: <IoMusicalNotes className="w-[1.3rem] h-[1.3rem] text-base-50" />
   },
   {
     title: "예능",
     name: "enter",
-    icon: <GoSmiley className="w-[1.25rem] h-[1.25rem] text-neutral-800 dark:text-neutral-200" />,
-    actionIcon: <FaSmile className="w-[1.25rem] h-[1.25rem] text-neutral-950 dark:text-white" />
+    icon: <GoSmiley className="w-[1.25rem] h-[1.25rem] text-base-200" />,
+    actionIcon: <FaSmile className="w-[1.25rem] h-[1.25rem] text-base-50" />
   },
   {
     title: "뉴스",
     name: "news",
-    icon: <PiNewspaper className="w-[1.25rem] h-[1.25rem] text-neutral-800 dark:text-neutral-200" />,
-    actionIcon: <PiNewspaperFill className="w-[1.25rem] h-[1.25rem] text-neutral-950 dark:text-white" />
+    icon: <PiNewspaper className="w-[1.25rem] h-[1.25rem] text-base-200" />,
+    actionIcon: <PiNewspaperFill className="w-[1.25rem] h-[1.25rem] text-base-50" />
   }
 ];
 
@@ -72,7 +72,7 @@ const Nav = (props: NavProps) => {
     >
       <nav
         ref={navRef}
-        className={`flex-none flex-col w-60 h-full px-2 bg-white absolute top-0 sm:w-20 sm:px-4 sm:z-0 xl:w-60 dark:bg-[#171717] 
+        className={`flex-none flex-col w-60 h-full px-2 bg-base-950 absolute top-0 sm:w-20 sm:px-4 sm:z-0 xl:w-60 
         ${props.mobileScreenX ? "flex -left-60 z-50 duration-300 sm:hidden" : "hidden left-0 sm:flex"}
         ${props.isNavOpen ? "left-0" : ""}
         `}
@@ -83,11 +83,11 @@ const Nav = (props: NavProps) => {
             className="block flex-none w-10 h-10 mr-2 sm:hidden"
             aria-label="메뉴 열림, 닫힘 버튼"
           >
-            <IoIosMenu className="w-8 h-8 m-auto text-black dark:text-white" />
+            <IoIosMenu className="w-8 h-8 m-auto text-base-50" />
           </button>
           <Link to="/" className="flex-none w-[7.5rem] text-[0]">
             <h1>
-              <Logo />
+              <Logo width="100%" />
             </h1>
           </Link>
         </div>
@@ -97,13 +97,13 @@ const Nav = (props: NavProps) => {
             <li key={idx} className="py-1">
               {props.navMenu === nav.name ? (
                 <button
-                  className="flex flex-row items-center w-full px-2 py-[0.625rem] rounded-lg sm:flex-col xl:flex-row bg-neutral-100 sm:bg-white xl:bg-neutral-100 dark:xl:bg-neutral-700/40 dark:sm:bg-[#171717]"
+                  className="flex flex-row items-center w-full px-2 py-[0.625rem] rounded-lg sm:flex-col xl:flex-row bg-base-900 sm:bg-base-950 xl:bg-base-900"
                   onClick={() => handleNavLink(nav.name)}
                 >
                   <span className="flex justify-center items-center w-[1.625rem] h-[1.625rem] mr-3 sm:mr-0 xl:mr-3">
                     {nav.actionIcon}
                   </span>
-                  <span className="block pt-0 text-sm sm:text-xs sm:pt-1 xl:text-sm xl:pt-0 xl:font-medium font-semibold text-neutral-950 dark:text-white">
+                  <span className="block pt-0 text-sm sm:text-xs sm:pt-1 xl:text-sm xl:pt-0 xl:font-medium font-semibold text-base-50">
                     {nav.title}
                   </span>
                 </button>
@@ -115,7 +115,7 @@ const Nav = (props: NavProps) => {
                   <span className="flex justify-center items-center w-[1.625rem] h-[1.625rem] mr-3 sm:mr-0 xl:mr-3">
                     {nav.icon}
                   </span>
-                  <span className="block pt-0 text-sm sm:text-xs sm:pt-1 xl:text-sm xl:pt-0 xl:font-medium font-medium text-neutral-800 dark:text-neutral-300">
+                  <span className="block pt-0 text-sm sm:text-xs sm:pt-1 xl:text-sm xl:pt-0 xl:font-medium font-medium text-base-300">
                     {nav.title}
                   </span>
                 </button>

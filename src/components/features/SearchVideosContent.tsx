@@ -13,7 +13,7 @@ const SearchVideosContent = () => {
 
   const { isLoading, error, data } = useQuery({
     queryKey: ["searchList", keyword],
-    queryFn: () => SearchService.getSearchList(keyword),
+    queryFn: SearchService.getSearchList,
     select: (response) => {
       const items = response.items.map((item) => ({
         ...item,

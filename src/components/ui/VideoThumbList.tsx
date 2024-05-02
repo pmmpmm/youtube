@@ -20,11 +20,9 @@ const VideoThumbList = ({ video }: { video: VideoItem }) => {
           </div>
         </div>
         <div className="info flex-initial">
-          <p className="title text-sm font-semibold leading-5 line-clamp-2 text-neutral-950 dark:font-semibold dark:text-neutral-100">
-            {title}
-          </p>
-          <p className="channelTitle pt-2 text-xs font-normal text-neutral-500">{channelTitle}</p>
-          <p className="publishedAt text-xs font-normal text-neutral-500">{dayjs(publishedAt).fromNow()}</p>
+          <p className="title text-sm font-semibold leading-5 line-clamp-2 text-base-100 dark:font-semibold">{title}</p>
+          <p className="channelTitle pt-2 text-xs font-normal text-base-500">{channelTitle}</p>
+          <p className="publishedAt text-xs font-normal text-base-500">{dayjs(publishedAt).fromNow()}</p>
         </div>
       </Link>
     </li>

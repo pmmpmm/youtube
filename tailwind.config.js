@@ -17,8 +17,26 @@ export default {
         ["container-bottom"]: "var(--container-bottom)",
         ["container-rl"]: "var(--container-right-left)"
       },
+      colors: {
+        ["base-950"]: "var(--base-color-950)",
+        ["base-900"]: "var(--base-color-900)",
+        ["base-800"]: "var(--base-color-800)",
+        ["base-700"]: "var(--base-color-700)",
+        ["base-600"]: "var(--base-color-600)",
+        ["base-500"]: "var(--base-color-500)",
+        ["base-400"]: "var(--base-color-400)",
+        ["base-300"]: "var(--base-color-300)",
+        ["base-200"]: "var(--base-color-200)",
+        ["base-100"]: "var(--base-color-100)",
+        ["base-50"]: "var(--base-color-50)",
+        ["main-950"]: "var(--main-color-950)",
+        ["main-900"]: "var(--main-color-900)",
+        ["main-800"]: "var(--main-color-800)",
+        ["main-700"]: "var(--main-color-700)"
+      },
       boxShadow: {
-        ["form-focus"]: "0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.2)"
+        ["form-focus"]: "0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.2)",
+        ["block"]: "0 25px 50px -12px rgba(0, 0, 0, 0.15)"
       },
       keyframes: {
         wave: {

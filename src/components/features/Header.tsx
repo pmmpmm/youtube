@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, KeyboardEvent } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { IoIosSearch, IoIosArrowRoundBack, IoIosClose } from "react-icons/io";
+import { BsFillPersonFill } from "react-icons/bs";
 import Logo from "@/components/ui/Logo";
 import ThemeModeCtrl from "@/components/ui/ThemeModeCtrl";
 
@@ -34,8 +35,8 @@ const Header = () => {
       </Link>
       <div className="flex flex-initial basis-[62%] justify-end sm:justify-center md:basis-6/12 lg:basis-5/12">
         <div
-          className={`items-center w-full h-full px-4 bg-white absolute top-0 left-0 -z-10 
-            sm:flex sm:p-0 sm:relative sm:z-10 dark:bg-neutral-900
+          className={`items-center w-full h-full px-4 bg-base-950 absolute top-0 left-0 -z-10 
+            sm:flex sm:p-0 sm:relative sm:z-10
             ${focus ? "flex z-50" : "hidden"}`}
         >
           <button
@@ -43,14 +44,14 @@ const Header = () => {
             className="flex-none block w-10 h-10 sm:hidden"
             aria-label="모바일 화면 검색 폼 숨김 버튼"
           >
-            <IoIosArrowRoundBack className="inline-block w-7 h-7 text-neutral-700 dark:text-white" />
+            <IoIosArrowRoundBack className="inline-block w-7 h-7 text-base-300" />
           </button>
           {/* form */}
           <div
             onFocus={() => setFocus(true)}
             onBlur={() => setFocus(false)}
-            className={`flex w-full h-10 border border-solid border-neutral-200 rounded-full dark:border-neutral-700
-              ${focus ? "border-transparent shadow-form-focus dark:border-neutral-100" : ""}`}
+            className={`flex w-full h-10 border border-solid border-base-700 rounded-full 
+              ${focus ? "border-transparent shadow-form-focus dark:border-base-300" : ""}`}
           >
             <input
               type="text"
@@ -58,7 +59,7 @@ const Header = () => {
               ref={searchInp}
               value={text}
               onChange={(e) => setText(e.target.value)}
-              className="flex-initial w-full h-10 px-6 font-normal text-neutral-950 bg-transparent border-0 border-transparent rounded-full placeholder:text-neutral-400 dark:text-neutral-100 dark:font-light dark:placeholder:text-neutral-300 focus:outline-none"
+              className="flex-initial w-full h-10 px-6 font-normal text-base-100 bg-transparent border-0 border-transparent rounded-full placeholder:text-base-600 dark:font-light focus:outline-none"
               onKeyDown={handleKeyDown}
             />
             {text && (
@@ -71,11 +72,11 @@ const Header = () => {
                   searchInp.current && searchInp.current.focus();
                 }}
               >
-                <IoIosClose className="inline-block w-7 h-7 text-neutral-700 dark:text-neutral-50" />
+                <IoIosClose className="inline-block w-7 h-7 text-base-300" />
               </button>
             )}
             <button type="button" onClick={handleSubmit} aria-label="검색 버튼" className="flex-none w-16">
-              <IoIosSearch className="inline-block w-7 h-7 text-neutral-700 dark:text-white" />
+              <IoIosSearch className="inline-block w-7 h-7 text-base-300" />
             </button>
           </div>
         </div>
@@ -85,26 +86,23 @@ const Header = () => {
           className="flex-none block mx-1 relative z-[1] w-10 h-10 sm:hidden"
           aria-label="검색 폼 노출 버튼"
         >
-          <IoIosSearch className="inline-block w-7 h-7 text-neutral-700 dark:text-white" />
+          <IoIosSearch className="inline-block w-7 h-7 text-base-300" />
         </button>
       </div>
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center sm:gap-4">
         {/* 계정 관련 페이지 확인 버튼*/}
-        <Link
-          to="/member/login"
-          className="flex px-4 py-1 text-[13px] border border-neutral-400 rounded-full dark:text-neutral-100"
-        >
-          로그인
+        <Link to="/member/login">
+          <BsFillPersonFill className="block w-[28px] h-[28px] text-base-300 md:hidden" />
+          <p className=" h-10 px-4 pt-[8px] text-[15px] text-base-300 border border-base-700 rounded-full hidden md:flex">
+            로그인
+          </p>
         </Link>
-        <Link to="/member/signup" className="text-sm">
-          회원가입
+        <Link to="/member/signup" className="text-xs">
+          회
         </Link>
-        <Link
-          to="/mypage"
-          className="flex px-4 py-1 text-[13px] border border-neutral-400 rounded-full dark:text-neutral-100"
-        >
+        {/* <Link to="/mypage" className="flex px-4 py-1 text-[13px] text-base-300 border border-base-600 rounded-full ">
           마이페이지
-        </Link>
+        </Link> */}
         <ThemeModeCtrl />
       </div>
     </>

@@ -11,13 +11,10 @@ type ChannelDetailRes = {
   items: ChannelDatailItem[];
 };
 
-const getChannelDetail = async (channelId: string): Promise<ChannelDetailRes> =>
+const getChannelDetail = async ({ queryKey }: any): Promise<ChannelDetailRes> =>
   await youtubeV3Client
-    .get<ChannelDetailRes>("channels", { params: { id: channelId } } as YoutubeReq)
+    .get<ChannelDetailRes>("channels", { params: { id: queryKey[1] } } as YoutubeReq)
     .then((response) => response.data);
-// await youtubeMockUpClient
-//   .get<ChannelDetailRes>('/data/channel_details.json')
-//   .then((response) => response.data);
 
 const api = { getChannelDetail };
 

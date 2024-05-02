@@ -2,7 +2,7 @@ const LoadingIcon = () => {
   const square = () => {
     const result = [];
     const squareStype =
-      "square w-[10px] h-[10px] mr-[8px] mb-[8px] bg-neutral-950 rounded-[3px] box-border float-left relative dark:bg-neutral-100";
+      "square w-[10px] h-[10px] mr-[8px] mb-[8px] bg-base-100 rounded-[3px] box-border float-left relative";
     for (let i = 0; i < 4; i++) {
       result.push(
         <div key={`loading-${i}`}>
