@@ -97,12 +97,6 @@ const Header = () => {
             로그인
           </p>
         </Link>
-        <Link to="/member/signup" className="text-xs">
-          회
-        </Link>
-        {/* <Link to="/mypage" className="flex px-4 py-1 text-[13px] text-base-300 border border-base-600 rounded-full ">
-          마이페이지
-        </Link> */}
         <ThemeModeCtrl />
       </div>
     </>

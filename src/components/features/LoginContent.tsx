@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import UserService from "@/service/UserService";
 import LayoutBlock from "@/components/features/LayoutBlock";
 import LogoIcon from "@/components/ui/LogoIcon";
@@ -8,21 +7,17 @@ import Button from "@/components/ui/Button";
 
 type InputsType = {
   [key: string]: string;
-  name: string;
   email: string;
   password: string;
 };
 
-const SignupContent = () => {
-  const navigate = useNavigate();
-
+const LoginContent = () => {
   const [inputs, setInputs] = useState({
-    name: "",
     email: "",
     password: ""
   } as InputsType);
 
-  const { name, email, password } = inputs;
+  const { email, password } = inputs;
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -31,36 +26,24 @@ const SignupContent = () => {
       [name]: value
     });
   };
-
-  const handleSubmit = async () => {
-    for (const key in inputs) {
-      const value = inputs[key];
-      if (value === "") {
-        alert("회원가입 폼을 모두 작성해 주세요.");
-        return;
-      }
-    }
-
-    const response = await UserService.createUser(name, email, password);
-    if (response) {
-      alert("회원가입 성공");
-      navigate("/member/login");
-    } else {
-      alert("회원가입 실패");
-    }
-
-    setInputs({
-      name: "",
-      email: "",
-      password: ""
-    });
-  };
-
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.nativeEvent.isComposing) return;
     if (e.key === "Enter") handleSubmit();
   };
 
+  const handleSubmit = async () => {
+    const response = await UserService.login(email, password);
+    if (response) {
+      alert("성공");
+    } else {
+      alert("실패");
+    }
+
+    setInputs({
+      email: "",
+      password: ""
+    });
+  };
   return (
     <LayoutBlock>
       <div className="flex flex-col w-full lg:flex-row">
@@ -68,22 +51,14 @@ const SignupContent = () => {
           <div className="hidden mb-4 sm:block">
             <LogoIcon width="auto" height="2.75rem" />
           </div>
-          <h1 className="text-3xl font-medium">회원 가입</h1>
+          <h1 className="text-3xl font-medium">로그인</h1>
         </div>
         <div className="basis-1/2">
           <div>
             <div className="flex flex-col gap-y-4">
               <TextField
-                type="text"
-                label="이름"
-                id="name"
-                value={name}
-                onChange={onChange}
-                onKeyDown={handleKeyDown}
-              />
-              <TextField
                 type="email"
-                label="이메일"
+                label="아이디"
                 id="email"
                 value={email}
                 onChange={onChange}
@@ -98,8 +73,9 @@ const SignupContent = () => {
                 onKeyDown={handleKeyDown}
               />
             </div>
-            <div className="mt-6">
-              <Button text="회원가입" variant="contain" onClick={handleSubmit} />
+            <div className="mt-6 flex flex-col gap-2">
+              <Button text="로그인" variant="contain" onClick={handleSubmit} />
+              <Button text="회원가입" variant="outline" href="/member/signup" />
             </div>
           </div>
         </div>
@@ -108,4 +84,4 @@ const SignupContent = () => {
   );
 };
 
-export default SignupContent;
+export default LoginContent;

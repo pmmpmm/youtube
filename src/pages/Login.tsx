@@ -1,11 +1,12 @@
 import LayoutB from "@/components/features/common/layouts/LayoutB";
+import LoginContent from "@/components/features/LoginContent";
 
 const Login = () => {
-	return (
-		<LayoutB>
-			<p>로그인</p>
-		</LayoutB>
-	);
-}
+  return (
+    <LayoutB>
+      <LoginContent />
+    </LayoutB>
+  );
+};
 
- export default Login;
+export default Login;

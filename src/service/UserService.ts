@@ -21,4 +21,15 @@ const createUser = async (name: string, email: string, password: string): Promis
     .then((response) => response.data)
     .catch((_) => undefined);
 
-export default { getUser, createUser };
+const login = async (email: string, password: string): Promise<UserRes | undefined> =>
+  await apiV1Client
+    .post<UserRes | undefined>(`/token`, {
+      email: email,
+      password: password
+    })
+    .then((response) => {
+      return response.data;
+    })
+    .catch((_) => undefined);
+
+export default { getUser, createUser, login };
