@@ -28,6 +28,8 @@ const login = async (email: string, password: string): Promise<UserRes | undefin
       password: password
     })
     .then((response) => {
+      console.log(response);
+
       return response.data;
     })
     .catch((_) => undefined);
