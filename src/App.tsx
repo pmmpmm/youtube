@@ -29,7 +29,6 @@ const App = () => {
           { path: "page/enter", element: <EnterVideos /> },
           { path: "page/news", element: <NewsVideos /> },
           { path: "videos/watch", element: <VideoDetail /> },
-          { path: "videos/watch1", element: <VideoDetail /> },
           { path: "member/signup", element: <Signup /> },
           { path: "member/login", element: <Login /> },
           { path: "member/find", element: <FindAccount /> },

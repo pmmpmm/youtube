@@ -13,13 +13,10 @@ type ChannelVideosRes = {
   items: VideoItem[];
 };
 
-const getChannelVideosList = async (channelId: string): Promise<ChannelVideosRes> =>
+const getChannelVideosList = async ({ queryKey }: any): Promise<ChannelVideosRes> =>
   await youtubeV3Client
-    .get<ChannelVideosRes>("search", { params: { maxResults: 6, channelId } } as YoutubeReq)
+    .get<ChannelVideosRes>("search", { params: { maxResults: 6, channelId: queryKey[1] } } as YoutubeReq)
     .then((response) => response.data);
-// await youtubeMockUpClient
-//   .get<ChannelVideosRes>('/data/channel_videos.json')
-//   .then((response) => response.data);
 
 const api = { getChannelVideosList };
 

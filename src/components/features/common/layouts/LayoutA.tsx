@@ -38,14 +38,14 @@ const LayoutA = ({ children }: LayoutAProps) => {
 
   return (
     <>
-      <div className="w-full flex flex-row items-center justify-between px-2 h-header-height bg-white fixed top-0 left-0 z-50 dark:bg-[#171717] sm:h-header-height-sm sm:px-4">
+      <div className="w-full flex flex-row items-center justify-between px-2 h-header-height bg-base-950 fixed top-0 left-0 z-50 sm:h-header-height-sm sm:px-4">
         {/* nav menu btn */}
         <button
           onClick={() => setIsNavOpen(!isNavOpen)}
           className="block flex-none w-10 h-10 mr-2 sm:hidden"
           aria-label="메뉴 열림, 닫힘 버튼"
         >
-          <IoIosMenu className="w-8 h-8 m-auto text-black dark:text-white" />
+          <IoIosMenu className="w-8 h-8 m-auto text-base-300" />
         </button>
         <Header />
       </div>

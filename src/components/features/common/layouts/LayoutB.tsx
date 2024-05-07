@@ -13,14 +13,12 @@ const LayoutB = ({ children }: LayoutAProps) => {
 
   return (
     <>
-      <div className="w-full flex flex-row items-center justify-between px-2 h-header-height bg-white fixed top-0 left-0 z-50 dark:bg-[#171717] sm:h-header-height-sm sm:px-4">
+      <div className="w-full flex flex-row items-center justify-between px-2 h-header-height bg-gradient-to-t to-base-950 fixed top-0 left-0 z-50 sm:h-header-height-sm sm:px-4">
         <Header />
       </div>
 
       {/* contents */}
-      <div className="pt-container-top pb-8 sm:pt-container-top-sm">
-        <div className="px-4">{children}</div>
-      </div>
+      <div className="pt-container-top pb-container-bottom sm:pt-container-top-sm">{children}</div>
     </>
   );
 };

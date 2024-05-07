@@ -17,16 +17,16 @@ const ThemeModeCtrl = () => {
   }, [dark]);
 
   return (
-    <button onClick={() => setDark(!dark)} className="flex-none w-10 h-10 text-[0]">
+    <button onClick={() => setDark(!dark)} className="flex-none  w-[28px] h-[28px] text-[0]">
       {dark ? (
         <span className="block text-center">
           라이트모드
-          <IoIosSunny className="inline-block -ml-1 w-[66%] h-[66%] text-neutral-700 sm:w-[64%] sm:h-[64%] dark:text-neutral-50" />
+          <IoIosSunny className="inline-block -ml-1 w-[26px] h-[26px] text-base-300 sm:w-[26px] sm:h-[26px]" />
         </span>
       ) : (
         <span className="block text-center">
           다크모드
-          <IoIosMoon className="inline-block -ml-1 w-[66%] h-[66%] text-neutral-700 sm:w-[64%] sm:h-[64%] dark:text-neutral-50" />
+          <IoIosMoon className="inline-block -ml-1 w-[26px] h-[26px] text-base-300 sm:w-[26px] sm:h-[26px]" />
         </span>
       )}
     </button>
