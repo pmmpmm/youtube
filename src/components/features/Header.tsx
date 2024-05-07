@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, KeyboardEvent } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { IoIosSearch, IoIosArrowRoundBack, IoIosClose } from "react-icons/io";
 import { BsFillPersonFill } from "react-icons/bs";
+import { UseLoginContext } from "@/context/LoginContext";
 import Logo from "@/components/ui/Logo";
 import ThemeModeCtrl from "@/components/ui/ThemeModeCtrl";
 
@@ -12,6 +13,7 @@ const Header = () => {
   const [text, setText] = useState(keyword ?? "");
   const [focus, setFocus] = useState(false);
   const searchInp = useRef<HTMLInputElement>(null);
+  const { isLogin } = UseLoginContext();
 
   const handleSubmit = () => {
     if (text.trim().length > 0) navigate(`/videos/results?searchQuery=${text.trim()}`);
@@ -91,12 +93,21 @@ const Header = () => {
       </div>
       <div className="flex gap-3 items-center sm:gap-4">
         {/* 계정 관련 페이지 확인 버튼*/}
-        <Link to="/member/login">
-          <BsFillPersonFill className="block w-[28px] h-[28px] text-base-300 md:hidden" />
-          <p className=" h-10 px-4 pt-[8px] text-[15px] text-base-300 border border-base-700 rounded-full hidden md:flex">
-            로그인
-          </p>
-        </Link>
+        {isLogin ? (
+          <Link to="/mypage">
+            <BsFillPersonFill className="block w-[28px] h-[28px] text-base-300 md:hidden" />
+            <p className=" h-10 px-4 pt-[8px] text-[15px] text-base-300 border border-base-700 rounded-full hidden md:flex">
+              마이페이지
+            </p>
+          </Link>
+        ) : (
+          <Link to="/member/login">
+            <BsFillPersonFill className="block w-[28px] h-[28px] text-base-300 md:hidden" />
+            <p className=" h-10 px-4 pt-[8px] text-[15px] text-base-300 border border-base-700 rounded-full hidden md:flex">
+              로그인
+            </p>
+          </Link>
+        )}
         <ThemeModeCtrl />
       </div>
     </>

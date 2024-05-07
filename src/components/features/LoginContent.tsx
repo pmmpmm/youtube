@@ -1,6 +1,7 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import UserService from "@/service/UserService";
-import { LoginContext } from "@/context/LoginContext";
+import { useNavigate } from "react-router-dom";
+import { UseLoginContext } from "@/context/LoginContext";
 import LayoutBlock from "@/components/features/LayoutBlock";
 import LogoIcon from "@/components/ui/LogoIcon";
 import TextField from "@/components/ui/TextField";
@@ -13,8 +14,8 @@ type InputsType = {
 };
 
 const LoginContent = () => {
-  const { isLogin } = useContext(LoginContext);
-  console.log(isLogin);
+  const { setIsLogin } = UseLoginContext();
+  const navigate = useNavigate();
 
   const [inputs, setInputs] = useState({
     email: "",
@@ -42,16 +43,18 @@ const LoginContent = () => {
       const user = await UserService.getUser();
       console.log(user);
       // setIsLogin((prev) => !prev);
+      setIsLogin(true);
+      navigate("/");
     } else {
       alert("실패");
-    }
 
-    console.log("isLogin", isLogin);
-    setInputs({
-      email: "",
-      password: ""
-    });
+      setInputs({
+        email: email,
+        password: ""
+      });
+    }
   };
+
   return (
     <LayoutBlock>
       <div className="flex flex-col w-full lg:flex-row">

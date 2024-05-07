@@ -1,13 +1,16 @@
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 interface LoginContextType {
   isLogin: boolean;
-  setIsLogin: (isLogin: boolean) => void;
+  setIsLogin: React.Dispatch<React.SetStateAction<boolean>>;
 }
-export const LoginContext = createContext<LoginContextType | null>(null);
+
+const LoginContext = createContext<LoginContextType>({ isLogin: false, setIsLogin: () => {} });
 
 export const LoginContextProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLogin, setIsLogin] = useState(false);
 
   return <LoginContext.Provider value={{ isLogin, setIsLogin }}>{children}</LoginContext.Provider>;
 };
+
+export const UseLoginContext = () => useContext(LoginContext);
