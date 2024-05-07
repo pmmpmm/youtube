@@ -39,6 +39,8 @@ const LoginContent = () => {
     const response = await UserService.login(email, password);
     if (response) {
       alert("성공");
+      const user = await UserService.getUser();
+      console.log(user);
       // setIsLogin((prev) => !prev);
     } else {
       alert("실패");
