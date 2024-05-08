@@ -8,8 +8,13 @@ type UserRes = {
   updatedAt: string;
 };
 
-const getUser = async ({ queryKey }: any): Promise<UserRes> =>
-  await apiV1Client.get<UserRes>(`/user/${queryKey[1]}`).then((response) => response.data);
+export type CreateToken = {
+  accessToken: string,
+  refreshToken: string,
+}
+
+const getUser = async (): Promise<UserRes> =>
+  await apiV1Client.get<UserRes>("/user").then((response) => response.data);
 
 const createUser = async (name: string, email: string, password: string): Promise<UserRes | undefined> =>
   await apiV1Client
@@ -21,4 +26,20 @@ const createUser = async (name: string, email: string, password: string): Promis
     .then((response) => response.data)
     .catch((_) => undefined);
 
-export default { getUser, createUser };
+const login = async (email: string, password: string): Promise<CreateToken | undefined> =>
+  await apiV1Client
+    .post<CreateToken | undefined>(`/token`, {
+      email: email,
+      password: password
+    })
+    .then((response) => {
+      if (response.data) {
+        localStorage.setItem(import.meta.env.VITE_ACCESS_TOKEN, response.data?.accessToken);
+        localStorage.setItem(import.meta.env.VITE_REFRESH_TOKEN, response.data?.refreshToken);
+      }
+
+      return response.data;
+    })
+    .catch((_) => undefined);
+
+export default { getUser, createUser, login };

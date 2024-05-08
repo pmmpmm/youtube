@@ -1,11 +1,11 @@
 import { ReactElement, useEffect } from "react";
 import Header from "@/components/features/Header";
 
-export type LayoutAProps = {
+export type LayoutBProps = {
   children: string | ReactElement | ReactElement[];
 };
 
-const LayoutB = ({ children }: LayoutAProps) => {
+const LayoutB = ({ children }: LayoutBProps) => {
   useEffect(() => {
     // 페이지 렌더링 스크롤 0
     window.scrollTo(0, 0);
