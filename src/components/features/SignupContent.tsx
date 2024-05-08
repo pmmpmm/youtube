@@ -99,7 +99,7 @@ const SignupContent = () => {
               />
             </div>
             <div className="mt-6">
-              <Button text="회원가입" variant="contain" onClick={handleSubmit} />
+              <Button text="회원가입" variant="contain" size="large" width="full" onClick={handleSubmit} />
             </div>
           </div>
         </div>

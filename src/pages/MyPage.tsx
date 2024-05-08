@@ -1,11 +1,12 @@
 import LayoutB from "@/components/features/common/layouts/LayoutB";
+import MyPageContent from "@/components/features/MyPageContent";
 
 const MyPage = () => {
-	return (
-		<LayoutB>
-			<p>마이페이지</p>
-		</LayoutB>
-	);
-}
+  return (
+    <LayoutB>
+      <MyPageContent />
+    </LayoutB>
+  );
+};
 
- export default MyPage;
+export default MyPage;
