@@ -40,9 +40,6 @@ const LoginContent = () => {
     const response = await UserService.login(email, password);
     if (response) {
       alert("성공");
-      const user = await UserService.getUser();
-      console.log(user);
-      // setIsLogin((prev) => !prev);
       setIsLogin(true);
       navigate("/");
     } else {
@@ -85,8 +82,8 @@ const LoginContent = () => {
               />
             </div>
             <div className="mt-6 flex flex-col gap-2">
-              <Button text="로그인" variant="contain" onClick={handleSubmit} />
-              <Button text="회원가입" variant="outline" href="/member/signup" />
+              <Button text="로그인" variant="contain" size="large" width="full" onClick={handleSubmit} />
+              <Button text="회원가입" variant="outline" size="large" width="full" href="/member/signup" />
             </div>
           </div>
         </div>

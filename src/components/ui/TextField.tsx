@@ -1,18 +1,20 @@
 interface InputProps {
   type: string;
-  label: string;
+  label?: string;
   id: string;
   value: string;
   onChange: React.ChangeEventHandler<HTMLInputElement>;
-  onKeyDown: React.KeyboardEventHandler<HTMLInputElement>;
+  onKeyDown?: React.KeyboardEventHandler<HTMLInputElement>;
 }
 
 const TextField = ({ type, label, id, value, onChange, onKeyDown }: InputProps) => {
   return (
     <div className="flex flex-col w-full">
-      <label htmlFor={id} className="pb-1 text-sm text-base-300">
-        {label}
-      </label>
+      {label && (
+        <label htmlFor={id} className="pb-1 text-sm text-base-300">
+          {label}
+        </label>
+      )}
       <input
         type={type}
         id={id}

@@ -1,6 +1,6 @@
 import { apiV1Client } from "@/service/ApiV1Client";
 
-type UserRes = {
+export type UserRes = {
   id: number;
   name: string;
   email: string;
@@ -9,12 +9,11 @@ type UserRes = {
 };
 
 export type CreateToken = {
-  accessToken: string,
-  refreshToken: string,
-}
+  accessToken: string;
+  refreshToken: string;
+};
 
-const getUser = async (): Promise<UserRes> =>
-  await apiV1Client.get<UserRes>("/user").then((response) => response.data);
+const getUser = async (): Promise<UserRes> => await apiV1Client.get<UserRes>("/user").then((response) => response.data);
 
 const createUser = async (name: string, email: string, password: string): Promise<UserRes | undefined> =>
   await apiV1Client
