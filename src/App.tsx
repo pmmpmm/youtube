@@ -1,7 +1,7 @@
 import queryClient from "@/service/QueryClient";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import { LoginContextProvider } from "@/context/LoginContext";
 import NotFound from "@/pages/NotFound";
 import PopularVideos from "@/pages/PopularVideos";
@@ -20,25 +20,33 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <ReactQueryDevtools />
-      <LoginContextProvider>
-        <RouterProvider
-          router={createBrowserRouter([
-            { path: "/", element: <PopularVideos /> },
-            { path: "*", element: <NotFound /> },
-            { path: "videos", element: <PopularVideos /> },
-            { path: "videos/results", element: <SearchVideos /> },
-            { path: "page/music", element: <MusicVideos /> },
-            { path: "page/enter", element: <EnterVideos /> },
-            { path: "page/news", element: <NewsVideos /> },
-            { path: "videos/watch", element: <VideoDetail /> },
-            { path: "member/signup", element: <Signup /> },
-            { path: "member/login", element: <Login /> },
-            { path: "member/find", element: <FindAccount /> },
-            { path: "mypage", element: <MyPage /> },
-            { path: "mypage/modify", element: <ModifyInfo /> }
-          ])}
-        />
-      </LoginContextProvider>
+
+      <RouterProvider
+        router={createBrowserRouter([
+          {
+            element: (
+              <LoginContextProvider>
+                <Outlet />
+              </LoginContextProvider>
+            ),
+            children: [
+              { path: "/", element: <PopularVideos /> },
+              { path: "*", element: <NotFound /> },
+              { path: "videos", element: <PopularVideos /> },
+              { path: "videos/results", element: <SearchVideos /> },
+              { path: "page/music", element: <MusicVideos /> },
+              { path: "page/enter", element: <EnterVideos /> },
+              { path: "page/news", element: <NewsVideos /> },
+              { path: "videos/watch", element: <VideoDetail /> },
+              { path: "member/signup", element: <Signup /> },
+              { path: "member/login", element: <Login /> },
+              { path: "member/find", element: <FindAccount /> },
+              { path: "mypage", element: <MyPage /> },
+              { path: "mypage/modify", element: <ModifyInfo /> }
+            ]
+          }
+        ])}
+      />
     </QueryClientProvider>
   );
 };

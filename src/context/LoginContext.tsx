@@ -1,46 +1,24 @@
-import UserService from "@/service/UserService";
-import { useQuery } from "@tanstack/react-query";
 import { createContext, useContext, useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-type UserInfo = {
-  id: number;
-  name: string;
-  email: string;
-};
 interface LoginContextType {
   isLogin: boolean;
   setIsLogin: React.Dispatch<React.SetStateAction<boolean>>;
-  userInfo: UserInfo;
-  setUserInfo: React.Dispatch<React.SetStateAction<UserInfo>>;
 }
 
 const LoginContext = createContext<LoginContextType>({
   isLogin: false,
-  setIsLogin: () => {},
-  userInfo: {
-    id: -1,
-    name: "",
-    email: ""
-  },
-  setUserInfo: () => {}
+  setIsLogin: () => {}
 });
 
 export const LoginContextProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLogin, setIsLogin] = useState(false);
-  const [userInfo, setUserInfo] = useState({
-    id: -1,
-    name: "",
-    email: ""
-  });
 
-  const { data } = useQuery({
-    queryKey: ["UserService.getUser"],
-    queryFn: UserService.getUser,
-    enabled: isLogin
-  });
+  const navigate = useNavigate();
 
   const checkLogin = () => {
-    if (localStorage.ACCESS_TOKEN) {
+    const accessToken = localStorage.getItem(import.meta.env.VITE_ACCESS_TOKEN);
+    if (accessToken) {
       setIsLogin(true);
     } else {
       setIsLogin(false);
@@ -52,24 +30,22 @@ export const LoginContextProvider = ({ children }: { children: React.ReactNode }
   }, []);
 
   useEffect(() => {
-    if (isLogin && data) {
-      setUserInfo({
-        id: data.id,
-        name: data.name,
-        email: data.email
-      });
-    } else {
-      setUserInfo({
-        id: -1,
-        name: "",
-        email: ""
-      });
+    if (isLogin) {
+      navigate("/");
     }
-  }, [isLogin, data]);
+    return () => {
+      if (isLogin) {
+        // 새로고침 혹은 리렌더링시 isLogin의 상태는 false로 초기화 후 checkLogin함수 실행하여 상태 관리
+        // 그래서 unmount(isLogin의 상태가 조건에 맞게 설정 완료 후) 시 isLogin의 상태가 true일 때
+        // 로그아웃 버튼 클릭으로 isLogin의 상태를 false 바꾼다면 localStorage.ACCESS_TOKEN 삭제
+        localStorage.removeItem(import.meta.env.VITE_ACCESS_TOKEN);
+        localStorage.removeItem(import.meta.env.VITE_REFRESH_TOKEN);
+        navigate("/");
+      }
+    };
+  }, [isLogin]);
 
-  return (
-    <LoginContext.Provider value={{ isLogin, setIsLogin, userInfo, setUserInfo }}>{children}</LoginContext.Provider>
-  );
+  return <LoginContext.Provider value={{ isLogin, setIsLogin }}>{children}</LoginContext.Provider>;
 };
 
 export const UseLoginContext = () => useContext(LoginContext);

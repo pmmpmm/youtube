@@ -1,6 +1,5 @@
 import { useState } from "react";
 import UserService from "@/service/UserService";
-import { useNavigate } from "react-router-dom";
 import { UseLoginContext } from "@/context/LoginContext";
 import LayoutBlock from "@/components/features/LayoutBlock";
 import LogoIcon from "@/components/ui/LogoIcon";
@@ -15,7 +14,6 @@ type InputsType = {
 
 const LoginContent = () => {
   const { setIsLogin } = UseLoginContext();
-  const navigate = useNavigate();
 
   const [inputs, setInputs] = useState({
     email: "",
@@ -40,8 +38,8 @@ const LoginContent = () => {
     const response = await UserService.login(email, password);
     if (response) {
       alert("성공");
+
       setIsLogin(true);
-      navigate("/");
     } else {
       alert("실패");
 
