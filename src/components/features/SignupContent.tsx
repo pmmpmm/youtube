@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import UserService from "@/service/UserService";
-import LayoutBlock from "@/components/features/LayoutBlock";
+import ContentsLayoutBlock from "@/components/features/common/layouts/ContentsLayoutBlock";
 import LogoIcon from "@/components/ui/LogoIcon";
 import TextField from "@/components/ui/TextField";
 import Button from "@/components/ui/Button";
@@ -62,7 +62,7 @@ const SignupContent = () => {
   };
 
   return (
-    <LayoutBlock>
+    <ContentsLayoutBlock>
       <div className="flex flex-col w-full lg:flex-row">
         <div className="basis-1/2 pb-8 lg:pb-0">
           <div className="hidden mb-4 sm:block">
@@ -104,7 +104,7 @@ const SignupContent = () => {
           </div>
         </div>
       </div>
-    </LayoutBlock>
+    </ContentsLayoutBlock>
   );
 };
 

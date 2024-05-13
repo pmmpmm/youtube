@@ -22,7 +22,7 @@ const TextField = ({ type, label, id, value, onChange, onKeyDown }: InputProps) 
         value={value}
         onChange={onChange}
         onKeyDown={onKeyDown}
-        className="h-12 px-4 text-sm bg-transparent border border-solid border-base-700 rounded-md"
+        className="h-12 px-4 text bg-transparent border border-solid border-base-700 rounded-md"
       />
     </div>
   );

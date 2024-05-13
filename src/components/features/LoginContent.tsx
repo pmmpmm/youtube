@@ -1,8 +1,8 @@
 import { useState } from "react";
-import UserService from "@/service/UserService";
 import { useNavigate } from "react-router-dom";
+import UserService from "@/service/UserService";
 import { UseLoginContext } from "@/context/LoginContext";
-import LayoutBlock from "@/components/features/LayoutBlock";
+import ContentsLayoutBlock from "@/components/features/common/layouts/ContentsLayoutBlock";
 import LogoIcon from "@/components/ui/LogoIcon";
 import TextField from "@/components/ui/TextField";
 import Button from "@/components/ui/Button";
@@ -41,10 +41,9 @@ const LoginContent = () => {
     if (response) {
       alert("성공");
       setIsLogin(true);
-      navigate("/");
+      navigate(-1);
     } else {
       alert("실패");
-
       setInputs({
         email: email,
         password: ""
@@ -53,7 +52,7 @@ const LoginContent = () => {
   };
 
   return (
-    <LayoutBlock>
+    <ContentsLayoutBlock>
       <div className="flex flex-col w-full lg:flex-row">
         <div className="basis-1/2 pb-8 lg:pb-0">
           <div className="hidden mb-4 sm:block">
@@ -88,7 +87,7 @@ const LoginContent = () => {
           </div>
         </div>
       </div>
-    </LayoutBlock>
+    </ContentsLayoutBlock>
   );
 };
 

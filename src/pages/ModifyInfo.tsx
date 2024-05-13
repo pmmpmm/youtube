@@ -1,11 +1,12 @@
 import LayoutB from "@/components/features/common/layouts/LayoutB";
+import ModifyInfoContent from "@/components/features/ModifyInfoContent";
 
 const ModifyInfo = () => {
-	return (
-		<LayoutB>
-			<p>개인정보 수정</p>
-		</LayoutB>
-	);
-}
+  return (
+    <LayoutB>
+      <ModifyInfoContent />
+    </LayoutB>
+  );
+};
 
- export default ModifyInfo;
+export default ModifyInfo;
