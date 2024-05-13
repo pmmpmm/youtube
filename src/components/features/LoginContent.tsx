@@ -41,8 +41,6 @@ const LoginContent = () => {
     if (response) {
       alert("성공");
       setIsLogin(true);
-      console.log("aa");
-
       navigate(-1);
     } else {
       alert("실패");
