@@ -41,4 +41,12 @@ const login = async (email: string, password: string): Promise<CreateToken | und
     })
     .catch((_) => undefined);
 
-export default { getUser, createUser, login };
+const updateUser = async (name: string): Promise<UserRes | undefined> =>
+  await apiV1Client
+    .patch<UserRes | undefined>(`/user`, {
+      name: name
+    })
+    .then((response) => response.data)
+    .catch((_) => undefined);
+
+export default { getUser, createUser, login, updateUser };

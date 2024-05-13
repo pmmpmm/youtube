@@ -1,5 +1,4 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 interface LoginContextType {
   isLogin: boolean;
@@ -13,8 +12,6 @@ const LoginContext = createContext<LoginContextType>({
 
 export const LoginContextProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLogin, setIsLogin] = useState(false);
-
-  const navigate = useNavigate();
 
   const checkLogin = () => {
     const accessToken = localStorage.getItem(import.meta.env.VITE_ACCESS_TOKEN);
@@ -30,17 +27,14 @@ export const LoginContextProvider = ({ children }: { children: React.ReactNode }
   }, []);
 
   useEffect(() => {
-    if (isLogin) {
-      navigate("/");
-    }
+    // 로그아웃 시 TOKEN 삭제
     return () => {
       if (isLogin) {
-        // 새로고침 혹은 리렌더링시 isLogin의 상태는 false로 초기화 후 checkLogin함수 실행하여 상태 관리
-        // 그래서 unmount(isLogin의 상태가 조건에 맞게 설정 완료 후) 시 isLogin의 상태가 true일 때
+        // 새로고침 혹은 리렌더링시 isLogin의 상태는 false로 초기화 후 checkLogin함수 실행하여 상태 관리.
+        // 그래서 unmount(isLogin의 상태가 조건에 맞게 설정 완료 후) 일 때 isLogin의 상태가 true이고
         // 로그아웃 버튼 클릭으로 isLogin의 상태를 false 바꾼다면 localStorage.ACCESS_TOKEN 삭제
         localStorage.removeItem(import.meta.env.VITE_ACCESS_TOKEN);
         localStorage.removeItem(import.meta.env.VITE_REFRESH_TOKEN);
-        navigate("/");
       }
     };
   }, [isLogin]);

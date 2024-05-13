@@ -15,16 +15,17 @@ import Login from "@/pages/Login";
 import MyPage from "@/pages/MyPage";
 import FindAccount from "@/pages/FindAccount";
 import ModifyInfo from "@/pages/ModifyInfo";
+import PrivateRoute from "@/pages/PrivateRoute";
 
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <ReactQueryDevtools />
-
       <RouterProvider
         router={createBrowserRouter([
           {
             element: (
+              //LoginContext.tsx에서 useNavigate사용 위해 RouterProvider안으로 이동
               <LoginContextProvider>
                 <Outlet />
               </LoginContextProvider>
@@ -41,8 +42,8 @@ const App = () => {
               { path: "member/signup", element: <Signup /> },
               { path: "member/login", element: <Login /> },
               { path: "member/find", element: <FindAccount /> },
-              { path: "mypage", element: <MyPage /> },
-              { path: "mypage/modify", element: <ModifyInfo /> }
+              { path: "mypage", element: <PrivateRoute element={<MyPage />} /> },
+              { path: "mypage/modify", element: <PrivateRoute element={<ModifyInfo />} /> }
             ]
           }
         ])}
