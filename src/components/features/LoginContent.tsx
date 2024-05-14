@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import UserService from "@/service/UserService";
 import { UseLoginContext } from "@/context/LoginContext";
 import ContentsLayoutBlock from "@/components/features/common/layouts/ContentsLayoutBlock";
@@ -16,6 +16,7 @@ type InputsType = {
 const LoginContent = () => {
   const { setIsLogin } = UseLoginContext();
   const navigate = useNavigate();
+  const { state } = useLocation();
 
   const [inputs, setInputs] = useState({
     email: "",
@@ -39,11 +40,16 @@ const LoginContent = () => {
   const handleSubmit = async () => {
     const response = await UserService.login(email, password);
     if (response) {
-      alert("성공");
+      alert("로그인에 성공하였습니다.");
       setIsLogin(true);
-      navigate(-1);
+      // 로그인 성공 시 회원가입 페이지에서 진입한 경우 메인페이지로 이동, 그 외 경우 이전페이지로 이동
+      if (state && state.prevPath === "/member/signup") {
+        navigate("/");
+      } else if (state === null) {
+        navigate(-1);
+      }
     } else {
-      alert("실패");
+      alert("로그인에 실패하였습니다.");
       setInputs({
         email: email,
         password: ""

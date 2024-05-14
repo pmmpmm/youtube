@@ -29,9 +29,10 @@ const LayoutA = ({ children }: LayoutAProps) => {
 
   useEffect(() => {
     const pathArray = pathname.split("/").slice(1);
+
     if (pathArray.includes("page") || pathArray.length === 1) {
       let path = pathArray.slice(-1)[0];
-      path = path ? path : "home";
+      if (path === "") path = "home";
       setNavMenu(path);
     }
   }, [pathname]);

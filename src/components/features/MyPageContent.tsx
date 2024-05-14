@@ -44,9 +44,20 @@ const MyPageContent = () => {
     }
   }, [isLogin, data]);
 
-  const logOutHandle = () => {
+  const handleLogout = () => {
     setIsLogin(false);
     navigate("/");
+  };
+
+  const handleDeleteUser = async () => {
+    if (confirm("회원 탈퇴를 하시겠습니까?")) {
+      await UserService.deleteUser();
+      setIsLogin(false);
+      alert("회원 탈퇴가 처리되었습니다.");
+      navigate("/");
+    } else {
+      alert("회원 탈퇴가 취소되었습니다.");
+    }
   };
 
   return (
@@ -77,8 +88,8 @@ const MyPageContent = () => {
           </div>
         </div>
         <div className="flex flex-row gap-2 justify-between items-center mt-8">
-          <Button text="회원 탈퇴" variant="outline" />
-          <Button text="로그아웃" variant="contain" onClick={logOutHandle} />
+          <Button text="회원 탈퇴" variant="outline" onClick={handleDeleteUser} />
+          <Button text="로그아웃" variant="contain" onClick={handleLogout} />
         </div>
       </div>
     </>

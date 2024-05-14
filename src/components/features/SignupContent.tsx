@@ -44,7 +44,9 @@ const SignupContent = () => {
     const response = await UserService.createUser(name, email, password);
     if (response) {
       alert("회원가입 성공");
-      navigate("/member/login");
+      navigate("/member/login", {
+        state: { prevPath: "/member/signup" }
+      });
     } else {
       alert("회원가입 실패");
     }
