@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { VideoItem } from "@/domain/Video";
+import { regexReplace } from "@/common/RegexUtil";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import "dayjs/locale/ko";
@@ -32,7 +33,7 @@ const VideoList = ({ video }: { video: VideoItem }) => {
           </div>
           <div>
             <p className="font-bold text-base-100 text-lg line-clamp-1 sm:pt-0 lg:line-clamp-2 dark:font-semibold">
-              {title.replaceAll(/&#39;/gi, "'").replaceAll(/&quot;/gi, '"')}
+              {regexReplace(title)}
             </p>
             <div className="flex items-center mt-0 sm:mt-2">
               <div

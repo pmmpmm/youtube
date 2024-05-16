@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { VideoItem } from "@/domain/Video";
+import { regexReplace } from "@/common/RegexUtil";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import "dayjs/locale/ko";
@@ -20,7 +21,9 @@ const VideoThumbList = ({ video }: { video: VideoItem }) => {
           </div>
         </div>
         <div className="info flex-initial">
-          <p className="title text-sm font-semibold leading-5 line-clamp-2 text-base-100 dark:font-semibold">{title}</p>
+          <p className="title text-sm font-semibold leading-5 line-clamp-2 text-base-100 dark:font-semibold">
+            {regexReplace(title)}
+          </p>
           <p className="channelTitle pt-2 text-xs font-normal text-base-500">{channelTitle}</p>
           <p className="publishedAt text-xs font-normal text-base-500">{dayjs(publishedAt).fromNow()}</p>
         </div>

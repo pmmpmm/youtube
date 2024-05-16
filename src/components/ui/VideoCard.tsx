@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { VideoItem } from "@/domain/Video";
+import { regexReplace } from "@/common/RegexUtil";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import "dayjs/locale/ko";
@@ -14,7 +15,6 @@ const VideoCard = ({ video }: { video: VideoItem }) => {
   const channerColor = `rgb(${Math.floor(Math.random() * 128 + 100)},${Math.floor(
     Math.random() * 128 + 100
   )},${Math.floor(Math.random() * 128 + 100)})`;
-
   return (
     <li>
       <Link to={`/videos/watch?v=${id}`} state={{ video }} className="flex flex-col">
@@ -32,7 +32,7 @@ const VideoCard = ({ video }: { video: VideoItem }) => {
           </div>
           <div>
             <p className="font-bold text-base-100 dark:font-semibold mb-1 text-base leading-5 line-clamp-2 break-all">
-              {title.replaceAll(/&#39;/gi, "'").replaceAll(/&quot;/gi, '"')}
+              {regexReplace(title)}
             </p>
             <div>
               <div
