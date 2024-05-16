@@ -3,13 +3,13 @@ import { useQuery } from "@tanstack/react-query";
 import ChannelDetailService from "@/service/ChannelDetailService";
 import ChannelVideosService from "@/service/ChannelVideosService";
 import { VideoItem } from "@/domain/Video";
+import { regexReplace } from "@/common/RegexUtil";
 import { getVideoIdOrChannelId } from "@/common/VideoUtil";
 import VideoThumbList from "@/components/ui/VideoThumbList";
 
 const VideoDetailContent = () => {
   const location = useLocation();
   const video = location.state.video as VideoItem;
-
   const id = video.id;
   const { channelId, channelTitle, description, title } = video.snippet;
 
@@ -42,7 +42,7 @@ const VideoDetailContent = () => {
             className="w-full aspect-video rounded-2xl overflow-hidden"
           ></iframe>
           <div className="pt-6">
-            <p className="text-xl font-bold text-base-100 dark:font-semibold">{title}</p>
+            <p className="text-xl font-bold text-base-100 dark:font-semibold">{regexReplace(title)}</p>
             <div className="flex items-center pt-3 pb-8">
               <div className="flex-initial w-11 h-11 rounded-full overflow-hidden relative after:block after:w-full after:h-full after:rounded-full after:rounded-br-full after:absolute after:top-0 after:left-0 after:shadow-[inset_-1px_-1px_4px_rgba(0,0,0,0.1)]">
                 <img
