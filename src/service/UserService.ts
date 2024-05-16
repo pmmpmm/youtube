@@ -8,6 +8,10 @@ export type UserRes = {
   updatedAt: string;
 };
 
+export type UpdateUserRes = {
+  name: string;
+};
+
 export type CreateToken = {
   accessToken: string;
   refreshToken: string;
@@ -41,12 +45,20 @@ const login = async (email: string, password: string): Promise<CreateToken | und
     })
     .catch((_) => undefined);
 
-const updateUser = async (name: string): Promise<UserRes | undefined> =>
+const updateUser = async (name: string): Promise<UpdateUserRes | undefined> =>
   await apiV1Client
-    .patch<UserRes | undefined>(`/user`, {
+    .patch<UpdateUserRes | undefined>(`/user`, {
       name: name
     })
+    .then((response) => {
+      return response.data;
+    })
+    .catch((_) => undefined);
+
+const deleteUser = async (): Promise<void | undefined> =>
+  await apiV1Client
+    .delete<void | undefined>(`/user`)
     .then((response) => response.data)
     .catch((_) => undefined);
 
-export default { getUser, createUser, login, updateUser };
+export default { getUser, createUser, login, updateUser, deleteUser };

@@ -28,6 +28,8 @@ const ModifyInfoContent = () => {
     if (response) {
       alert("회원 정보 수정 성공");
       navigate("/mypage", { state: name });
+    } else {
+      alert("회원 정보 수정 실패");
     }
   };
 

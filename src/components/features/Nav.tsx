@@ -56,7 +56,7 @@ const Nav = (props: NavProps) => {
     const nav = navRef.current && navRef.current;
     const navParent = nav && navRef.current.parentElement;
     const target = e.target as HTMLElement;
-    if (target === navParent || target.closest("h1.logo") || target.closest("li .btn")) {
+    if (target === navParent || target.closest("h1") || target.closest("li button")) {
       props.setIsNavOpen(false);
     }
   };
@@ -66,8 +66,9 @@ const Nav = (props: NavProps) => {
       onClick={(e) => handleNavClick(e)}
       className={`flex-none h-full fixed top-0 left-0 z-50 sm:z-0 
       ${
-        props.isNavOpen &&
-        `before:content-[''] before:block before:w-full before:h-full before:bg-black/[.30] before:backdrop-blur-[2px] before:fixed before:top-0 before:left-0 before:z-0`
+        props.isNavOpen
+          ? "before:content-[''] before:block before:w-full before:h-full before:bg-black/[.30] before:backdrop-blur-[2px] before:fixed before:top-0 before:left-0 before:z-0"
+          : ""
       }`}
     >
       <nav
