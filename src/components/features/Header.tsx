@@ -2,8 +2,8 @@ import { useEffect, useRef, useState, KeyboardEvent } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { screens } from "tailwindcss/defaultTheme";
 import { IoIosSearch, IoIosArrowRoundBack, IoIosClose } from "react-icons/io";
-import { BsFillPersonFill } from "react-icons/bs";
-import { UseLoginContext } from "@/context/LoginContext";
+// import { BsFillPersonFill } from "react-icons/bs";
+// import { UseLoginContext } from "@/context/LoginContext";
 import Logo from "@/components/ui/Logo";
 import ThemeModeCtrl from "@/components/ui/ThemeModeCtrl";
 
@@ -14,7 +14,7 @@ const Header = () => {
   const [text, setText] = useState(keyword ?? "");
   const [focus, setFocus] = useState(false);
   const searchInp = useRef<HTMLInputElement>(null);
-  const { isLogin } = UseLoginContext();
+  // const { isLogin } = UseLoginContext();
   const screenX = window.matchMedia(`(max-width: ${screens.sm})`);
 
   const handleSubmit = () => {
@@ -112,7 +112,7 @@ const Header = () => {
 
       {/* 계정 관련 버튼 */}
       <div className="flex gap-3 items-center sm:gap-4">
-        {isLogin ? (
+        {/* {isLogin ? (
           <Link to="/mypage">
             <BsFillPersonFill className="block w-[28px] h-[28px] text-base-300 md:hidden" />
             <p className=" h-10 px-4 pt-[8px] text-[15px] text-base-300 border border-base-700 rounded-full hidden md:flex">
@@ -126,7 +126,7 @@ const Header = () => {
               로그인
             </p>
           </Link>
-        )}
+        )} */}
         <ThemeModeCtrl />
       </div>
     </>

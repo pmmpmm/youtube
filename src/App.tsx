@@ -10,9 +10,9 @@ import MusicVideos from "@/pages/MusicVideos";
 import EnterVideos from "@/pages/EnterVideos";
 import NewsVideos from "@/pages/NewsVideos";
 import VideoDetail from "@/pages/VideoDetail";
-import Signup from "@/pages/Signup";
-import Login from "@/pages/Login";
-import MyPage from "@/pages/MyPage";
+// import Signup from "@/pages/Signup";
+// import Login from "@/pages/Login";
+// import MyPage from "@/pages/MyPage";
 import FindAccount from "@/pages/FindAccount";
 import ModifyInfo from "@/pages/ModifyInfo";
 import PrivateRoute from "@/pages/PrivateRoute";
@@ -39,10 +39,10 @@ const App = () => {
               { path: "page/enter", element: <EnterVideos /> },
               { path: "page/news", element: <NewsVideos /> },
               { path: "videos/watch", element: <VideoDetail /> },
-              { path: "member/signup", element: <Signup /> },
-              { path: "member/login", element: <Login /> },
+              // { path: "member/signup", element: <Signup /> },
+              // { path: "member/login", element: <Login /> },
               { path: "member/find", element: <FindAccount /> },
-              { path: "mypage", element: <PrivateRoute element={<MyPage />} /> },
+              // { path: "mypage", element: <PrivateRoute element={<MyPage />} /> },
               { path: "mypage/modify", element: <PrivateRoute element={<ModifyInfo />} /> }
             ]
           }
