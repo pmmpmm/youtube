@@ -38,7 +38,7 @@ const VideoDetailContent = () => {
             id="player"
             title="YouTube video player"
             allow="fullscreen"
-            src={`http://www.youtube.com/embed/${id}?autoplay=1&mute=1&rel=0`}
+            src={`https://www.youtube.com/embed/${id}?autoplay=1&mute=1&rel=0`}
             className="w-full aspect-video rounded-2xl overflow-hidden"
           ></iframe>
           <div className="pt-6">
