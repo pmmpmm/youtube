@@ -1,1372 +1,1372 @@
 {
-  "kind": "youtube#searchListResponse",
-  "etag": "hISLjJVRXV07Pnphp5EsQHddkp4",
-  "nextPageToken": "CCgQAA",
-  "regionCode": "KR",
-  "pageInfo": {
-      "totalResults": 1000000,
-      "resultsPerPage": 40
-  },
-  "items": [
-      {
-          "kind": "youtube#searchResult",
-          "etag": "tNViVInk6KtlOJd2ypzBtJWK8Fc",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "79hFQE7MXvQ"
-          },
-          "snippet": {
-              "publishedAt": "2024-01-22T03:00:07Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#나혼자산다] &#39;저는 충동구매를 하지 않아요.&#39; 주류 한정 충동구매하는 애주가 조정뱅이 규현🤣 | #규현 #슈퍼주니어 MBC240119방송",
-              "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/79hFQE7MXvQ/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/79hFQE7MXvQ/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/79hFQE7MXvQ/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-01-22T03:00:07Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "m2zklPMBjoZ2K_zxjObXZs6UL7I",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "8By2eN9PARk"
-          },
-          "snippet": {
-              "publishedAt": "2024-02-07T02:00:05Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#놀면뭐하니?] 탁구🏓부터 좀비 게임🧟까지! 실내에서 할 수 있는 게임은 다 하다가 지쳐버린 사원들😩 | #유재석 #주우재 #박진주 MBC240203방송",
-              "description": "[놀면 뭐하니?] 토요일 저녁 6시 30분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/8By2eN9PARk/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/8By2eN9PARk/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/8By2eN9PARk/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-02-07T02:00:05Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "1lpk8yTjdZBV4DU1KBCzp1BVqwA",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "dgP1Gf8splo"
-          },
-          "snippet": {
-              "publishedAt": "2023-07-24T09:30:09Z",
-              "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
-              "title": "ㄱ나니..? 런닝맨 수학여행 와서 친구들과 야식 먹으며 떠들던 감성..☆",
-              "description": "유재석의 문화유산답사기.zip 《런닝맨 / 예능맛ZIP / RunningMan 》 E. 664 #예능맛ZIP​ #런닝맨​ #Runningman.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/dgP1Gf8splo/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/dgP1Gf8splo/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/dgP1Gf8splo/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "런닝맨 - 스브스 공식 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-07-24T09:30:09Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "kQ6M8Vkb85vTnBayVfb8NM7MYug",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "gfFV9ONBRJs"
-          },
-          "snippet": {
-              "publishedAt": "2023-11-29T08:00:23Z",
-              "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
-              "title": "조금씩 다 이상한 사람들",
-              "description": "깽판.zip 《런닝맨 / 예능맛ZIP / RunningMan 》 E. 681 #예능맛ZIP​ #런닝맨​ #Runningman.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/gfFV9ONBRJs/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/gfFV9ONBRJs/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/gfFV9ONBRJs/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "런닝맨 - 스브스 공식 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-11-29T08:00:23Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "0efnlYf8LNerXLea0OT4MGdAqTA",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "gt-yoyUHCXY"
-          },
-          "snippet": {
-              "publishedAt": "2021-10-22T10:05:23Z",
-              "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
-              "title": "[스페셜/SUB] 찐 리액션 빵빵 터지는 레전드 황당 상황 모음집★ㅣ런닝맨(runningman)ㅣSBS ENTER.",
-              "description": "런닝맨 황당 상황 모음 영상을 공개합니다! SBS 일요일 예능 '런닝맨 (Runningman)' ☞ 일요일 오후 5시 본방송 #런닝맨 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/gt-yoyUHCXY/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/gt-yoyUHCXY/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/gt-yoyUHCXY/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "SBS Entertainment",
-              "liveBroadcastContent": "none",
-              "publishTime": "2021-10-22T10:05:23Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "UrIQlMCfpFT-xd2m572BJxgEDjI",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "m1d8CWoy0fA"
-          },
-          "snippet": {
-              "publishedAt": "2021-02-12T09:00:14Z",
-              "channelId": "UCy-swBYpRZx7KW11FStjTgw",
-              "title": "반고 탁선생, 탁재훈 웃음보따리 모음.ZIP [미운우리새끼|SBS방송]",
-              "description": "웃음보따리와 함께 새해 복 많이받으세요   #미운우리새끼 #MyLittleOldBoy #예능맛ZIP.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/m1d8CWoy0fA/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/m1d8CWoy0fA/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/m1d8CWoy0fA/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "레알예능 스브스",
-              "liveBroadcastContent": "none",
-              "publishTime": "2021-02-12T09:00:14Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "wYfQEIQnOWPjJND72rKJahkbIIM",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "sBbaZQeSZ_Q"
-          },
-          "snippet": {
-              "publishedAt": "2024-03-24T08:09:11Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#나혼자산다] 누가 아침으로 랍스터를 먹어요🤣 큰 손 나래 위의 더 큰 손 나래 엄마표 목포 집밥 한상✨(feat. 폭풍 잔소리) | #박나래 #목포 MBC240322방송",
-              "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/sBbaZQeSZ_Q/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/sBbaZQeSZ_Q/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/sBbaZQeSZ_Q/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-03-24T08:09:11Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "F0e9jr52zGJbHpDp_-VOkeWcVDI",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "cxdLhbgeulM"
-          },
-          "snippet": {
-              "publishedAt": "2023-01-19T10:30:39Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#라디오스타] 이경규가 왔다! 🎉라디오스타 800회🎉 축하해주러 와서 예능 대부 클라스 보여주고 간 경규옹 | #이경규 #엠뚜루마뚜루 MBC230118방송",
-              "description": "[라디오스타] 수요일 밤 10시 30분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/cxdLhbgeulM/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/cxdLhbgeulM/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/cxdLhbgeulM/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-01-19T10:30:39Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "-TuHdHVEjk6V4Io99JtG-pLb7Zc",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "9QCtd1ptwLQ"
-          },
-          "snippet": {
-              "publishedAt": "2023-08-01T06:00:05Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#나혼자산다] 음중 퇴근 후 MZ 무게 내려놓고 다이어트하는 현무표 키토 짜장면(a.k.a.키토 무짱면) 먹방🤤 | #전현무 MBC230728방송",
-              "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/9QCtd1ptwLQ/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/9QCtd1ptwLQ/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/9QCtd1ptwLQ/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-08-01T06:00:05Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "WTzwBJTuNglx1Ea0RFhirgbduac",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "jQfdyeHZOt0"
-          },
-          "snippet": {
-              "publishedAt": "2023-01-23T09:00:06Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#라디오스타] ⭐설특집⭐ 조회수 100만은 가뿐-히 찍고 간 올타임 레전드 배꼽스틸러들😂 라스 4시간 반 몰아보기ㅣ#다나카 #조세호 #이민정 MBC230104방송",
-              "description": "[라디오스타] 수요일 밤 10시 30분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/jQfdyeHZOt0/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/jQfdyeHZOt0/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/jQfdyeHZOt0/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-01-23T09:00:06Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "b9H6aemzc9-3FgbtDgJojIiSwMc",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "_rbAJwhgXNo"
-          },
-          "snippet": {
-              "publishedAt": "2023-11-15T03:00:23Z",
-              "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
-              "title": "[#습콕📌] 나때는 말이야! Y2K가 오면 세상이 종말한다 했다! 이말이야~! #신발벗고돌싱포맨 #InvitationfromBacheloragains #SBSenter",
-              "description": "채연 #김현정 #이수영 ▷ Homepage : https://www.sbs.co.kr/tv/enter ▷ Subscribe SBS Entertainment : https://bit.ly/2SpOhMC ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/_rbAJwhgXNo/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/_rbAJwhgXNo/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/_rbAJwhgXNo/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "SBS Entertainment",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-11-15T03:00:23Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "6FnQKsVDo710TSy97UgYTDY6Oak",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "AytAZ2VvaZ0"
-          },
-          "snippet": {
-              "publishedAt": "2023-07-20T12:01:00Z",
-              "channelId": "UCsRIHt5FkbGc6cQtCxt-ufA",
-              "title": "[#유퀴즈온더블럭] 작년엔 신인상👶 올해는 예능인상🏆 대세 #주현영 자기님의 빙의급 상황극 파티ㅋㅋㅋ 현영 씨는 어쩜 이런 성대 달란트를 받았을까~ | #갓구운클립",
-              "description": "갓구운클립 #유퀴즈온더블럭 #tvN 〈유퀴즈 온더블럭〉 매주 수 오후 8시 40분 tvN에서! TVING으로 다시보기 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/AytAZ2VvaZ0/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/AytAZ2VvaZ0/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/AytAZ2VvaZ0/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "tvN D ENT",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-07-20T12:01:00Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "lFLvZ40vfqbHF8qtwQ1Iq0PwN-w",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "Ihi_HtHkpNw"
-          },
-          "snippet": {
-              "publishedAt": "2024-04-03T15:00:13Z",
-              "channelId": "UCExLc_PM3kDogai56jyZEtg",
-              "title": "[#라디오스타] 근육맨들의 원픽 연예인 김종국... 💪 유튜브부터 챌린지까지 모두 장악한 미친 예능 피지컬🔥ㅣ#김종국 MBC240403방송",
-              "description": "라스퀵] 라스 제작진 선정! 금주 방송 중 가장 HOT한 토크! 가장 빠르게 즐기는 라스퀵.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/Ihi_HtHkpNw/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/Ihi_HtHkpNw/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/Ihi_HtHkpNw/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "라디오스타",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-04-03T15:00:13Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "kWIZV4SyoGvH3JSJsleVCZX0jlc",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "mWbQHIsR6uk"
-          },
-          "snippet": {
-              "publishedAt": "2024-02-14T08:45:01Z",
-              "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
-              "title": "명절이 주는 기회 #런닝맨",
-              "description": "명절 풍경.zip 《런닝맨 / 예능맛ZIP / RunningMan 》 E. 691 #예능맛ZIP​ #런닝맨​ #Runningman.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/mWbQHIsR6uk/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/mWbQHIsR6uk/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/mWbQHIsR6uk/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "런닝맨 - 스브스 공식 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-02-14T08:45:01Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "fTZmJvF31ZILBHbOptrWhopwZP8",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "SdfXw-1e8zk"
-          },
-          "snippet": {
-              "publishedAt": "2021-09-28T09:00:12Z",
-              "channelId": "UCwNVDlUgdBlmVWRPy4Nk0Dw",
-              "title": "[#빌려드립니다바퀴달린집] 라이어 게임 속 예능 빌런 이광수ㅋㅋㅋㅋ채수빈이 차린 밥상 그냥 엎어버리기🤣 | #갓잡은클립 #샾잉",
-              "description": "샾잉 #빌려드립니다바퀴달린집 #갓잡은클립 요즘 뜨는 핫클립, 지금 생성 중! #샾잉 ▶︎ 샾잉 최신 콘텐츠 보러가기 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/SdfXw-1e8zk/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/SdfXw-1e8zk/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/SdfXw-1e8zk/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "샾잉 #ing",
-              "liveBroadcastContent": "none",
-              "publishTime": "2021-09-28T09:00:12Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "o-EBbFh1fxf3Dc7SNVCv4RCilH8",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "WUld2LOUVrM"
-          },
-          "snippet": {
-              "publishedAt": "2023-03-01T11:00:10Z",
-              "channelId": "UC9idb-NIhZrI6wkPesc3MUg",
-              "title": "[#무한도전] 어라라.. 다 합치니까 ✨1억뷰✨ 여러분이 사랑했던 무도 레전드 ★조회수 top 12★ 한 번에 모아보기 | 무한도전⏱오분순삭 MBC160402방송",
-              "description": "무한도전 다시 보기 ✓ WAVVE : https://www.wavve.com/player/vod?programid=M_T72108G&page=1 ✓ iMBC ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/WUld2LOUVrM/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/WUld2LOUVrM/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/WUld2LOUVrM/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "오분순삭",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-03-01T11:00:10Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "Xvb836275SmkqUzf1imWKPRCe9o",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "wuPMDEvXGsQ"
-          },
-          "snippet": {
-              "publishedAt": "2022-10-15T05:00:24Z",
-              "channelId": "UCWYzc_p0GgfCepIWDHGFmEg",
-              "title": "[#식스센스3] (150분) 소녀시대의 폭주하는 예능감ㅋㅋㅋ 15년 차 예능 여신들의 대유잼 예능 바이브 모아보기~! | #나중에또볼동영상",
-              "description": "길게 보는 tvN 핵꿀잼 영상! 저장해두고 나중에 보고 또 보자! #나중에또볼동영상 #나또동 #식스센스3 #온앤오프 #놀라운토요일 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/wuPMDEvXGsQ/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/wuPMDEvXGsQ/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/wuPMDEvXGsQ/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "디글 :Diggle",
-              "liveBroadcastContent": "none",
-              "publishTime": "2022-10-15T05:00:24Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "qwNIS-mErDV49vBirz5_jd2Igv0",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "FCXRk3uXyAk"
-          },
-          "snippet": {
-              "publishedAt": "2023-12-24T23:58:09Z",
-              "channelId": "UCDNvRZRgvkBTUkQzFoT_8rA",
-              "title": "[EN] 12제자는 핑계고 ㅣ EP.34",
-              "description": "3달 전 북곤이 덕분에 저도 모르는 저의 12제자가 생겼는데요. 이번에 북곤이랑 광희 다시 만나서 저의 12제자, 그 실체 없는 실체에 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/FCXRk3uXyAk/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/FCXRk3uXyAk/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/FCXRk3uXyAk/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "뜬뜬 DdeunDdeun",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-12-24T23:58:09Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "m-C8zWfPwGgous4vjyCyuzx9pfk",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "nYJH2lChijE"
-          },
-          "snippet": {
-              "publishedAt": "2023-11-24T09:00:43Z",
-              "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
-              "title": "[sub] 옥상으로 따라와 고기 먹게 | 👅나영석의 지글지글",
-              "description": "황정민 정우성이랑 옥상에서 삼겹살 먹은 썰 푼다 (이왜진) #채널십오야 #지글지글 #유료광고포함 #황정민 #정우성 #서울의봄.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/nYJH2lChijE/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/nYJH2lChijE/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/nYJH2lChijE/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "채널십오야",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-11-24T09:00:43Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "KTN8_v2G7TezuPGOIQuETaWwS94",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "PISJ8KhpgCY"
-          },
-          "snippet": {
-              "publishedAt": "2023-04-19T12:08:23Z",
-              "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
-              "title": "＂ 알았으니까 가만히 있어봐💦 ＂ 예능대부도 쩔쩔 매는 여사친들 등장ㅋㅋ 환갑에 프로수발러가 된 이경규｜뭉뜬리턴즈｜JTBC 230418 방송",
-              "description": "예능 대부의 생애 최초 수발 여행? 이경규 긴장하게 만드는 여사친들 등장! #뭉뜬리턴즈 #이경규 #핫클립 ✈️ 예능 대부의 수발 여행 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/PISJ8KhpgCY/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/PISJ8KhpgCY/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/PISJ8KhpgCY/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "JTBC Voyage",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-04-19T12:08:23Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "mJL-FcDoaNrQp7bOHfZ55t9ibTQ",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "ON6XV5YCCiI"
-          },
-          "snippet": {
-              "publishedAt": "2023-11-25T07:38:49Z",
-              "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
-              "title": "[🔴LIVE] 🏃‍♂️런닝맨 몰아보기🏃‍♂️ | 📺스브스 런닝맨 실시간 스트리밍📢",
-              "description": "런닝맨 ✨24시간 무한 스트리밍✨ 달리고 달리고 또 달리고 끊임없이 달려..  ‍♂️  ‍♂️  ‍♂️ ⏰ 스트리밍 일정 : 11월 27일 00시 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/ON6XV5YCCiI/default_live.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/ON6XV5YCCiI/mqdefault_live.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/ON6XV5YCCiI/hqdefault_live.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "런닝맨 - 스브스 공식 채널",
-              "liveBroadcastContent": "live",
-              "publishTime": "2023-11-25T07:38:49Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "1EsdObVT2r6r7ZJF1SpE1o1EYpo",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "tX5Fwtv7hEU"
-          },
-          "snippet": {
-              "publishedAt": "2023-10-06T08:00:26Z",
-              "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
-              "title": "우리말고운말",
-              "description": "영어 사용 금지.zip 《런닝맨 / 예능맛ZIP / RunningMan 》 #예능맛ZIP​ #런닝맨​ #Runningman.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/tX5Fwtv7hEU/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/tX5Fwtv7hEU/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/tX5Fwtv7hEU/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "런닝맨 - 스브스 공식 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-10-06T08:00:26Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "guCOPQpEuSLOtr0te47rVR8IDC4",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "-ZqGXS2uT_Y"
-          },
-          "snippet": {
-              "publishedAt": "2024-03-09T04:27:48Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#나혼자산다] 현무가 추천하는 여의도 로컬 맛집🤤 북엇국 X 고추 장아찌 맛집에서 술 한잔하는 현무 &amp; 기안🍶 | #전현무 #기안84 MBC240308방송",
-              "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/-ZqGXS2uT_Y/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/-ZqGXS2uT_Y/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/-ZqGXS2uT_Y/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-03-09T04:27:48Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "vSIFQ3MsgXwx-kJwjVTx-jumZAA",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "tF42lsvgEHA"
-          },
-          "snippet": {
-              "publishedAt": "2022-03-09T14:00:26Z",
-              "channelId": "UCWYzc_p0GgfCepIWDHGFmEg",
-              "title": "[#신서유기8] (100분) 계란 파티~🥚부터 훈민정음 탁구, 고요 속의 외침 까지🧡 신서유기8 레전드 게임 전부 모아 봄.zip | #디제이픽",
-              "description": "신서유기8 #Diggle #디글 취향저격! 당신이 원하던 그 플레이리스트 [#디제이픽  ] Let's giggle, :Diggle! 방송국놈들이 덕질하는 채널 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/tF42lsvgEHA/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/tF42lsvgEHA/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/tF42lsvgEHA/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "디글 :Diggle",
-              "liveBroadcastContent": "none",
-              "publishTime": "2022-03-09T14:00:26Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "oQPa4bZYOhaVj88ZGqJIK0ytALE",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "nGP8pWWZ3Rc"
-          },
-          "snippet": {
-              "publishedAt": "2023-06-18T04:42:30Z",
-              "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
-              "title": "(40분) 예능에 적응한 아이브(IVE) 어떻게 버틸 건데?｜아는형님｜JTBC 230415 방송 외",
-              "description": "예능에 적응하고 은은한 광기 내뿜는 아이브 예능 활약상   #아는형님 #골라봐야지 #아이브 #IVE [JTBC봐야지] 구독하기☞ ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/nGP8pWWZ3Rc/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/nGP8pWWZ3Rc/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/nGP8pWWZ3Rc/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "JTBC Voyage",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-06-18T04:42:30Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "C3QBAa9-2tHe-lI19v52AsXyaHI",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "nsiSok6AK8s"
-          },
-          "snippet": {
-              "publishedAt": "2023-12-29T09:00:38Z",
-              "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
-              "title": "신년운세",
-              "description": "스케치코미디 #숏박스 #신년운세.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/nsiSok6AK8s/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/nsiSok6AK8s/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/nsiSok6AK8s/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "숏박스",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-12-29T09:00:38Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "gPVEKrwXOnl-DHqB5tdovSCesmo",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "mKAZdwUFXDk"
-          },
-          "snippet": {
-              "publishedAt": "2023-01-26T09:00:19Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#라디오스타] 종이 세상에선 남바완💪 ‘80 언더’ 주우재 선생께 오늘도 한 수 배워갑니다🙇🏼 | #주우재 #엠뚜루마뚜루 MBC230125방송",
-              "description": "[라디오스타] 수요일 밤 10시 30분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/mKAZdwUFXDk/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/mKAZdwUFXDk/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/mKAZdwUFXDk/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-01-26T09:00:19Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "YYh3kX434aOLgWG3XbtHBPwyoD0",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "egKSufHDhSU"
-          },
-          "snippet": {
-              "publishedAt": "2024-02-29T08:00:21Z",
-              "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
-              "title": "[#습콕📌] 탁재훈에겐 너무 어려운 예술의 세계🤔 #미운우리새끼 #MyLittleOldBoy #SBSenter",
-              "description": "임원희 #탁재훈 #예지원 ▷ Homepage : https://www.sbs.co.kr/tv/enter ▷ Subscribe SBS Entertainment : https://bit.ly/2SpOhMC ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/egKSufHDhSU/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/egKSufHDhSU/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/egKSufHDhSU/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "SBS Entertainment",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-02-29T08:00:21Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "ftMIYddKDMqxIeLzdiA8TRbSlZY",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "Po84TcoVjNo"
-          },
-          "snippet": {
-              "publishedAt": "2023-07-17T01:36:51Z",
-              "channelId": "UCr0adenI5KeQFJkMIGjq5qw",
-              "title": "[LIVE🔴] #연애의참견 정주행 스트리밍 (시즌1~3)",
-              "description": "선선한 가을 정주행하기 딱! 좋은 연애의 참견 스트리밍! 시즌1부터 시즌3까지 달려보자구요   연참 시즌1,2,3 몰아보기   *회차 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/Po84TcoVjNo/default_live.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/Po84TcoVjNo/mqdefault_live.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/Po84TcoVjNo/hqdefault_live.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "KBS Joy",
-              "liveBroadcastContent": "live",
-              "publishTime": "2023-07-17T01:36:51Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "bIywsCfETXa7hRDgcbrAsKYKf94",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "DVSEfDD7Dyc"
-          },
-          "snippet": {
-              "publishedAt": "2023-01-12T11:00:09Z",
-              "channelId": "UChY4PXxJI0aJYsGT1X6INWA",
-              "title": "[#라스+] “뭐 어떻게 할 겁니다💦” 연기의 맛을 아는 내공 있는 배우✨ #이동휘 편 MBC160330방송",
-              "description": "아… 아… 아버지! 그게 아니고요…   입담 플러스! 스타 집중 탐구   #라스+ #옛능 #라디오스타 #이동휘 라디오스타 FULL버전 다시 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/DVSEfDD7Dyc/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/DVSEfDD7Dyc/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/DVSEfDD7Dyc/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "올끌 (All of MBClassic)",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-01-12T11:00:09Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "E6y06oCQFXUJBUBF-xu_sfDeHsc",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "Ovt46utJ_h0"
-          },
-          "snippet": {
-              "publishedAt": "2023-06-10T14:01:48Z",
-              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
-              "title": "[ENG][아형✪하이라이트] 🔥에스파 예능감 Spicy🔥 형님들 휘어잡고 팀킬(!)도 불사하는 카리나&amp;닝닝&amp;윈터 토크 모음.zip | 아는 형님 | JTBC 230610 방송",
-              "description": "[아형✪하이라이트] 에스파 예능감 Spicy   형님들 휘어잡고 팀킬(!)도 불사하는 카리나&닝닝&윈터 토크 모음.zip #아는형님 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/Ovt46utJ_h0/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/Ovt46utJ_h0/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/Ovt46utJ_h0/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "아는형님 Knowingbros",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-06-10T14:01:48Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "-QakzaMhAQspyjknW2cvAMRTny4",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "inHaQPZaXP0"
-          },
-          "snippet": {
-              "publishedAt": "2024-01-05T02:46:49Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#라디오스타] 드디어... 오셨다... 🔥레전드 박준형 폭주 방송🔥 방송이고 나발이고 덥다고 매애애앤!!! (feat. 선글라스 파괴) | #박준형 MBC240103방송",
-              "description": "[라디오스타] 수요일 밤 10시 30분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/inHaQPZaXP0/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/inHaQPZaXP0/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/inHaQPZaXP0/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-01-05T02:46:49Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "-TDlfPDnP_QNG8oB266YgPYBf6A",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "CjXYFpA6XyQ"
-          },
-          "snippet": {
-              "publishedAt": "2023-05-22T09:20:00Z",
-              "channelId": "UCYYqb06Ym3aeubtHFwA4ECg",
-              "title": "일본예능 최고의 MC가 갑자기 사라진 이유",
-              "description": "협소주택 짓는 영상으로 시작했다가.. 현재는 건축물 한스푼 넣은 이야기 삼매경 안협소 채널에 가입하여 영상 제작에 힘을 보태주세요 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/CjXYFpA6XyQ/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/CjXYFpA6XyQ/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/CjXYFpA6XyQ/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "안협소",
-              "liveBroadcastContent": "none",
-              "publishTime": "2023-05-22T09:20:00Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "PZ_c4P11XK30p_aabvYDjhBmWeU",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "wpyY3lh8U4c"
-          },
-          "snippet": {
-              "publishedAt": "2021-10-04T02:35:04Z",
-              "channelId": "UCUmrzozuofvw6YxX4RC4dew",
-              "title": "장근석 일본예능① (feat. AKB48 미나미)",
-              "description": "근짱 다운타운나우 출연 고통받는 미나미짱 ❥❥❥재미있게 보셨다면 커피 한 잔❥❥❥ 감사히 받고 자막 작업에 힘쓰겠습니다~!",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/wpyY3lh8U4c/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/wpyY3lh8U4c/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/wpyY3lh8U4c/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "라벤더",
-              "liveBroadcastContent": "none",
-              "publishTime": "2021-10-04T02:35:04Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "DHGak_bOaXHA-RoCh33tbNYzf-A",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "Cpv2z_8cu60"
-          },
-          "snippet": {
-              "publishedAt": "2024-04-19T03:00:14Z",
-              "channelId": "UC6QBCXjh1p3_etFuS4FST5A",
-              "title": "왜 그렇게 말해? &#39;이&#39; 논란까지 뜬 홍은채",
-              "description": "lesserafim #르세라핌 #홍은채 #홍은채논란.",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/Cpv2z_8cu60/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/Cpv2z_8cu60/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/Cpv2z_8cu60/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "숏차장",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-04-19T03:00:14Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "lw1ofJPJoj5zGhuJeD5lmCBsCb8",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "kqAzZKp0Ylc"
-          },
-          "snippet": {
-              "publishedAt": "2022-11-09T09:00:23Z",
-              "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
-              "title": "런닝맨급발진",
-              "description": "런닝맨 급발진 .zip 《런닝맨 / 예능맛ZIP / RunningMan 》 아닌데 아닌데 나 종국이 진짜 진짜 사랑하는데? #예능맛ZIP​ #런닝맨​ ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/kqAzZKp0Ylc/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/kqAzZKp0Ylc/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/kqAzZKp0Ylc/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "런닝맨 - 스브스 공식 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2022-11-09T09:00:23Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "ApIfacTZA9PfHOVwOX1Z39h2zQk",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "5GxT0t2gsaU"
-          },
-          "snippet": {
-              "publishedAt": "2024-02-08T02:11:09Z",
-              "channelId": "UCAmff0euQRf6RwVlbB8PLMw",
-              "title": "[24HR LIVE🔴] 시간 순삭⌚ 힘 충전💪이 필요할 땐 컬투쇼 웃긴 사연🤣 무한 스트리밍♾",
-              "description": "컬투쇼 웃긴 사연 들으면서 힘냅시다   #컬투쇼 #두시탈출컬투쇼 #컬투쇼다시듣기 #컬투쇼레전드 SBS 파워FM 107.7MHz 매일 낮 2 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/5GxT0t2gsaU/default_live.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/5GxT0t2gsaU/mqdefault_live.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/5GxT0t2gsaU/hqdefault_live.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "SBS Radio 에라오",
-              "liveBroadcastContent": "live",
-              "publishTime": "2024-02-08T02:11:09Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "w2FOOIiQTB5xlcOrLvzKFKKbcfo",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "KFRGvWtxHLw"
-          },
-          "snippet": {
-              "publishedAt": "2022-09-06T05:00:11Z",
-              "channelId": "UCWYzc_p0GgfCepIWDHGFmEg",
-              "title": "[#유퀴즈온더블럭] (2시간) ⏰시간 순삭⏰ 유퀴즈 레전드 예능인 자기님들 모음.zip | #나중에또볼동영상",
-              "description": "길게 보는 tvN 핵꿀잼 영상! 저장해두고 나중에 보고 또 보자! #나중에또볼동영상 #나또동 #유퀴즈온더블럭 #Diggle #디글 we're ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/KFRGvWtxHLw/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/KFRGvWtxHLw/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/KFRGvWtxHLw/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "디글 :Diggle",
-              "liveBroadcastContent": "none",
-              "publishTime": "2022-09-06T05:00:11Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "g0BdcngOGWXcpWysWAa1eeS_mFQ",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "Uy4xArqrwhA"
-          },
-          "snippet": {
-              "publishedAt": "2024-04-15T08:00:14Z",
-              "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
-              "title": "[#나혼자산다] 옛 감성 우드색 몰딩의 20년 된 집에 사는 안재현과 다이어트 시급한 6kg 뚱냥이 안주의 일상✨ | #안재현 #배우 MBC240412방송",
-              "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/Uy4xArqrwhA/default.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/Uy4xArqrwhA/mqdefault.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/Uy4xArqrwhA/hqdefault.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-              "liveBroadcastContent": "none",
-              "publishTime": "2024-04-15T08:00:14Z"
-          }
-      },
-      {
-          "kind": "youtube#searchResult",
-          "etag": "p98NG5uxl1QbfzsS6K0Hhw7crXs",
-          "id": {
-              "kind": "youtube#video",
-              "videoId": "b5UeAVqz4cI"
-          },
-          "snippet": {
-              "publishedAt": "2023-06-05T02:17:22Z",
-              "channelId": "UC-9RQCJ0gS_Kgt7J0SVrE8w",
-              "title": "[🔴실시간]  레전드 회차＜벌거벗은 세계사＞ 스트리밍 몰아보기 📖",
-              "description": "아는 것을 넘어 경험으로 안내하는 온택트 스토리텔링 ＜벌거벗은 세계사＞ 매주 화요일 밤 10:10 tvN 방송   * 스트리밍 일정 : 6/8 ...",
-              "thumbnails": {
-                  "default": {
-                      "url": "https://i.ytimg.com/vi/b5UeAVqz4cI/default_live.jpg",
-                      "width": 120,
-                      "height": 90
-                  },
-                  "medium": {
-                      "url": "https://i.ytimg.com/vi/b5UeAVqz4cI/mqdefault_live.jpg",
-                      "width": 320,
-                      "height": 180
-                  },
-                  "high": {
-                      "url": "https://i.ytimg.com/vi/b5UeAVqz4cI/hqdefault_live.jpg",
-                      "width": 480,
-                      "height": 360
-                  }
-              },
-              "channelTitle": "사피엔스 스튜디오",
-              "liveBroadcastContent": "live",
-              "publishTime": "2023-06-05T02:17:22Z"
-          }
-      }
-  ]
+    "kind": "youtube#searchListResponse",
+    "etag": "i1Ux3TG90X-QfiW29vCbsu_ydRI",
+    "nextPageToken": "CCgQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 40
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QQ7oE8HslUM445Y3Vkm5gwwIfxA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WdociM23ap4"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-13T09:00:15Z",
+                "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
+                "title": "[무도 뭐하니?] 예능계 입담 원투탑👑 탁재훈 지상렬 폭주 모음.zipㅣ#지상렬 #탁재훈 MBC210220방송",
+                "description": "[무도 뭐하니?] 무한도전 + 놀면뭐하니? 의 연결고리를 찾아서   #놀면뭐하니? #무한도전 #엠뚜루마뚜루 MBC의 따끈따끈한 영상을 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WdociM23ap4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WdociM23ap4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WdociM23ap4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-13T09:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OJw8trLXAEKacK9d4AjbUtrOPug",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "79hFQE7MXvQ"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-22T03:00:07Z",
+                "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
+                "title": "[#나혼자산다] &#39;저는 충동구매를 하지 않아요.&#39; 주류 한정 충동구매하는 애주가 조정뱅이 규현🤣 | #규현 #슈퍼주니어 MBC240119방송",
+                "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/79hFQE7MXvQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/79hFQE7MXvQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/79hFQE7MXvQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-22T03:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "E-1KfhAOeWykyTJhYn12L3kW01o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ezaVarrsmxY"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-12T03:00:23Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "[#습콕📌] 우일이 형 와쪄~염~😉 탁사마도 질색하게 만든 요즘 스타일(?) 임우일😯 #신발벗고돌싱포맨 #InvitationfromBacheloragains #SBSenter",
+                "description": "이병준 #한채영 #임우일 ▷ Homepage : https://www.sbs.co.kr/tv/enter ▷ Subscribe SBS Entertainment : https://bit.ly/2SpOhMC ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ezaVarrsmxY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ezaVarrsmxY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ezaVarrsmxY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SBS Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-12T03:00:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "n2u1sjtchyC0lZ9t2Spf1ocsE8U",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wpyY3lh8U4c"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-04T02:35:04Z",
+                "channelId": "UCUmrzozuofvw6YxX4RC4dew",
+                "title": "장근석 일본예능① (feat. AKB48 미나미)",
+                "description": "근짱 다운타운나우 출연 고통받는 미나미짱 ❥❥❥재미있게 보셨다면 커피 한 잔❥❥❥ 감사히 받고 자막 작업에 힘쓰겠습니다~!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wpyY3lh8U4c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wpyY3lh8U4c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wpyY3lh8U4c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "라벤더",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-04T02:35:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bCs32Qn9VfXEBW8WD8Tsjudupf8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EuPcbybfnaE"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-26T06:23:25Z",
+                "channelId": "UCfsQ_US-WKOT_IpnvMvHWOg",
+                "title": "일본 예능) 리즈시절 기무라 타쿠야가 백허그를 한다면??(일본몰래카메라/한글자막)",
+                "description": "최신 일본 뉴스를 빠르게 전해드리도록 하겠습니다. 구독과 좋아요는 자막 제작하는데 힘이 됩니다^ㅊ^",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EuPcbybfnaE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EuPcbybfnaE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EuPcbybfnaE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "뉴스생생일본",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-26T06:23:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "RFh3UQwpKBi_wkP0vQi4MpvZpnA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gt-yoyUHCXY"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-22T10:05:23Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "[스페셜/SUB] 찐 리액션 빵빵 터지는 레전드 황당 상황 모음집★ㅣ런닝맨(runningman)ㅣSBS ENTER.",
+                "description": "런닝맨 황당 상황 모음 영상을 공개합니다! SBS 일요일 예능 '런닝맨 (Runningman)' ☞ 일요일 오후 5시 본방송 #런닝맨 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gt-yoyUHCXY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gt-yoyUHCXY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gt-yoyUHCXY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SBS Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-22T10:05:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "HPBx3Mv_W4f5nGmCtWLXK1dZVWs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sBbaZQeSZ_Q"
+            },
+            "snippet": {
+                "publishedAt": "2024-03-24T08:09:11Z",
+                "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
+                "title": "[#나혼자산다] 누가 아침으로 랍스터를 먹어요🤣 큰 손 나래 위의 더 큰 손 나래 엄마표 목포 집밥 한상✨(feat. 폭풍 잔소리) | #박나래 #목포 MBC240322방송",
+                "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sBbaZQeSZ_Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sBbaZQeSZ_Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sBbaZQeSZ_Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-03-24T08:09:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qHKj_Lz9bD-KJ-CY7fxYQUFp3FE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "--urqTB1mSk"
+            },
+            "snippet": {
+                "publishedAt": "2024-05-02T03:00:00Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "[#습콕📌] 아직 8번이나 남았어🍀 석 트리오 유재석 X 유연석 X 조정석과 함께한 경로당 틈새 시간⏰ #틈만나면 #WheneverPossible #SBSenter",
+                "description": "유재석 #유연석 #조정석 #SBS화요예능 #틈만나면 #WheneverPossible SBS 화요일 예능 '틈만나면,' ☞ 화요일 오후 10시 20분 본 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/--urqTB1mSk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/--urqTB1mSk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/--urqTB1mSk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SBS Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-05-02T03:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yAuKn_AQkdNQEOCkXo6_SHfsSAg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "nYJH2lChijE"
+            },
+            "snippet": {
+                "publishedAt": "2023-11-24T09:00:43Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "[sub] 옥상으로 따라와 고기 먹게 | 👅나영석의 지글지글",
+                "description": "황정민 정우성이랑 옥상에서 삼겹살 먹은 썰 푼다 (이왜진) #채널십오야 #지글지글 #유료광고포함 #황정민 #정우성 #서울의봄.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nYJH2lChijE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nYJH2lChijE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nYJH2lChijE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-24T09:00:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "o9dVNJveMVq9IwYWUzSle_BP7Ws",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jQfdyeHZOt0"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-23T09:00:06Z",
+                "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
+                "title": "[#라디오스타] ⭐설특집⭐ 조회수 100만은 가뿐-히 찍고 간 올타임 레전드 배꼽스틸러들😂 라스 4시간 반 몰아보기ㅣ#다나카 #조세호 #이민정 MBC230104방송",
+                "description": "[라디오스타] 수요일 밤 10시 30분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jQfdyeHZOt0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jQfdyeHZOt0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jQfdyeHZOt0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-23T09:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "SgkVpoMCNOLNC9QD-CHsQDpUKPY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_rbAJwhgXNo"
+            },
+            "snippet": {
+                "publishedAt": "2023-11-15T03:00:23Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "[#습콕📌] 나때는 말이야! Y2K가 오면 세상이 종말한다 했다! 이말이야~! #신발벗고돌싱포맨 #InvitationfromBacheloragains #SBSenter",
+                "description": "채연 #김현정 #이수영 ▷ Homepage : https://www.sbs.co.kr/tv/enter ▷ Subscribe SBS Entertainment : https://bit.ly/2SpOhMC ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_rbAJwhgXNo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_rbAJwhgXNo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_rbAJwhgXNo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SBS Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-15T03:00:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "-gJ5v1drCxaTdkC8Gu17B_8MzU8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ihi_HtHkpNw"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-03T15:00:13Z",
+                "channelId": "UCExLc_PM3kDogai56jyZEtg",
+                "title": "[#라디오스타] 근육맨들의 원픽 연예인 김종국... 💪 유튜브부터 챌린지까지 모두 장악한 미친 예능 피지컬🔥ㅣ#김종국 MBC240403방송",
+                "description": "라스퀵] 라스 제작진 선정! 금주 방송 중 가장 HOT한 토크! 가장 빠르게 즐기는 라스퀵.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ihi_HtHkpNw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ihi_HtHkpNw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ihi_HtHkpNw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "라디오스타",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-03T15:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bcw6xJJLUUgKO-SRi5hJ384gqUY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "m1d8CWoy0fA"
+            },
+            "snippet": {
+                "publishedAt": "2021-02-12T09:00:14Z",
+                "channelId": "UCy-swBYpRZx7KW11FStjTgw",
+                "title": "반고 탁선생, 탁재훈 웃음보따리 모음.ZIP [미운우리새끼|SBS방송]",
+                "description": "웃음보따리와 함께 새해 복 많이받으세요   #미운우리새끼 #MyLittleOldBoy #예능맛ZIP.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m1d8CWoy0fA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m1d8CWoy0fA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m1d8CWoy0fA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "레알예능 스브스",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-02-12T09:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "-SfnMwN3btnMwdbHbxH4r6vIPE4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0hCaFKixGbw"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-15T08:12:25Z",
+                "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+                "title": "[골라봐야지] 춤 한번 기깔나게 추는 신동의 분장쇼 아니고 ☆댄스쇼★｜아는형님｜JTBC 220827 방송 외",
+                "description": "동선배 차림새는 대체 왜 그래요ㅋㅋㅋㅠ 매번 레전드 갱신하는 신동 댄스 커버 #아는형님 #신동 #골라봐야지 [JTBC봐야지] 구독 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0hCaFKixGbw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0hCaFKixGbw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0hCaFKixGbw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JTBC Voyage",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-15T08:12:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TLT8C5agDegarYqVySv1d8owsbE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "nW9zLo8qjrs"
+            },
+            "snippet": {
+                "publishedAt": "2020-05-24T12:22:57Z",
+                "channelId": "UC0zeTTgAhu_l6jtRvYXTuTA",
+                "title": "촬영 중 극대노!  웃긴 돌발상황 일본예능",
+                "description": "일본 연예계에서 레전드 원로 가수로 대우받고 있는 니시키노 아키라(한국명 김명식). 언제 분노가 폭발할 지 모르는 이 위험한 레전드 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nW9zLo8qjrs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nW9zLo8qjrs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nW9zLo8qjrs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "유머 2번지",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-05-24T12:22:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rBKjw83Zv9dLmcZlKGryXV4yUKQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "nGP8pWWZ3Rc"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-18T04:42:30Z",
+                "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+                "title": "(40분) 예능에 적응한 아이브(IVE) 어떻게 버틸 건데?｜아는형님｜JTBC 230415 방송 외",
+                "description": "예능에 적응하고 은은한 광기 내뿜는 아이브 예능 활약상   #아는형님 #골라봐야지 #아이브 #IVE [JTBC봐야지] 구독하기☞ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nGP8pWWZ3Rc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nGP8pWWZ3Rc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nGP8pWWZ3Rc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JTBC Voyage",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-18T04:42:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MMUait6VXNj3dN2Qw_IuhN1XkcU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "LtDUGfUHZ4c"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-29T10:35:16Z",
+                "channelId": "UC2uMFAu-m7_6M4AiiEiAREQ",
+                "title": "웃긴영상 일본 예능 레전드 몰래카메라 EP20",
+                "description": "japanesefunnyvideo #funnyvideo #몰래카메라 #일본예능 #웃긴영상 (웃긴영상) 일본 예능 레전드 몰래카메라 EP20.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LtDUGfUHZ4c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LtDUGfUHZ4c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LtDUGfUHZ4c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SHOE BOX",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-29T10:35:16Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nRkDZ7NqtM0-K_1VulD3PI7X1fo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "tF42lsvgEHA"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-09T14:00:26Z",
+                "channelId": "UCWYzc_p0GgfCepIWDHGFmEg",
+                "title": "[#신서유기8] (100분) 계란 파티~🥚부터 훈민정음 탁구, 고요 속의 외침 까지🧡 신서유기8 레전드 게임 전부 모아 봄.zip | #디제이픽",
+                "description": "신서유기8 #Diggle #디글 취향저격! 당신이 원하던 그 플레이리스트 [#디제이픽  ] Let's giggle, :Diggle! 방송국놈들이 덕질하는 채널 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/tF42lsvgEHA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/tF42lsvgEHA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/tF42lsvgEHA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "디글 :Diggle",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-09T14:00:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QBCkcmtn0nSOpWBkIIzZ6Y0Dci8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "p2MV3tCUwW0"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-03T09:00:41Z",
+                "channelId": "UCnx4Fi4cmkLGDiFfZ311wWw",
+                "title": "지예은 vs 김종숙 #런닝맨",
+                "description": "런닝맨 707회 ⏰ 매주 일요일 오후 6:20 #런닝맨​ #Runningman #유재석 #지석진 #하하 #양세찬 #송지효 #강훈 #지예은 #박주현.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/p2MV3tCUwW0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/p2MV3tCUwW0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/p2MV3tCUwW0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "스브스 예능맛집",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-03T09:00:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "HgRGGN_vwRLC5Y_U6VLqyuvk8As",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "DVSEfDD7Dyc"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-12T11:00:09Z",
+                "channelId": "UChY4PXxJI0aJYsGT1X6INWA",
+                "title": "[#라스+] “뭐 어떻게 할 겁니다💦” 연기의 맛을 아는 내공 있는 배우✨ #이동휘 편 MBC160330방송",
+                "description": "아… 아… 아버지! 그게 아니고요…   입담 플러스! 스타 집중 탐구   #라스+ #옛능 #라디오스타 #이동휘 라디오스타 FULL버전 다시 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DVSEfDD7Dyc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DVSEfDD7Dyc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DVSEfDD7Dyc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "올끌 (All of MBClassic)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-12T11:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FbH6SxH4H3WSSWNCNu8VbCTR8QA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9QCtd1ptwLQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-01T06:00:05Z",
+                "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
+                "title": "[#나혼자산다] 음중 퇴근 후 MZ 무게 내려놓고 다이어트하는 현무표 키토 짜장면(a.k.a.키토 무짱면) 먹방🤤 | #전현무 MBC230728방송",
+                "description": "[나 혼자 산다] 금요일 밤 11시 10분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9QCtd1ptwLQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9QCtd1ptwLQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9QCtd1ptwLQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-01T06:00:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hgeiSNXPMeemQFWj49hagu-ovW0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ka2WNSkWPJc"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-06T08:00:33Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "[#습콕📌] 로맨스 중독! 틈만 나면 거짓말! 하지만 너무 귀여운 지예은 모음!📂 #런닝맨 #RunningMan #SBSenter",
+                "description": "지예은 #강훈 #유재석 #지석진 #김종국 #하하 #송지효 #양세찬 ▷ Homepage : https://www.sbs.co.kr/tv/enter Copyright C SBS.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ka2WNSkWPJc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ka2WNSkWPJc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ka2WNSkWPJc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SBS Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-06T08:00:33Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "-5qi59fP6U3wvElZriqCvf-brQ8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Mpf1M14hYmo"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T10:54:14Z",
+                "channelId": "UCx6jsZ02B4K3SECUrkgPyzg",
+                "title": "[ENG SUB] 유재석 아바타, 흑진주 | #놀면뭐하니? #유재석 #박진주 MBC240713방영",
+                "description": "놀면뭐하니 #놀뭐 #유재석 #놀뭐24시 자막은 영상 업로드 날 기준 48시간 뒤에 올라갑니다. Subtitle will be uploaded 48 hours ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Mpf1M14hYmo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Mpf1M14hYmo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Mpf1M14hYmo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "놀면 뭐하니?",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T10:54:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kNpd4yT8ZR-jcKUIxOaD87nsmMs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GJoR_uEPtMo"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-01T06:00:06Z",
+                "channelId": "UCsRIHt5FkbGc6cQtCxt-ufA",
+                "title": "[#신서유기8] 실시간으로 불어 가는 짜장면에 쿨해진 멤버들ㅋㅋ 예능 짬바로 나PD 시간 끌기 간파한 이수근X강호동⚡️ | #티전드",
+                "description": "티전드 #신서유기8 #tvN we're :DIGGLE family.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GJoR_uEPtMo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GJoR_uEPtMo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GJoR_uEPtMo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "tvN D ENT",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-01T06:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tXUxv2w51XevPv-bAJs5ODo2awc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SdfXw-1e8zk"
+            },
+            "snippet": {
+                "publishedAt": "2021-09-28T09:00:12Z",
+                "channelId": "UCwNVDlUgdBlmVWRPy4Nk0Dw",
+                "title": "[#빌려드립니다바퀴달린집] 라이어 게임 속 예능 빌런 이광수ㅋㅋㅋㅋ채수빈이 차린 밥상 그냥 엎어버리기🤣 | #갓잡은클립 #샾잉",
+                "description": "샾잉 #빌려드립니다바퀴달린집 #갓잡은클립 요즘 뜨는 핫클립, 지금 생성 중! #샾잉 ▶︎ 샾잉 최신 콘텐츠 보러가기 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SdfXw-1e8zk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SdfXw-1e8zk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SdfXw-1e8zk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "샾잉 #ing",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-09-28T09:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_v1_KZEf32HecuxQ5BVBOKyzA3c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JWbGVT97Xag"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-12T23:59:07Z",
+                "channelId": "UCDNvRZRgvkBTUkQzFoT_8rA",
+                "title": "[EN] 초복은 핑계고 ㅣ EP.51",
+                "description": "이제 곧 초복이라 날이 또 더워질 것 같은데 ㄱㅖ원님들은 몸보신 좀 하셨나요? 저도 이번에 가족 같은 형, 동생들이랑 뜨뜻한 밥 한 끼 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JWbGVT97Xag/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JWbGVT97Xag/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JWbGVT97Xag/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "뜬뜬 DdeunDdeun",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-12T23:59:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KS4MH-IcBZMVfqZu7GW1Qoc8tmY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pwwODy9i04w"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-23T02:38:48Z",
+                "channelId": "UCkJ3fXVWsKXelauu6rmv8mQ",
+                "title": "최신영화 드라마 예능 다시보기 무료티비 테레비TV",
+                "description": "구글검색가능 많은 이용 바랍니다.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pwwODy9i04w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pwwODy9i04w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pwwODy9i04w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "테레비TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-23T02:38:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Hg_YxUmodrcAmmPo6MNf8yiDbwM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "cxdLhbgeulM"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-19T10:30:39Z",
+                "channelId": "UCiwQRG2sCcfjKkgxMEdJGPg",
+                "title": "[#라디오스타] 이경규가 왔다! 🎉라디오스타 800회🎉 축하해주러 와서 예능 대부 클라스 보여주고 간 경규옹 | #이경규 #엠뚜루마뚜루 MBC230118방송",
+                "description": "[라디오스타] 수요일 밤 10시 30분 방송! MBC의 따끈따끈한 영상을 내 맘대로 편하게 즐기는 채널   엠뚜루마뚜루 구독 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cxdLhbgeulM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cxdLhbgeulM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cxdLhbgeulM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "엠뚜루마뚜루 : MBC 공식 종합 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-19T10:30:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8ezTm8P1jOOqja816MtU42bGQfc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WDvyfXUpWEI"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-30T09:00:32Z",
+                "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
+                "title": "서사완성",
+                "description": "유도.zip 《런닝맨 / 예능맛ZIP / RunningMan 》 #예능맛ZIP​ #런닝맨​ #Runningman.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WDvyfXUpWEI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WDvyfXUpWEI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WDvyfXUpWEI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "런닝맨 - 스브스 공식 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-30T09:00:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_Fi4XM4w3lzgt8nnIkQVdGsgw1s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wuPMDEvXGsQ"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-15T05:00:24Z",
+                "channelId": "UCWYzc_p0GgfCepIWDHGFmEg",
+                "title": "[#식스센스3] (150분) 소녀시대의 폭주하는 예능감ㅋㅋㅋ 15년 차 예능 여신들의 대유잼 예능 바이브 모아보기~! | #나중에또볼동영상",
+                "description": "길게 보는 tvN 핵꿀잼 영상! 저장해두고 나중에 보고 또 보자! #나중에또볼동영상 #나또동 #식스센스3 #온앤오프 #놀라운토요일 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wuPMDEvXGsQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wuPMDEvXGsQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wuPMDEvXGsQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "디글 :Diggle",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-15T05:00:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "M-tmsfXwnKj2UcvLWpIKKdkaIa0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Y5ynQEF5WVA"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-22T09:00:25Z",
+                "channelId": "UCnx4Fi4cmkLGDiFfZ311wWw",
+                "title": "예은아!!! 빨리 타!!! #런닝맨",
+                "description": "런닝맨 714회 ⏰ 매주 일요일 오후 6:20 #런닝맨​ #Runningman #유재석 #지석진 #하하 #양세찬 #송지효 #강훈 #지예은.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Y5ynQEF5WVA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Y5ynQEF5WVA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Y5ynQEF5WVA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "스브스 예능맛집",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-22T09:00:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wWvX2QNH0VEUSO-Oudp_ExMW-GA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CjXYFpA6XyQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-22T09:20:00Z",
+                "channelId": "UCYYqb06Ym3aeubtHFwA4ECg",
+                "title": "일본예능 최고의 MC가 갑자기 사라진 이유",
+                "description": "협소주택 짓는 영상으로 시작했다가.. 현재는 건축물 한스푼 넣은 이야기 삼매경 안협소 채널에 가입하여 영상 제작에 힘을 보태주세요 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CjXYFpA6XyQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CjXYFpA6XyQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CjXYFpA6XyQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "안협소",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-22T09:20:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5o5pLF2Dcm00tNXlWw6SlOKqRyY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hfANZNFsed0"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-06T14:32:11Z",
+                "channelId": "UCkJ3fXVWsKXelauu6rmv8mQ",
+                "title": "최신영화 드라마 예능 다시보기 무료티비 테레비TV",
+                "description": "구글 테레비TV 검색 많은 이용 바랍니다.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hfANZNFsed0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hfANZNFsed0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hfANZNFsed0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "테레비TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-06T14:32:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "SjOO6FKR0-ic9f6b5JBf3NAB4Qw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gVAO95oiCd4"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-30T10:21:08Z",
+                "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+                "title": "[골라봐야지][이수근 레전드 스페셜♨] 드립 텐션 美쳤다↗ 개그대학 콩트학과 수석 드립장인 이수근.zip｜아는형님｜JTBC 220423 방송 외",
+                "description": "아는형님 올타임 레전드 드립 장인 이수근 40분 모음↗ #아는형님 #골라봐야지 #이수근 [JTBC봐야지] 구독하기☞ http://asq.kr/VgFZ3 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gVAO95oiCd4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gVAO95oiCd4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gVAO95oiCd4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JTBC Voyage",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-30T10:21:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eaM5w9tmE6KSbH3JRXvMlt7hfkk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7Egbs8a5M8I"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-27T13:26:41Z",
+                "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+                "title": "[아형✪하이라이트] 민경훈의 예비 신부가 이곳에 있다?! 새신랑이 직접 풀어주는 비밀+사내 연애 스토리 단독 공개💖 | 아는 형님 | JTBC 240727 방송",
+                "description": "[아형✪하이라이트] 민경훈의 예비 신부가 이곳에 있다?! 새신랑이 직접 풀어주는 비밀+사내 연애 스토리 단독 공개   #아는형님 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7Egbs8a5M8I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7Egbs8a5M8I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7Egbs8a5M8I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "아는형님 Knowingbros",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-27T13:26:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "p5VUo7aiilKygjTFOX1xcYPXj8w",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mWbQHIsR6uk"
+            },
+            "snippet": {
+                "publishedAt": "2024-02-14T08:45:01Z",
+                "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
+                "title": "명절이 주는 기회 #런닝맨",
+                "description": "명절 풍경.zip 《런닝맨 / 예능맛ZIP / RunningMan 》 E. 691 #예능맛ZIP​ #런닝맨​ #Runningman.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mWbQHIsR6uk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mWbQHIsR6uk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mWbQHIsR6uk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "런닝맨 - 스브스 공식 채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-02-14T08:45:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "59gOF9QFxO7nKbcoY3LPVQ_kwd0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ae5TvSVUWH0"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-16T09:00:02Z",
+                "channelId": "UCB-ogYCX9Me8nP9gEGpMjUg",
+                "title": "[#톡쏘능] 따끈따끈♨️ 최신 북한 내부영상🎥 탈북민이 직접 촬영해온 처참한 북한 실상 대공개💥 |#이만갑 659회",
+                "description": "톡쏘능: 톡톡 쏘는 채널A 재밌는 예능 클립 이번주 핫한 클립 ▷ [이제 만나러 갑니다] 659회 00:00 하이라이트| 인민군이 주민들을 총 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ae5TvSVUWH0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ae5TvSVUWH0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ae5TvSVUWH0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널에이드: 채널A Drama & Enjoy",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-16T09:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "w7gJwterYGmMsQO9HZM3IuhTyHc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qk0_o9mlWIY"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-09T11:07:56Z",
+                "channelId": "UCK1sVuXaDvJeNwl9noN5nOA",
+                "title": "맵디매운 예능의 맛! 분량 요정 뉴진스의 예능 적응기💫  [1박 2일 시즌4/Two Days and One Night 4] | KBS 240609 방송",
+                "description": "맵디매운 예능의 맛! 분량 요정 뉴진스의 예능 적응기   #1박2일 #여행 #힐링 #레저 #국내여행 #먹방 #음식 #푸드 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qk0_o9mlWIY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qk0_o9mlWIY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qk0_o9mlWIY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS Entertain",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-09T11:07:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6U0LlibX7UCAT5g5pJP8UFgNXvk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NEm2K0u-ctE"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-29T06:06:12Z",
+                "channelId": "UCbitO4jBUjtSqRGJdOf-m9Q",
+                "title": "[중국현황] 중국 최신예능, 한국의 &#39;한끼줍쇼&#39;를 표절",
+                "description": "어제 첫 방. 일부 한류팬들의 판권구매 문의가 폭주하고있으나 역시나 차이나 현재까지 묵묵부답.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NEm2K0u-ctE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NEm2K0u-ctE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NEm2K0u-ctE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "J sk",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-12-29T06:06:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rL-OWwNmkkOO_4fy32DkILttar4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "avBi8x41xlQ"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-11T09:27:54Z",
+                "channelId": "UCRG_7QkxTU3NCwE0Y4XLRSA",
+                "title": "(일본예능) 부부몰카! 만약 아내가 드럽게 맛없는 요리를 남편에게 만들어 준다면?",
+                "description": "(일본예능) 부부몰카! 만약 아내가 드럽게 맛없는 요리를 남편에게 만들어 준다면? 일본 예능도 올리려구요 바쿠 영상 업로드 속도 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/avBi8x41xlQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/avBi8x41xlQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/avBi8x41xlQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Nomads",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-11T09:27:54Z"
+            }
+        }
+    ]
 }

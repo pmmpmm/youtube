@@ -1,1372 +1,1372 @@
 {
     "kind": "youtube#searchListResponse",
-    "etag": "Kiq3bATq5OrWD0f3HAjDNFXyXso",
+    "etag": "nsFxmhaaW18_Qrn7d8kjE6fzjns",
     "nextPageToken": "CCgQAA",
     "regionCode": "KR",
     "pageInfo": {
-        "totalResults": 1000000,
+        "totalResults": 100560,
         "resultsPerPage": 40
     },
     "items": [
         {
             "kind": "youtube#searchResult",
-            "etag": "JD5Y0edn9MRdANQq0My3Dz5yWsw",
+            "etag": "dURpRGD8bukUaebcfs3PZzV--oI",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "UCmgGZbfjmk"
+                "videoId": "e15ytEXMwuc"
             },
             "snippet": {
-                "publishedAt": "2024-04-16T15:00:03Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "ILLIT (아일릿) &#39;Lucky Girl Syndrome&#39; Official MV",
-                "description": "Creative Director: Serian Heu Music Video Director: AFF c BELIFT LAB Inc. All Rights Reserved Connect with ILLIT ILLIT ...",
+                "publishedAt": "2024-05-05T10:08:10Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "IVE (아이브) - HEYA (해야) @인기가요 inkigayo 20240505",
+                "description": "IVE - HEYA #SBSInkigayo_EP1226 아이브 - 해야 #IVE #HEYA SBS #인기가요 X #디거스 글로벌 사전투표 최애로 가득한 디깅 채팅 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/UCmgGZbfjmk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/e15ytEXMwuc/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/UCmgGZbfjmk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/e15ytEXMwuc/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/UCmgGZbfjmk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/e15ytEXMwuc/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-16T15:00:03Z"
+                "publishTime": "2024-05-05T10:08:10Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "ReEr6xDJoJ5zY_V5hCdXP5mbATs",
+            "etag": "fcI38CDLwtOdfWz3H9ElDNB3QLE",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "u9nP3qXQA4o"
+                "videoId": "7fg_klS-2kw"
             },
             "snippet": {
-                "publishedAt": "2024-04-15T09:00:02Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "BOYNEXTDOOR (보이넥스트도어) &#39;Earth, Wind &amp; Fire&#39; Official MV",
-                "description": "BOYNEXTDOOR 2nd EP [HOW?] https://bnd.lnk.to/HOW #BOYNEXTDOOR #보이넥스트도어 #BND #BOYNEXTDOOR_HOW ...",
+                "publishedAt": "2024-05-26T09:50:18Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "NewJeans (뉴진스) – How Sweet @인기가요 inkigayo 20240526",
+                "description": "NewJeans - How Sweet #SBSInkigayo_EP1229 뉴진스 - How Sweet #NewJeans #NewJeans_HowSweet SBS #인기가요 X #디 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/u9nP3qXQA4o/default.jpg",
+                        "url": "https://i.ytimg.com/vi/7fg_klS-2kw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/u9nP3qXQA4o/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/7fg_klS-2kw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/u9nP3qXQA4o/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/7fg_klS-2kw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-15T09:00:02Z"
+                "publishTime": "2024-05-26T09:50:18Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "MJcrrO9cfRit-uMZR12jgZ9LlCM",
+            "etag": "txZzuiwxIoTra2k_2Q4hhvRp2j4",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "jCzez_q8si0"
+                "videoId": "J_LtDIVxIC4"
             },
             "snippet": {
-                "publishedAt": "2024-02-23T04:58:10Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "TWICE &quot;ONE SPARK&quot; M/V",
-                "description": "TWICE \"ONE SPARK\" M/V TWICE 13TH MINI ALBUM \"With YOU-th\" +*:ꔫ:* Listen Witℎ YOU-tℎ *:ꔫ:*+ ...",
+                "publishedAt": "2024-07-07T10:16:09Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "BABYMONSTER (베이비몬스터) - FOREVER @인기가요 inkigayo 20240707",
+                "description": "BABYMONSTER - FOREVER #SBSInkigayo_EP1233 베이비몬스터 – FOREVER #BABYMONSTER #FOREVER SBS #인기가요 X ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/jCzez_q8si0/default.jpg",
+                        "url": "https://i.ytimg.com/vi/J_LtDIVxIC4/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/jCzez_q8si0/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/J_LtDIVxIC4/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/jCzez_q8si0/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/J_LtDIVxIC4/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-02-23T04:58:10Z"
+                "publishTime": "2024-07-07T10:16:09Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "fOqOlRkhU5-Bx7FB98CTnGyX4C8",
+            "etag": "qpQNp5UDLP61R-osJqarzx3gG0I",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "4R7vRFGJr3k"
+                "videoId": "WN7mr9nuKrk"
             },
             "snippet": {
-                "publishedAt": "2023-12-17T14:59:58Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "ITZY &quot;BORN TO BE&quot; M/V @ITZY",
-                "description": "ITZY \"BORN TO BE\" M/V ITZY “BORN TO BE” - UNTOUCHABLE Melon https://kko.to/H1Pbs5MKtK M/V ...",
+                "publishedAt": "2024-06-30T10:05:13Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "Red Velvet (레드벨벳) – Cosmic @인기가요 inkigayo 20240630",
+                "description": "Red Velvet - Cosmic #SBSInkigayo_EP1232 레드벨벳 - Cosmic #RedVelvet #Cosmic SBS #인기가요 X #디거스 글로벌 사전투표 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/4R7vRFGJr3k/default.jpg",
+                        "url": "https://i.ytimg.com/vi/WN7mr9nuKrk/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/4R7vRFGJr3k/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WN7mr9nuKrk/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/4R7vRFGJr3k/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WN7mr9nuKrk/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-12-17T14:59:58Z"
+                "publishTime": "2024-06-30T10:05:13Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "OLvxk63rB9CpBipb0VcJ_Zdkoxg",
+            "etag": "sIL7sM0eu0hQuXM3YvVh5y2NTnU",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "xU8mQMLx0tk"
+                "videoId": "SWScAm_67xg"
             },
             "snippet": {
-                "publishedAt": "2024-01-19T00:00:11Z",
-                "channelId": "UC-Fnix71vRP64WXeo0ikd0Q",
-                "title": "IVE 아이브 &#39;All Night (Feat. Saweetie)&#39; Official Music Video",
-                "description": "IVE 아이브 'All Night (Feat. Saweetie)' Official Music Video Listen to & Download \"All Night\" out now: https://ive.lnk.to/AllNight ...",
+                "publishedAt": "2024-07-14T00:13:12Z",
+                "channelId": "UCZvVwfbGB1gPcWFZj3avjAA",
+                "title": "랜덤 플레이 댄스 | 🍀 최신 유행곡 노래 랜덤 플레이 댄스🙈💗",
+                "description": "랜덤플레이댄스 #랜플댄.",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/xU8mQMLx0tk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/SWScAm_67xg/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/xU8mQMLx0tk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/SWScAm_67xg/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/xU8mQMLx0tk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/SWScAm_67xg/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "IVE",
+                "channelTitle": "예은",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-01-19T00:00:11Z"
+                "publishTime": "2024-07-14T00:13:12Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "_ThlXJd3efUgbecn5QT2bEaGsdk",
+            "etag": "iCwIMNj1AMiTvX5e13bO54DblVU",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "rBHK8Z8cwmQ"
+                "videoId": "Yb2m3FkIR_g"
             },
             "snippet": {
-                "publishedAt": "2024-01-26T05:00:08Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "VCHA &quot;Girls of the Year&quot; M/V",
-                "description": "VCHA \"Girls of the Year\" M/V VCHA The First Single “Girls of the Year”   🗓️Released on Jan 26th 0AM ET ...",
+                "publishedAt": "2024-07-14T09:03:50Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "BABYMONSTER (베이비몬스터) - FOREVER @인기가요 inkigayo 20240714",
+                "description": "BABYMONSTER - FOREVER #SBSInkigayo_EP1234 베이비몬스터 – FOREVER #BABYMONSTER #FOREVER SBS #인기가요 X ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/rBHK8Z8cwmQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Yb2m3FkIR_g/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/rBHK8Z8cwmQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Yb2m3FkIR_g/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/rBHK8Z8cwmQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Yb2m3FkIR_g/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-01-26T05:00:08Z"
+                "publishTime": "2024-07-14T09:03:50Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "Vy0ETrDYFOEth7XBxv2d9lE7l3k",
+            "etag": "2Nmf-BC-0CSfuEOy4ILELSII2b4",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "VkIEfqHFNkU"
+                "videoId": "_2HL-ogzzBU"
             },
             "snippet": {
-                "publishedAt": "2024-01-01T14:59:57Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "ITZY &quot;Mr. Vampire&quot; M/V @ITZY",
-                "description": "ITZY \"Mr. Vampire\" M/V ITZY “BORN TO BE” - UNTOUCHABLE Melon https://kko.to/H1Pbs5MKtK M/V ...",
+                "publishedAt": "2024-07-07T06:50:20Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "[안방1열 풀캠4K] 베이비몬스터 &#39;FOREVER&#39; (BABYMONSTER FullCam)│@SBS Inkigayo 240707",
+                "description": "[안방1열 풀캠4K] 베이비몬스터 'FOREVER' (BABYMONSTER FullCam)│@SBS Inkigayo 240707 #인기가요 #베이비몬스터 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/VkIEfqHFNkU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/_2HL-ogzzBU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/VkIEfqHFNkU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/_2HL-ogzzBU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/VkIEfqHFNkU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/_2HL-ogzzBU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-01-01T14:59:57Z"
+                "publishTime": "2024-07-07T06:50:20Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "5TGOvgX3U4zZyj4CfvRdKb968Xc",
+            "etag": "9xEApye7VO1M7wlZYeiMsw0Uqe4",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "oc_2sjQXa0Q"
+                "videoId": "sP9U-kJWaYU"
             },
             "snippet": {
-                "publishedAt": "2024-02-27T15:00:03Z",
-                "channelId": "UCQdq-lqPEq_yZ_wP_kuVB9Q",
-                "title": "ATEEZ(에이티즈) - &#39;NOT OKAY&#39; Official MV",
-                "description": "ATEEZ JAPAN 3RD SINGLE 「NOT OKAY」 Release Date: 2024. 2. 28 ▷ ATEEZ Japan Official Site: https://ateez-official.jp/ ...",
+                "publishedAt": "2024-07-26T16:40:04Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "NewJeans (뉴진스) – Intro + How Sweet + Supernatural @가요대전 썸머 GayoDaejeon Summer 20240726",
+                "description": "NewJeans - Intro + How Sweet + Supernatural #SBSGayoDaejeonSummer 뉴진스 - Intro + How Sweet + Supernatural ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/oc_2sjQXa0Q/default.jpg",
+                        "url": "https://i.ytimg.com/vi/sP9U-kJWaYU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/oc_2sjQXa0Q/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sP9U-kJWaYU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/oc_2sjQXa0Q/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sP9U-kJWaYU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "KQ ENTERTAINMENT",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-02-27T15:00:03Z"
+                "publishTime": "2024-07-26T16:40:04Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "wLg2czCZWqaRu1ymSt0wSty04ws",
+            "etag": "li6qMmAUuWLY5CPicy_mrcVQxrI",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "rVWO752XRx4"
+                "videoId": "Vy_WgYzAH-A"
             },
             "snippet": {
-                "publishedAt": "2024-04-22T15:22:00Z",
-                "channelId": "UCdc9eWOOV_-jcVZcVOlZxVA",
-                "title": "MOST VIEWED K-POP music videos April 2024 (2nd week)",
-                "description": "This video was a little delayed due to vacation) This is the top 30 most viewed K-Pop music videos during the week from 2024/4/8 ...",
+                "publishedAt": "2024-08-28T17:00:33Z",
+                "channelId": "UCstvqwfzk2euDA6sKXOujrw",
+                "title": "8월 트로트가수 인기순위(트로트 전성시대) 공개! 1위는? 영탁·이찬원·손태진.. 뜻밖이네 또!",
+                "description": "8월 트로트가수 인기순위(트로트 전성시대) 공개! 1위는? 영탁·이찬원·손태진.. 뜻밖이네 또!",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/rVWO752XRx4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Vy_WgYzAH-A/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/rVWO752XRx4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Vy_WgYzAH-A/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/rVWO752XRx4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Vy_WgYzAH-A/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "T-Stats",
+                "channelTitle": "미노 뉴스",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-22T15:22:00Z"
+                "publishTime": "2024-08-28T17:00:33Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "ZcTLqPGUbjsA-CJBP_RiDqI0huo",
+            "etag": "VgqUA9IBrhW6Yfh3OjMyer3QhOo",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "7UecFm_bSTU"
+                "videoId": "PA952V4t-4o"
             },
             "snippet": {
-                "publishedAt": "2024-01-15T09:00:02Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "NMIXX “DASH” M/V",
-                "description": "NMIXX “DASH” M/V NMIXX Official YouTube ▷ https://www.youtube.com/c/NMIXXOfficial NMIXX Official X(Twitter) ...",
+                "publishedAt": "2024-07-26T16:40:02Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "IVE (아이브) – Intro + 해야 (HEYA) + Accendio @가요대전 썸머 GayoDaejeon Summer 20240726",
+                "description": "IVE - Intro + 해야 (HEYA) + Accendio #SBSGayoDaejeonSummer 아이브 - Intro + 해야 (HEYA) + Accendio #IVE #HEYA ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/7UecFm_bSTU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/PA952V4t-4o/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/7UecFm_bSTU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/PA952V4t-4o/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/7UecFm_bSTU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/PA952V4t-4o/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-01-15T09:00:02Z"
+                "publishTime": "2024-07-26T16:40:02Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "D_yavhP3FZcj8VFSfKqMB5oIMKM",
+            "etag": "mlBeejVVL4bijo74yAfR6Y0opLM",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "Ey53EQhkLY8"
+                "videoId": "kYD7ZLJtiZs"
             },
             "snippet": {
-                "publishedAt": "2024-04-18T09:00:18Z",
-                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
-                "title": "RIIZE 라이즈 &#39;Impossible&#39; MV",
-                "description": "RIIZE's prologue single \"Impossible\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/Impossible [Tracklist] ...",
+                "publishedAt": "2024-07-07T10:33:03Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "Red Velvet (레드벨벳) – Cosmic @인기가요 inkigayo 20240707",
+                "description": "Red Velvet - Cosmic #SBSInkigayo_EP1233 레드벨벳 - Cosmic #RedVelvet #Cosmic SBS #인기가요 X #디거스 글로벌 사전투표 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/Ey53EQhkLY8/default.jpg",
+                        "url": "https://i.ytimg.com/vi/kYD7ZLJtiZs/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/Ey53EQhkLY8/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/kYD7ZLJtiZs/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/Ey53EQhkLY8/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/kYD7ZLJtiZs/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "SMTOWN",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-18T09:00:18Z"
+                "publishTime": "2024-07-07T10:33:03Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "T6Oy-zYh6mq3oqBl46cb4UEzEyo",
+            "etag": "cDdnayMXidZUqmSRYjaMxVKZra4",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "ttJSK3ihTLI"
+                "videoId": "MCeamgwDrAQ"
             },
             "snippet": {
-                "publishedAt": "2024-04-22T15:00:01Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "SEVENTEEN (세븐틴) BEST ALBUM &#39;17 IS RIGHT HERE&#39; Highlight Medley",
-                "description": "SEVENTEEN (세븐틴) BEST ALBUM '17 IS RIGHT HERE' Highlight Medley 2024.04.29 6PM (KST) 2024.04.29 5AM (ET) ...",
+                "publishedAt": "2024-05-20T15:12:58Z",
+                "channelId": "UC9dVwG74z59_9zOzFZOGkew",
+                "title": "2024년 랜덤플레이댄스!!(틱톡포함)",
+                "description": "리룽이 여러분!!! 오랜만입니당!!!! 이제 영상 꾸준히 올리겠습니당!! 그리도 구독과 좋아요는 필수!!",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/ttJSK3ihTLI/default.jpg",
+                        "url": "https://i.ytimg.com/vi/MCeamgwDrAQ/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/ttJSK3ihTLI/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/MCeamgwDrAQ/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/ttJSK3ihTLI/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/MCeamgwDrAQ/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "춤린이 리나",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-22T15:00:01Z"
+                "publishTime": "2024-05-20T15:12:58Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "bwL-kNP0qW-tWmZXajkZpPNzTLg",
+            "etag": "rrSrpCaFvgJCm2Q3e26AWiv1fMY",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "Os_heh8vPfs"
+                "videoId": "2qVP1rL7SEw"
             },
             "snippet": {
-                "publishedAt": "2023-05-08T08:59:11Z",
-                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
-                "title": "aespa 에스파 &#39;Spicy&#39; MV",
-                "description": "aespa's 3rd Mini Album \"MY WORLD\" is out! Listen and download on your favorite platforms: ...",
+                "publishedAt": "2024-07-04T03:58:21Z",
+                "channelId": "UC9dVwG74z59_9zOzFZOGkew",
+                "title": "2024년 랜덤플래이댄스(신청곡 포함/틱톡포함)",
+                "description": "",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/Os_heh8vPfs/default.jpg",
+                        "url": "https://i.ytimg.com/vi/2qVP1rL7SEw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/Os_heh8vPfs/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/2qVP1rL7SEw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/Os_heh8vPfs/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/2qVP1rL7SEw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "SMTOWN",
+                "channelTitle": "춤린이 리나",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-05-08T08:59:11Z"
+                "publishTime": "2024-07-04T03:58:21Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "7Y10HhrjChXMZLyOa_T4hzFYwn8",
+            "etag": "qZY7jGh6F3bZF9MOhO6p5-nUjAE",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "L3UuNT5uKJk"
+                "videoId": "ymfExjlpEz8"
             },
             "snippet": {
-                "publishedAt": "2024-04-14T11:30:10Z",
-                "channelId": "UC427i7YN50OJWsUJVLjpfLA",
-                "title": "K-pop Idols Who Featured in Senior Artists&#39; Music Videos Pre-debut",
-                "description": "Enjoyed the video? Help us to get 1 million subscribers ▻ SUBSCRIBE to BeBossTV → https://bit.ly/3dKg57s ▻ Hit the LIKE ...",
+                "publishedAt": "2024-05-06T07:10:40Z",
+                "channelId": "UCOtlrfiEbPBwHWb8m9sWbbw",
+                "title": "{최신곡들 다 모여있는 랜덤 플레이 댄스}/{최신곡/유행곡}#랜플#댄스",
+                "description": "",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/L3UuNT5uKJk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/ymfExjlpEz8/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/L3UuNT5uKJk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ymfExjlpEz8/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/L3UuNT5uKJk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ymfExjlpEz8/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "BeBoss TV",
+                "channelTitle": "유린 ٩ᐛو",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-14T11:30:10Z"
+                "publishTime": "2024-05-06T07:10:40Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "e7ewqg3WV5lZnEL4QOgcmUjSURE",
+            "etag": "4uFM1dtsm_LjKP1crLWYrb4I9Qw",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "-GQg25oP0S4"
+                "videoId": "UmYssEnbmvE"
             },
             "snippet": {
-                "publishedAt": "2023-04-24T08:58:11Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "SEVENTEEN (세븐틴) &#39;손오공&#39; Official MV",
-                "description": "SEVENTEEN (세븐틴) '손오공' Official MV #SEVENTEEN #세븐틴 #FML #손오공 #Super Credits: Production｜OUI PRODUCTION ...",
+                "publishedAt": "2024-07-26T16:40:02Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "ILLIT (아일릿) - Lucky Girl Syndrome + Magnetic (Festival ver.) @가요대전 썸머 GayoDaejeon Summer 20240726",
+                "description": "ILLIT - Lucky Girl Syndrome + Magnetic (Festival ver.) #SBSGayoDaejeonSummer 아일릿 - Lucky Girl Syndrome + Magnetic ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/UmYssEnbmvE/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/UmYssEnbmvE/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/UmYssEnbmvE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-04-24T08:58:11Z"
+                "publishTime": "2024-07-26T16:40:02Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "ui67zmMqmWJXNA2GP7Yjrmmv0HU",
+            "etag": "wYk3got_MPRDsuwbweC8EBAZbB0",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "j6tKIdt9K9M"
+                "videoId": "oEmXQGQiuLo"
             },
             "snippet": {
-                "publishedAt": "2024-01-08T15:00:02Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "NMIXX “Run For Roses” Performance Video",
-                "description": "NMIXX “Run For Roses” Performance Video NMIXX Official YouTube ▷ https://www.youtube.com/c/NMIXXOfficial NMIXX Official ...",
+                "publishedAt": "2024-05-10T13:20:42Z",
+                "channelId": "UC1n4HL1BRHyG86iZm0wrhJA",
+                "title": "건행 임영웅 &#39;온기&#39; 등 최신 5곡 노래모음(가사 포함) #임영웅 #신곡 #온기 #모래알갱이 #Home #Do_or_Die #다시만날수있을까 #발라드 #Lyrics #노래모음",
+                "description": "지난 5월 6일 임영웅의 첫 발라드 앨범 '온기'가 발매 되었습니다 ~ 이번 영상에서는 신곡 '온기'를 포함해서 최근 인기를 끌었던 Best 5 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/j6tKIdt9K9M/default.jpg",
+                        "url": "https://i.ytimg.com/vi/oEmXQGQiuLo/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/j6tKIdt9K9M/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/oEmXQGQiuLo/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/j6tKIdt9K9M/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/oEmXQGQiuLo/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "낭만 중령 엔터테인먼트 ",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-01-08T15:00:02Z"
+                "publishTime": "2024-05-10T13:20:42Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "_nKuHT6wnBYS2n42aFuu_jbpduQ",
+            "etag": "JpnSanr9HC4e69ZPQQQFlb9ZkZI",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "Nzk-n7lZ7J4"
+                "videoId": "Uys1M0NpoC4"
             },
             "snippet": {
-                "publishedAt": "2023-11-20T09:00:00Z",
-                "channelId": "UCkJ1rbOrsyPfBuHNfnLPm-Q",
-                "title": "THE BOYZ(더보이즈) &#39;WATCH IT&#39; MV",
-                "description": "THE BOYZ 'WATCH IT' on iTunes : https://apple.co/47HUokq ✓ More information about THE BOYZ http://www.theboyz.kr ...",
+                "publishedAt": "2024-05-11T02:09:32Z",
+                "channelId": "UCDwwn5XFn8eVzs1uY9f0Irw",
+                "title": "유행하는곡들 싹다 쓸어온 랜덤플레이댄스#랜플 #kpop #랜플댄 #챌린지",
+                "description": "",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/Nzk-n7lZ7J4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Uys1M0NpoC4/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/Nzk-n7lZ7J4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Uys1M0NpoC4/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/Nzk-n7lZ7J4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Uys1M0NpoC4/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "THE BOYZ",
+                "channelTitle": "샛별",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-11-20T09:00:00Z"
+                "publishTime": "2024-05-11T02:09:32Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "1CzuR8Zij7nGhT_oCtIssCszNIA",
+            "etag": "bbFbhfL8Jt5nSlZpO5LMNzh8P7s",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "7HDeem-JaSY"
+                "videoId": "LwG1g5kFIWM"
             },
             "snippet": {
-                "publishedAt": "2023-05-15T09:00:04Z",
-                "channelId": "UCritGVo7pLJLUS8wEu32vow",
-                "title": "(여자)아이들((G)I-DLE) - &#39;퀸카 (Queencard)&#39; Official Music Video",
-                "description": "(여자)아이들((G)I-DLE) - '퀸카 (Queencard)' Official Music Video [  ] [I feel] ▫Melon http://kko.to/VMbOLGvKmy ...",
+                "publishedAt": "2024-05-24T11:33:13Z",
+                "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+                "title": "[뮤뱅 원테이크 4k] 뉴진스(NewJeans) &#39;How Sweet&#39; Bonus Ver. @뮤직뱅크(Music Bank) 240524",
+                "description": "NewJeans #HowSweet #뉴진스 #원테이크 #원테이크4K More from #KBSKPOP Twitter: https://twitter.com/StudioK_twt Instagram: ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/7HDeem-JaSY/default.jpg",
+                        "url": "https://i.ytimg.com/vi/LwG1g5kFIWM/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/7HDeem-JaSY/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LwG1g5kFIWM/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/7HDeem-JaSY/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LwG1g5kFIWM/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "channelTitle": "KBS Kpop",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-05-15T09:00:04Z"
+                "publishTime": "2024-05-24T11:33:13Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "3U8_ziMXU-O612YDLTCCzp8xzRQ",
+            "etag": "Tj99u23ne579NEicJ277ayt8oBs",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "JsOOis4bBFg"
+                "videoId": "B8_GIsx7ea8"
             },
             "snippet": {
-                "publishedAt": "2023-06-02T03:59:56Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "Stray Kids &quot;특(S-Class)&quot; M/V",
-                "description": "Stray Kids(스트레이 키즈) \"특(S-Class)\" M/V Listen to ＜ (5-STAR)＞ now! https://Stray-Kids.lnk.to/5-STAR Stray Kids ...",
+                "publishedAt": "2024-08-26T06:30:03Z",
+                "channelId": "UCcOYEm78CpaZQvPE6LtoSeA",
+                "title": "8월 마지막 주 &#39;문성현 X 규진 X 한유진&#39; 엠씨 컷 모음💛🤎💛 | 인기가요 | SBS",
+                "description": "인기가요 #Inkigayo #문성현 #규진 #한유진 #인가MC컷 #엔믹스 #제로베이스원 #NMIXX #ZEROBASEONE SBS '인기가요' ☞ [일] ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/JsOOis4bBFg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/B8_GIsx7ea8/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/JsOOis4bBFg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/B8_GIsx7ea8/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/JsOOis4bBFg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/B8_GIsx7ea8/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "SBS ",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-06-02T03:59:56Z"
+                "publishTime": "2024-08-26T06:30:03Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "79mwxqQizmpiyBJ-giNDoSF6jH8",
+            "etag": "kDxXe69Rp810x66yKxgV_XcQpcc",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "LZb7-7oXzA4"
+                "videoId": "2WGc-5VdoGw"
             },
             "snippet": {
-                "publishedAt": "2024-04-16T06:14:56Z",
-                "channelId": "UCHWfAuT1j7bTLXTIBcY_l6w",
-                "title": "NEW K-POP SONGS | APRIL 2024 (WEEK 2)",
-                "description": "Welcome back to the 'New #KPOP Songs' series! Releases this week include: #Loossemble, #BOYNEXTDOOR, #ONF, #WOOAH ...",
+                "publishedAt": "2024-05-05T09:16:07Z",
+                "channelId": "UC3WZlO2Zl8NE1yIUgtwUtQw",
+                "title": "임영웅 &#39;온기&#39; Official M/V",
+                "description": "임영웅 #LimYoungWoong #온기 임영웅 웅튜브 구독♡좋아요♡알람설정 열심히 할게요/당신도 누를 수 있도록 Lim Young Woong ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/LZb7-7oXzA4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/2WGc-5VdoGw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/LZb7-7oXzA4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/2WGc-5VdoGw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/LZb7-7oXzA4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/2WGc-5VdoGw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "K-Ville Entertainment",
+                "channelTitle": "임영웅",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-16T06:14:56Z"
+                "publishTime": "2024-05-05T09:16:07Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "HbvIIiNhhhCPC-a5sROWc4A3jZU",
+            "etag": "kuJDYbMdJfFrrjR-mozv-ksxDy8",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "2FBW7dK0vus"
+                "videoId": "5Tsp_Lj0qy4"
             },
             "snippet": {
-                "publishedAt": "2024-01-13T02:05:28Z",
-                "channelId": "UCY3jpJxcRPZtiR5gEthdO2g",
-                "title": "&quot;K-Pop idol MV &quot; KPOP playlist",
-                "description": "Pinterest : https://www.pinterest.co.kr/leehojae110/pins/ Instagram : jjabfilm Email : leehojae110@gmail.com #kpop #idol ...",
+                "publishedAt": "2024-07-27T00:30:02Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "NewJeans(뉴진스) - How Sweet + Break Dance + Supernatural #2024SBS가요대전Summer",
+                "description": "2024SBS가요대전Summer #NewJeans #뉴진스 예 능 | #2024SBS가요대전Summer 본방송 | 07월 26일 오후 11시 20분 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/2FBW7dK0vus/default.jpg",
+                        "url": "https://i.ytimg.com/vi/5Tsp_Lj0qy4/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/2FBW7dK0vus/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/5Tsp_Lj0qy4/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/2FBW7dK0vus/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/5Tsp_Lj0qy4/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "쥅쥅",
+                "channelTitle": "SBS Entertainment",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-01-13T02:05:28Z"
+                "publishTime": "2024-07-27T00:30:02Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "kVyv64LfVtgBHC4VigTfRhPY3bk",
+            "etag": "mR__tVpOrmCPxmmM0eTp9E3bDNU",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "gQlMMD8auMs"
+                "videoId": "XXUmLeD2RPE"
             },
             "snippet": {
-                "publishedAt": "2022-08-19T04:00:13Z",
-                "channelId": "UCOmHUn--16B90oW2L6FRR3A",
-                "title": "BLACKPINK - ‘Pink Venom’ M/V",
-                "description": "BLACKPINK - 'Pink Venom' Kick in the door Waving the coco 팝콘이나 챙겨 껴들 생각 말고 I talk that talk Runways I walk walk 눈 ...",
+                "publishedAt": "2024-07-26T16:40:02Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "LE SSERAFIM (르세라핌) – Intro + EASY + Smart @가요대전 썸머 GayoDaejeon Summer 20240726",
+                "description": "LE SSERAFIM - Intro + EASY (Drum & Bass Remix) + Smart (Festival House Remix) #SBSGayoDaejeonSummer 르세라핌 - Intro ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/gQlMMD8auMs/default.jpg",
+                        "url": "https://i.ytimg.com/vi/XXUmLeD2RPE/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/gQlMMD8auMs/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XXUmLeD2RPE/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/gQlMMD8auMs/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XXUmLeD2RPE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "BLACKPINK",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2022-08-19T04:00:13Z"
+                "publishTime": "2024-07-26T16:40:02Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "hEseIbIKk4is2-F5i2tLmqREOvA",
+            "etag": "YEbwSaEpWjGML4MLD0KYoy4kXjo",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "6ZUIwj3FgUY"
+                "videoId": "5qcA6xKRcn8"
             },
             "snippet": {
-                "publishedAt": "2023-04-10T09:00:10Z",
-                "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
-                "title": "IVE 아이브 &#39;I AM&#39; MV",
-                "description": "STARSHIP SQUARE (Domestic) : https://bit.ly/3HtQ7GF STARSHIP SQUARE (Global) : https://bit.ly/3JWPxm0 IVE US EXCLUSIVE ...",
+                "publishedAt": "2024-05-19T08:00:03Z",
+                "channelId": "UCM3jwNRfl5-W8VzgT6DsaEQ",
+                "title": "[안방1열 직캠4K] 에스파 카리나 &#39;Supernova&#39; (aespa KARINA FanCam) @SBS Inkigayo 240519",
+                "description": "[안방1열 직캠4K] 에스파 카리나 'Supernova' (aespa KARINA FanCam) @SBS Inkigayo 240519 #인기가요 #에스파 #Supernova ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/default.jpg",
+                        "url": "https://i.ytimg.com/vi/5qcA6xKRcn8/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/5qcA6xKRcn8/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/5qcA6xKRcn8/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "STARSHIP",
+                "channelTitle": "SBSKPOP ZOOM",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-04-10T09:00:10Z"
+                "publishTime": "2024-05-19T08:00:03Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "20TqyxVk3rZRXaln7jH3Ft6hURA",
+            "etag": "W1YOYljnjvy-idqR8upYj2pNPX8",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "wXFLzODIdUI"
+                "videoId": "kfikbET90aY"
             },
             "snippet": {
-                "publishedAt": "2023-05-22T08:56:10Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "ENHYPEN (엔하이픈) &#39;Bite Me&#39; Official MV",
-                "description": "ENHYPEN (엔하이픈) 'Bite Me' Official MV Credits: Production : LOVEANDMONEY Director : Mingyu Song 1st AD : Moonju Jeong ...",
+                "publishedAt": "2024-03-13T07:00:18Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "PLAVE.zip 📂 기다릴게부터 WAY 4 LUV까지 | Show! MusicCore",
+                "description": "M:drive 0:00 WAY 4 LUV 240309 4:01 여섯 번째 여름 230826 7:32 왜요 왜요 왜? 230603 10:05 기다릴게 230318 #PLAVE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/wXFLzODIdUI/default.jpg",
+                        "url": "https://i.ytimg.com/vi/kfikbET90aY/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/wXFLzODIdUI/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/kfikbET90aY/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/wXFLzODIdUI/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/kfikbET90aY/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "MBCkpop",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-05-22T08:56:10Z"
+                "publishTime": "2024-03-13T07:00:18Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "0VTsYltAumqNiJNuHw8uj8Ry9xY",
+            "etag": "3WA1iGJN9KJL-I-euQj_-8j_Vas",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "DSjTXe6tiWM"
+                "videoId": "pWUU7jlstRY"
             },
             "snippet": {
-                "publishedAt": "2024-04-13T16:21:24Z",
-                "channelId": "UCyUEqajkVIGSwvZVw7NfD-Q",
-                "title": "What&#39;s the funniest #kpop music video? 🤩 #streetinterview #shorts",
-                "description": "K-Pop music videos are known for their amazing quality and colorful visuals. What makes them truly memorable is their ability to ...",
+                "publishedAt": "2024-08-25T12:13:52Z",
+                "channelId": "UCVv51_w5naIZFp03EHIQyRg",
+                "title": "트로트 가수 &quot;8월 인기순위(브랜드평판) 발표!&quot; 1위는? 뜻밖이네 또!!",
+                "description": "8월 트로트 가수 브랜드평판 순위를 전해드리겠습니다! #트로트순위 #한일톱텐쇼 #임영웅.",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/DSjTXe6tiWM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/pWUU7jlstRY/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/DSjTXe6tiWM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/pWUU7jlstRY/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/DSjTXe6tiWM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/pWUU7jlstRY/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "luluboi 🤠",
+                "channelTitle": "핫토픽Tv",
                 "liveBroadcastContent": "none",
-                "publishTime": "2024-04-13T16:21:24Z"
+                "publishTime": "2024-08-25T12:13:52Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "o5XqAq0ZY_31-0B7zWX6SLvoc_I",
+            "etag": "kxMdA8wJb_AFKS5YTpTRgTpNjBI",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "dYRITmpFbJ4"
+                "videoId": "NBvRD_hFT9U"
             },
             "snippet": {
-                "publishedAt": "2022-07-08T04:00:14Z",
-                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
-                "title": "aespa 에스파 &#39;Girls&#39; MV",
-                "description": "aespa's 2nd Mini Album \"Girls\" is out! Listen and download on your favorite platform: https://aespa.lnk.to/GirlsEP [Tracklist] 01 Girls ...",
+                "publishedAt": "2024-07-26T16:39:59Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "Stray Kids (스트레이키즈) – INTRO+Maniac+Chk Chk Boom+Hall of Fame (위인전)@가요대전썸머 GayoDaejeon Summer20240726",
+                "description": "Stray Kids - INTRO + Maniac + Chk Chk Boom + Hall of Fame #SBSGayoDaejeonSummer 스트레이키즈 - INTRO + Maniac+ 칙칙 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/dYRITmpFbJ4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/NBvRD_hFT9U/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/dYRITmpFbJ4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/NBvRD_hFT9U/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/dYRITmpFbJ4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/NBvRD_hFT9U/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "SMTOWN",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2022-07-08T04:00:14Z"
+                "publishTime": "2024-07-26T16:39:59Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "kFB992CEs3o3IMzbUUY1RuOVbhc",
+            "etag": "mXUjAxLjhHtikeQX5g4FuWhY1VQ",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "11cta61wi0g"
+                "videoId": "t8AGKVdVdGE"
             },
             "snippet": {
-                "publishedAt": "2022-08-18T09:00:01Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "NewJeans (뉴진스) &#39;Hype Boy&#39; Official MV (Performance ver.1)",
-                "description": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Dongle Shin ...",
+                "publishedAt": "2024-07-21T15:06:39Z",
+                "channelId": "UCyE9ve6Qf9h_nNE4pIX33Dg",
+                "title": "[4K] 240721 NewJeans (뉴진스) FULL &quot;How Sweet + Supernatural&quot; 직캠 fancam",
+                "description": "구독과 좋아요는 저에게 힘이 됩니다. Subscriptions and likes are helpful to me. [4K] 240721 NewJeans (뉴진스) FULL \"How Sweet ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/11cta61wi0g/default.jpg",
+                        "url": "https://i.ytimg.com/vi/t8AGKVdVdGE/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/11cta61wi0g/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/t8AGKVdVdGE/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/11cta61wi0g/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/t8AGKVdVdGE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "LOGMAX 로그맥스",
                 "liveBroadcastContent": "none",
-                "publishTime": "2022-08-18T09:00:01Z"
+                "publishTime": "2024-07-21T15:06:39Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "KXThFaaDqIDLDGz5DN2pjqpIcro",
+            "etag": "sWXa8CKpr9FHaL6dma6Wa77d38E",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "L7spCJxloLY"
+                "videoId": "Wh9uhRwRSbE"
             },
             "snippet": {
-                "publishedAt": "2023-01-25T09:00:10Z",
-                "channelId": "UC12HMtO5MYph9dCZZ7yygng",
-                "title": "XG - SHOOTING STAR (Official Music Video)",
-                "description": "XG 3rd Single  SHOOTING STAR   2023.01.25 Wed DIGITAL/CD BOX https://xgalx.com/xg/discography/ Tracklist: 1.",
+                "publishedAt": "2024-08-28T01:00:16Z",
+                "channelId": "UC6CePMYtWtjdyeUTn9-ea0Q",
+                "title": "가수 황영웅은 얼마나 똑똑할까? 그의 중학교 선생님이 공개한 IQ 지수에 모두가 충격을 받았다! 학창 시절 황영웅의 충격적인 과거",
+                "description": "가수 황영웅은 과연 얼마나 똑똑할까요? 그의 중학교 시절 담임선생님이 공개한 IQ 지수는 무려 142! 이 놀라운 사실에 모두가 깜짝 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/L7spCJxloLY/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Wh9uhRwRSbE/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/L7spCJxloLY/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Wh9uhRwRSbE/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/L7spCJxloLY/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Wh9uhRwRSbE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "XG",
+                "channelTitle": "홍안 TV",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-01-25T09:00:10Z"
+                "publishTime": "2024-08-28T01:00:16Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "bSdAlSN_dxvfnF5TSX6hwqpsb_M",
+            "etag": "RlvFPlOpZQnZLmvVht87T1336xg",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "zlTIextYnyQ"
+                "videoId": "ZQmY5OjSKEg"
             },
             "snippet": {
-                "publishedAt": "2023-03-13T08:59:10Z",
-                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
-                "title": "KAI 카이 &#39;Rover&#39; MV",
-                "description": "KAI's 3rd mini album \"Rover\" is out! Listen and download on your favorite platform: http://KAI.lnk.to/Rover [Tracklist] 01 Rover 02 ...",
+                "publishedAt": "2024-08-28T12:24:48Z",
+                "channelId": "UCVv51_w5naIZFp03EHIQyRg",
+                "title": "트로트 가수 &quot;트롯챔피언(장민호 MC) 8월 인기순위 발표&quot; 1위가...이건 미쳤다!!",
+                "description": "8월 트롯챔피언 영광의 1위는 누가 차지했을까요? 날이 갈수록 흥미를 더해가고 있는 8월 트롯챔피언 '인기 순위' 30위부터 전해 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/zlTIextYnyQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/ZQmY5OjSKEg/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/zlTIextYnyQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ZQmY5OjSKEg/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/zlTIextYnyQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ZQmY5OjSKEg/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "SMTOWN",
+                "channelTitle": "핫토픽Tv",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-03-13T08:59:10Z"
+                "publishTime": "2024-08-28T12:24:48Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "PnrDjZeOjo-V1iLxFLdNvka0kJM",
+            "etag": "LIzmG3ho6xOnrx9hLKIz_Z115xs",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "WMweEpGlu_U"
+                "videoId": "LJPZNje65_Q"
             },
             "snippet": {
-                "publishedAt": "2021-05-21T03:46:13Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "BTS (방탄소년단) &#39;Butter&#39; Official MV",
-                "description": "BTS (방탄소년단) 'Butter' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: Jihye Yoon (Lumpens) 2nd AD: Ran ...",
+                "publishedAt": "2024-01-30T03:00:12Z",
+                "channelId": "UCjMwUIoxOoCEVCvCi9QTW2g",
+                "title": "일본 애니메이션 OST 조회수 순위 TOP 100 (2024.2월)",
+                "description": "조회수 측정 날짜: 2024.1.28 오후 8시 풀버전이 궁금하신 분은 아래 플레이리스트 링크로!!",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/WMweEpGlu_U/default.jpg",
+                        "url": "https://i.ytimg.com/vi/LJPZNje65_Q/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/WMweEpGlu_U/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LJPZNje65_Q/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/WMweEpGlu_U/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LJPZNje65_Q/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "노래한모금모금",
                 "liveBroadcastContent": "none",
-                "publishTime": "2021-05-21T03:46:13Z"
+                "publishTime": "2024-01-30T03:00:12Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "vk2m5F64IffMx1Oz1w7wg6CY4pw",
+            "etag": "cUTWMzWDQPOSE1ba7z2aI7I29Hk",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "f5_wn8mexmM"
+                "videoId": "-toTJrIbviI"
             },
             "snippet": {
-                "publishedAt": "2021-10-01T03:58:11Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "TWICE &quot;The Feels&quot; M/V",
-                "description": "TWICE \"The Feels\" M/V TWICE's 1ST Full English Single \"The Feels\" Released on 10.01_FRI , 0AM (EST) 1PM (KST) Listen ...",
+                "publishedAt": "2024-08-29T03:00:00Z",
+                "channelId": "UC6CePMYtWtjdyeUTn9-ea0Q",
+                "title": "8월 가수 이찬원의 총 수입이 공식적으로 공개되었습니다! 출연료, 행사비, 앨범 수익을 자세히 분석합니다! 8월에 이찬원이 부모님께 보내기로 결정한 금액은 얼마일까요?",
+                "description": "안녕하세요, 여러분! 오늘 영상에서는 가수 이찬원 씨의 8월 총 수입이 공식적으로 공개된 소식을 전해드리려고 합니다! 이번 달 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/f5_wn8mexmM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/-toTJrIbviI/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/f5_wn8mexmM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/-toTJrIbviI/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/f5_wn8mexmM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/-toTJrIbviI/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "홍안 TV",
                 "liveBroadcastContent": "none",
-                "publishTime": "2021-10-01T03:58:11Z"
+                "publishTime": "2024-08-29T03:00:00Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "D2DpOT8Zt4NaAtEyXivEPatn5SQ",
+            "etag": "zOInCAEFKKMwArhgorVVhwwbFeY",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "s8So5qnyfLM"
+                "videoId": "A4B0aVZR0I8"
             },
             "snippet": {
-                "publishedAt": "2022-07-10T14:00:34Z",
-                "channelId": "UC8bv9zYTH0PMMK5zShdgMWg",
-                "title": "kpop music videos be like:",
-                "description": "This is just a joke Instagram: https://www.instagram.com/victor_sogaard/ Tiktok: yoongitea2 #lesserafim #fearless #kpop",
+                "publishedAt": "2024-07-26T16:39:59Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "TXT (투모로우바이투게더) – Deja Vu+내일에서 기다릴게 (I&#39;ll See You There Tomorrow) @가요대전썸머 GayoDaejeonSummer 20240726",
+                "description": "TXT - Deja Vu + I'll See You There Tomorrow #SBSGayoDaejeonSummer 투모로우바이투게더 - Deja Vu + 내일에서 기다릴게 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/s8So5qnyfLM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/A4B0aVZR0I8/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/s8So5qnyfLM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/A4B0aVZR0I8/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/s8So5qnyfLM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/A4B0aVZR0I8/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "yoongitea2",
+                "channelTitle": "SBSKPOP X INKIGAYO",
                 "liveBroadcastContent": "none",
-                "publishTime": "2022-07-10T14:00:34Z"
+                "publishTime": "2024-07-26T16:39:59Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "86kjEi3rEfYAPvMr7BRcINN7Reo",
+            "etag": "SQwauCQ4Wuks-QG8nA8NJahMwkQ",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "sVTy_wmn5SU"
+                "videoId": "hCcTfBWC0O8"
             },
             "snippet": {
-                "publishedAt": "2023-01-03T11:30:01Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "NewJeans (뉴진스) &#39;OMG&#39; Official MV (Performance ver.1)",
-                "description": "NewJeans (뉴진스) 'OMG' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Wooseok Shin ...",
+                "publishedAt": "2024-07-27T00:30:16Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "LE SSERAFIM(르세라핌) - EASY + Smart #2024SBS가요대전Summer",
+                "description": "2024SBS가요대전Summer #LESSERAFIM #르세라핌 예 능 | #2024SBS가요대전Summer 본방송 | 07월 26일 오후 11시 20분 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/hCcTfBWC0O8/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/hCcTfBWC0O8/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/hCcTfBWC0O8/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "SBS Entertainment",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-01-03T11:30:01Z"
+                "publishTime": "2024-07-27T00:30:16Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "oQ3pDyY0tekHQ_waCJiT2fDe7ZY",
+            "etag": "e6dzFb1Jn8KFXVaGVxbvpZEq6Oc",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "i0p1bmr0EmE"
+                "videoId": "94X8bB0wbYw"
             },
             "snippet": {
-                "publishedAt": "2018-04-09T08:59:51Z",
-                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-                "title": "TWICE &quot;What is Love?&quot; M/V",
-                "description": "TWICE(트와이스) \"What is Love?\" M/V Spotify https://goo.gl/jVLYYY iTunes & Apple Music https://goo.gl/DKyKZf Google Music ...",
+                "publishedAt": "2024-07-27T00:45:00Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "IVE(아이브) - INTRO + 해야(HEYA) + Accendio #2024SBS가요대전Summer",
+                "description": "2024SBS가요대전Summer #IVE #아이브 예 능 | #2024SBS가요대전Summer 본방송 | 07월 26일 오후 11시 20분 ▷ Homepage ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/i0p1bmr0EmE/default.jpg",
+                        "url": "https://i.ytimg.com/vi/94X8bB0wbYw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/i0p1bmr0EmE/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/94X8bB0wbYw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/i0p1bmr0EmE/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/94X8bB0wbYw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "JYP Entertainment",
+                "channelTitle": "SBS Entertainment",
                 "liveBroadcastContent": "none",
-                "publishTime": "2018-04-09T08:59:51Z"
+                "publishTime": "2024-07-27T00:45:00Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "ae8R5ObBIHsU2LKDhaMbKNBXx8E",
+            "etag": "p8MEFqVn9s1bMkYc0M2n2ZGbltY",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "Qc7_zRjH808"
+                "videoId": "eEWrbcm6rHI"
             },
             "snippet": {
-                "publishedAt": "2023-02-23T13:00:10Z",
-                "channelId": "UCJEER74X9kBenMT_x9iK9Mw",
-                "title": "FIFTY FIFTY (피프티피프티) - &#39;Cupid&#39;  Official MV",
-                "description": "Stream 'Cupid' https://linktr.ee/we_fiftyfifty Album Pre-Order https://bit.ly/3KubUQG [ The 1st Single Album “The Beginning: ...",
+                "publishedAt": "2024-05-13T09:30:12Z",
+                "channelId": "UCM3jwNRfl5-W8VzgT6DsaEQ",
+                "title": "[페이스캠4K] 트리플에스 김유연 &#39;Girls Never Die&#39; (tripleS Kim YooYeon FaceCam) @SBS Inkigayo 240512",
+                "description": "[페이스캠4K] 트리플에스 김유연 'Girls Never Die' (tripleS Kim YooYeon FaceCam) @SBS Inkigayo 240512 #인기가요 #트리플 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/Qc7_zRjH808/default.jpg",
+                        "url": "https://i.ytimg.com/vi/eEWrbcm6rHI/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/Qc7_zRjH808/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/eEWrbcm6rHI/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/Qc7_zRjH808/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/eEWrbcm6rHI/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "FIFTY FIFTY Official",
+                "channelTitle": "SBSKPOP ZOOM",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-02-23T13:00:10Z"
+                "publishTime": "2024-05-13T09:30:12Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "HCVBay-HEiQo50jDFJI8VEY2Z1o",
+            "etag": "_hwkhVjlwfOeYVoUopxHmPvHUZw",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "8dJyRm2jJ-U"
+                "videoId": "rE3EUGyWgRY"
             },
             "snippet": {
-                "publishedAt": "2022-04-29T09:00:10Z",
-                "channelId": "UCrDkAvwZum-UTjHmzDI2iIw",
-                "title": "PSY - &#39;That That (prod. &amp; feat. SUGA of BTS)&#39; MV",
-                "description": "PSY - 'That That (prod. & feat. SUGA of BTS)' MV MV Executive Producer: P NATION MV Director: 최용석 @LUMPENS Composed ...",
+                "publishedAt": "2024-06-08T07:44:39Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "TWS (투어스) - hey! hey! | Show! MusicCore | MBC240608방송",
+                "description": "TWS (투어스) - hey! hey! | Show! MusicCore | MBC240608방송 #TWS #heyhey #MBCKPOP More clips are available ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/8dJyRm2jJ-U/default.jpg",
+                        "url": "https://i.ytimg.com/vi/rE3EUGyWgRY/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/8dJyRm2jJ-U/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/rE3EUGyWgRY/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/8dJyRm2jJ-U/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/rE3EUGyWgRY/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "officialpsy",
+                "channelTitle": "MBCkpop",
                 "liveBroadcastContent": "none",
-                "publishTime": "2022-04-29T09:00:10Z"
+                "publishTime": "2024-06-08T07:44:39Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "iFSeZfgP19RvyW9-V_s_rv9yRng",
+            "etag": "hXC0fMLomnJT1KaA3IAnJQ_e7ms",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "osmHArcf_aE"
+                "videoId": "kRxvBNjCzN0"
             },
             "snippet": {
-                "publishedAt": "2022-01-10T08:55:12Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "ENHYPEN (엔하이픈) &#39;Blessed-Cursed&#39; Official MV",
-                "description": "ENHYPEN (엔하이픈) 'Blessed-Cursed' Official MV Credits: Director: Yong Seok Choi (Lumpens) Co-Director & Edit: Jihye Yoon ...",
+                "publishedAt": "2024-07-25T08:21:32Z",
+                "channelId": "UCp1OfViv3MUQCsmuHEwsy3Q",
+                "title": "인연 이선희 fate #인연#이선희 #가요#음악#인기가요#노래방#music#song#fate#音乐狂潮",
+                "description": "노래방 인기가요 탑, \"인연\" 이선희.",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/osmHArcf_aE/default.jpg",
+                        "url": "https://i.ytimg.com/vi/kRxvBNjCzN0/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/osmHArcf_aE/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/kRxvBNjCzN0/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/osmHArcf_aE/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/kRxvBNjCzN0/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "SoilKnights",
                 "liveBroadcastContent": "none",
-                "publishTime": "2022-01-10T08:55:12Z"
+                "publishTime": "2024-07-25T08:21:32Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "yTfLcSdZZUmH_g6FG7w0s4PvBwU",
+            "etag": "o1KJPPzeIvKga6KClg2VxAKAw7c",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "_ZAgIHmHLdc"
+                "videoId": "MoRdQvY6HWg"
             },
             "snippet": {
-                "publishedAt": "2023-01-02T09:00:00Z",
-                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-                "title": "NewJeans (뉴진스) &#39;OMG&#39; Official MV",
-                "description": "NewJeans (뉴진스) 'OMG' Official MV Producer: MIN HEE JIN Music Video Director: Wooseok Shin (DOLPHINERS FILM) c 2023 ...",
+                "publishedAt": "2024-07-27T01:30:08Z",
+                "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+                "title": "NCT 127(엔시티 127) - INTRO + Fact Check (불가사의; 不可思議) + On The Beat + 삐그덕 (Walk) #2024SBS가요대전Summer",
+                "description": "2024SBS가요대전Summer #NCT127 #엔시티 예 능 | #2024SBS가요대전Summer 본방송 | 07월 26일 오후 11시 20분 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/default.jpg",
+                        "url": "https://i.ytimg.com/vi/MoRdQvY6HWg/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/MoRdQvY6HWg/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/MoRdQvY6HWg/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "HYBE LABELS",
+                "channelTitle": "SBS Entertainment",
                 "liveBroadcastContent": "none",
-                "publishTime": "2023-01-02T09:00:00Z"
+                "publishTime": "2024-07-27T01:30:08Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "Ee3LDQS_3A1K2n9Kg5j6OeMUXto",
+            "etag": "CA2a0sHFzgx-ZAepLrxOV4KnnrM",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "OwJPPaEyqhI"
+                "videoId": "WiABMEK0b98"
             },
             "snippet": {
-                "publishedAt": "2017-05-10T09:00:02Z",
-                "channelId": "UCrDkAvwZum-UTjHmzDI2iIw",
-                "title": "PSY - ‘New Face’ M/V",
-                "description": "Available on iTunes @ https://smarturl.it/PSY_8thAlbum Available on Apple Music @ https://smarturl.it/PSY_8th PSY - 'I LUV IT' ...",
+                "publishedAt": "2024-07-06T07:37:27Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "Red Velvet (레드벨벳) - Cosmic | Show! MusicCore | MBC240706방송",
+                "description": "Red Velvet (레드벨벳) - Cosmic | Show! MusicCore | MBC240706방송 #RedVelvet #Cosmic #MBCKPOP More clips are ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/OwJPPaEyqhI/default.jpg",
+                        "url": "https://i.ytimg.com/vi/WiABMEK0b98/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/OwJPPaEyqhI/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WiABMEK0b98/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/OwJPPaEyqhI/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WiABMEK0b98/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "officialpsy",
+                "channelTitle": "MBCkpop",
                 "liveBroadcastContent": "none",
-                "publishTime": "2017-05-10T09:00:02Z"
+                "publishTime": "2024-07-06T07:37:27Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "ewwfYFHiqb1jdl8W7imDhBeLBYE",
+            "etag": "ANrB54588FWdilaOu-Ouvj1kvsY",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "2S24-y0Ij3Y"
+                "videoId": "nAHIo8o9sMQ"
             },
             "snippet": {
-                "publishedAt": "2019-04-04T14:58:45Z",
-                "channelId": "UCOmHUn--16B90oW2L6FRR3A",
-                "title": "BLACKPINK - &#39;Kill This Love&#39; M/V",
-                "description": "BLACKPINK - Kill This Love 천사 같은 Hi 끝엔 악마 같은 Bye 매번 미칠듯한 High 뒤엔 뱉어야 하는 Price 이건 답이 없는 Test 매번 ...",
+                "publishedAt": "2024-07-17T09:00:45Z",
+                "channelId": "UCqq-ovGE01ErlXakPihhKDA",
+                "title": "데드풀과 울버린도 이렇게 열심히 삽니다(영화 봐준다 봐줘) | Deadpool &amp; Wolverine | 본인등판 | Look Me Up | 휴 잭맨 | 라이언 레이놀즈 | 숀 레비",
+                "description": "데드풀과 울버린도 이렇게 열심히 삽니다(영화 봐준다 봐줘) | Deadpool & Wolverine | 본인등판 | Look Me Up | 휴 잭맨 | 라이언 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/2S24-y0Ij3Y/default.jpg",
+                        "url": "https://i.ytimg.com/vi/nAHIo8o9sMQ/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/2S24-y0Ij3Y/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/nAHIo8o9sMQ/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/2S24-y0Ij3Y/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/nAHIo8o9sMQ/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "BLACKPINK",
+                "channelTitle": "1theK Originals - 원더케이 오리지널",
                 "liveBroadcastContent": "none",
-                "publishTime": "2019-04-04T14:58:45Z"
+                "publishTime": "2024-07-17T09:00:45Z"
             }
         }
     ]
-  }
+}
