@@ -15,7 +15,7 @@ type SearchListRes = {
 
 const getSearchList = async ({ queryKey }: any): Promise<SearchListRes> =>
   await youtubeV3Client
-    .get<SearchListRes>("search", { params: { maxResults: 1, q: queryKey[1] } } as YoutubeReq)
+    .get<SearchListRes>("search", { params: { maxResults: 10, q: queryKey[1] } } as YoutubeReq)
     .then((response) => response.data);
 
 const api = { getSearchList };
